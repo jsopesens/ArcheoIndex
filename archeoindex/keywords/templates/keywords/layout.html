@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block page_title %}ArhceoIndex{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'keywords/styles.css' %}">
+        <link rel="stylesheet" href="{% static 'keywords/header.css' %}">
+        {% block css_files %}
+        
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <a id="title" href="/">Index</a>
+            <nav>
+                <form class="searchBar">
+                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search"/>
+                </form>
+                <div id="navBarContainer">
+                    <ul id="keywords_list"></ul>
+                </div>
+            </nav>
+        </header>
+        {% block content %}{% endblock %}
+
+        <script src="{% static 'keywords/js/main.js' %}"></script>
+        
+        {% block js %}{% endblock %}
+    </body>
+</html>

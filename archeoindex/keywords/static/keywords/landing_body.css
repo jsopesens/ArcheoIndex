@@ -1,0 +1,65 @@
+#fullListKeywords{
+    list-style: none;
+    width: 90%;
+    margin: 2rem auto;
+    max-width: 30rem;
+    border-radius: 12px;
+    background-color: #ebebeb;
+    padding: 0;
+}
+
+#fullListKeywords .keyword{
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+    /* 
+    si queremos eliminar el espacio blanco 
+    en los laterales al pasar el cursor
+    por encima, debemos eliminar el siguiente
+    valor
+    */
+    /* margin: 0 1rem; */
+}
+
+.keyword ul{
+    padding: 0 1rem
+}
+
+.keyword:last-of-type{
+    border: 0 !important;
+}
+
+.keyword a{
+    text-decoration: none;
+    color: #0c301a;
+}
+
+.keyword:hover, .keyword:hover>a{
+    background-color: #3d3d3d;
+    color:#a2bc2a;
+}
+
+.keyword:hover>ul{
+    background-color: #ebebeb;
+    color: initial;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+}
+
+path{
+    pointer-events: none;
+}
+
+svg:hover path{
+    d: path('m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z');
+    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+}
+
+li.keyword a:hover{
+    font-weight: bold;
+    text-transform: uppercase;
+}

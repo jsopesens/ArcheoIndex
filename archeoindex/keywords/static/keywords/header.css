@@ -1,0 +1,86 @@
+:root{
+    --navWidth: 25rem;
+}
+
+header {
+    height: 5rem;
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    z-index: 1;
+}
+
+header #title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header #title:hover {
+    color: #a2bc2a
+}
+
+header nav {
+    width: var(--navWidth);
+    /* width: 30%; */
+    padding: 0 3rem;
+    right: 0;
+    position: absolute;
+    display: flex;
+}
+
+#searchQueryInput {
+    width: 100%;
+    height: 3rem;
+    background:  #ebebeb;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+#navBarContainer {
+    display: none;
+    border-radius: 1.625rem;
+    position: absolute;
+    top: 3rem;
+    max-height: 500px;
+    width: var(--navWidth);
+    background-color:  #ebebeb;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#keywords_list{
+    padding:0;
+    width: 90%;
+    list-style: none;
+    margin: 1rem;
+}
+
+#keywords_list .keyword_suggestion {
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 1rem 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#keywords_list .keyword_suggestion:last-child{
+    border-bottom: none;
+}
+
+.keyword_suggestion a{
+    text-decoration: none;
+    color: #0c301a;
+}
+
+.keyword_suggestion:hover, .keyword_suggestion:hover a {
+    background-color: #3d3d3d;
+	color: #a2bc2a;
+}
