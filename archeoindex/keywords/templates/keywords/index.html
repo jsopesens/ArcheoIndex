@@ -1,27 +1,35 @@
 {% extends "./layout.html" %}
 {% load static %}
+
 {% block css_files %}
     <link rel="stylesheet" href="{% static 'keywords/landing_body.css' %}">
 {% endblock %}
 
-{% block page_title %}
-    ArcheoIndex
-{% endblock %}
+{% block page_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}
+
+{% block meta_description %}ArcheoIndex is an open archaeological thesaurus browser. Explore hierarchical concepts, narrower and broader terms, and multilingual labels for archaeological vocabulary.{% endblock %}
 
 {% block content %}
-    <ul id="fullListKeywords">
-        {% for keyword in keywords %}
-        <li class="keyword" id="{{keyword.uri}}">
-            {%comment%}
-            <a href="keywords/{{keyword.uri}}">{{keyword.prefLabel|title}}</a>
-            {%endcomment%}
-            <a href="{% url 'single_keyword' keyword.uri %}">{{keyword.prefLabel|title}}</a>
-            <svg width="20" height="20" fill="currentColor" class="showMore" viewBox="0 0 15 15" transform="rotate(0)">
-                <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-            </svg>
-        </li>
-        {% endfor %}
-    </ul>
+    <section class="landing-hero" aria-label="Introduction">
+        <h1>Archaeological <em>Thesaurus</em></h1>
+        <p>Browse a structured vocabulary of archaeological concepts — hierarchical terms, multilingual labels, and semantic relationships drawn from a curated SKOS thesaurus.</p>
+    </section>
+
+    <section class="landing-list-section" aria-label="Concept schemes">
+        <p class="section-label">Concept Schemes</p>
+        <ul id="fullListKeywords">
+            {% for keyword in keywords %}
+            <li class="keyword" id="{{ keyword.uri }}">
+                <div class="keyword-header">
+                    <a href="{% url 'single_keyword' keyword.uri %}">{{ keyword.prefLabel|title }}</a>
+                    <svg width="18" height="18" fill="currentColor" class="showMore" viewBox="0 0 15 15" aria-hidden="true">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                    </svg>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
 {% endblock %}
 
 {% block js %}

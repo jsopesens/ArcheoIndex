@@ -2,33 +2,83 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block page_title %}ArhceoIndex{% endblock %}</title>
-        <link rel="stylesheet" href="{% static 'keywords/styles.css' %}">
-        <link rel="stylesheet" href="{% static 'keywords/header.css' %}">
-        {% block css_files %}
-        
-        {% endblock %}
-    </head>
-    <body>
-        <header>
-            <a id="title" href="/">Index</a>
-            <nav>
-                <form class="searchBar">
-                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>{% block page_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}ArcheoIndex is an open archaeological thesaurus browser. Explore hierarchical concepts, narrower and broader terms, and multilingual labels for archaeological vocabulary.{% endblock %}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{% block canonical_url %}https://archeoindex.com{% endblock %}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ArcheoIndex">
+    <meta property="og:title" content="{% block og_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Explore the archaeological thesaurus with hierarchical concepts and multilingual labels.{% endblock %}">
+    <meta property="og:url" content="{% block og_url %}https://archeoindex.com{% endblock %}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% block twitter_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}Open archaeological thesaurus browser with hierarchical concepts and multilingual labels.{% endblock %}">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{% static 'keywords/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'keywords/header.css' %}">
+    {% block css_files %}{% endblock %}
+
+    <!-- Structured Data -->
+    {% block structured_data %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ArcheoIndex",
+        "description": "Open archaeological thesaurus browser with hierarchical concepts and multilingual labels",
+        "url": "https://archeoindex.com"
+    }
+    </script>
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <a id="site-logo" href="/">
+            <span class="logo-text">ArcheoIndex</span>
+        </a>
+        <nav aria-label="Main navigation">
+            <div class="search-wrapper">
+                <form class="searchBar" role="search">
+                    <svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                        <path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor"/>
+                    </svg>
+                    <input id="searchQueryInput" type="search" name="q" placeholder="Search archaeological terms…" autocomplete="off" aria-label="Search archaeological terms">
                 </form>
-                <div id="navBarContainer">
+                <div id="navBarContainer" role="listbox" aria-label="Search suggestions">
                     <ul id="keywords_list"></ul>
                 </div>
-            </nav>
-        </header>
-        {% block content %}{% endblock %}
+            </div>
+        </nav>
+    </header>
 
-        <script src="{% static 'keywords/js/main.js' %}"></script>
-        
-        {% block js %}{% endblock %}
-    </body>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>ArcheoIndex &mdash; Open Archaeological Thesaurus</p>
+        </div>
+    </footer>
+
+    <script src="{% static 'keywords/js/main.js' %}"></script>
+    {% block js %}{% endblock %}
+</body>
 </html>

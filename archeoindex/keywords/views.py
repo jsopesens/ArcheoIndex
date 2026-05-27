@@ -26,15 +26,27 @@ def single_keyword(request, keyword: str):
     keyword_data = thesaurus.get_keyword_data(keyword)
 
     relational_predicates = ['broader', 'narrower', 'broaderTransitive',
-                            'hasTopConcept', 'topConceptOf','inScheme', 
-                            'related', 'semanticRelation']    
-    
+                            'hasTopConcept', 'topConceptOf','inScheme',
+                            'related', 'semanticRelation']
+
     for element_key in relational_predicates:
         if element_key in keyword_data:
             keyword_data[element_key] = split_uris(keyword_data[element_key])
-    
+
+    # Build meta description for SEO from the first available definition
+    title = keyword_data.get('title', keyword).replace('_', ' ').title()
+    meta_description = f"Archaeological thesaurus entry for {title}."
+    if 'definition' in keyword_data:
+        for defn in keyword_data['definition']:
+            if defn.get('lang') == 'en':
+                meta_description = defn['value']
+                break
+        else:
+            meta_description = keyword_data['definition'][0]['value']
+
     return render(request, 'keywords/single_keyword.html', {
         "keyword_data": keyword_data,
+        "meta_description": meta_description,
     })
 
 def get_children_of(request, subject_notation: int):
