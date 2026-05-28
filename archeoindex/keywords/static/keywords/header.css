@@ -181,6 +181,67 @@ header nav {
     color: var(--accent-hover);
 }
 
+/* ── Theme toggle pill ────────────────────────────── */
+
+/*
+  Pill contains two icon slots (☀ left, 🌙 right).
+  A ::before circle slides under the active icon.
+  Light mode → sun slot lit   Dark mode → moon slot lit
+*/
+.theme-toggle {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2rem 2rem;
+    align-items: center;
+    padding: 0.25rem;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    background: var(--surface-2);
+    border: 1px solid var(--border-accent);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: border-color var(--transition);
+}
+
+/* Sliding accent circle behind the active icon */
+.theme-toggle::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    background: var(--accent);
+    border-radius: 50%;
+    transition: transform 0.25s ease;
+    z-index: 0;
+}
+
+/* Dark mode: slide circle to moon slot (second column) */
+[data-theme="dark"] .theme-toggle::before {
+    transform: translateX(2rem);
+}
+
+.icon-sun,
+.icon-moon {
+    width: 1rem;
+    height: 1rem;
+    justify-self: center;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+    transition: color 0.2s ease;
+}
+
+/* Light mode: sun is active (on circle) — use bg for contrast on accent */
+[data-theme="light"] .icon-sun  { color: var(--bg); }
+[data-theme="light"] .icon-moon { color: var(--text-dim); }
+
+/* Dark mode: moon is active (on circle) — use bg for contrast on accent */
+[data-theme="dark"]  .icon-moon { color: var(--bg); }
+[data-theme="dark"]  .icon-sun  { color: var(--text-dim); }
+
 @media (max-width: 640px) {
     header {
         padding: 0 1.25rem;

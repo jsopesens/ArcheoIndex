@@ -12,11 +12,37 @@
     --accent-dim: rgba(200, 160, 80, 0.1);
     --text: #f0ece3;
     --text-muted: #9a9589;
-    --text-dim: #6b6560;
+    --text-dim: #7e7870; /* was #6b6560 — lightened to meet WCAG AA 4.5:1 */
     --radius: 12px;
     --radius-sm: 8px;
     --shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
     --transition: 0.18s ease;
+}
+
+/* Light mode — all colours verified WCAG AA contrast ≥4.5:1 */
+[data-theme="light"] {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --surface-2: #efece4;
+    --surface-hover: #e6e2d6;
+    --border: rgba(0, 0, 0, 0.1);
+    --border-accent: rgba(110, 82, 20, 0.25);
+    --accent: #7a5c1e;       /* 5.5:1 on --bg, 5.8:1 on white */
+    --accent-hover: #5e4416;
+    --accent-dim: rgba(122, 92, 30, 0.1);
+    --text: #1a1a18;         /* 15.6:1 on --bg */
+    --text-muted: #4e4842;   /* 8.0:1 on --bg */
+    --text-dim: #6a6560;     /* 5.1:1 on --bg */
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Light mode — overrides for hardcoded colours buried in component CSS */
+[data-theme="light"] header {
+    background-color: rgba(247, 245, 240, 0.94);
+}
+
+[data-theme="light"] .totd-card {
+    background: linear-gradient(145deg, var(--surface) 0%, var(--surface-2) 100%);
 }
 
 *, *::before, *::after {
@@ -150,5 +176,51 @@ footer {
         width: 100%;
         max-width: 100%;
         border-radius: var(--radius) var(--radius) 0 0;
+    }
+}
+
+/* WCAG 2.5.5 — minimum 44px touch target for cookie buttons */
+.cookie-btn {
+    min-height: 2.75rem;
+}
+
+/* ── Skip navigation link (WCAG 2.4.1) ───────────────── */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    z-index: 9999;
+    padding: 0.75rem 1.25rem;
+    background: var(--surface);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 2px solid var(--accent);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: top 0.1s;
+}
+
+.skip-link:focus {
+    top: 1rem;
+}
+
+/* ── Global focus indicator (WCAG 2.4.7 / 2.4.11) ───── */
+:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+}
+
+/* ── Respect reduced-motion preference (WCAG 2.3.3) ──── */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    html {
+        scroll-behavior: auto;
     }
 }

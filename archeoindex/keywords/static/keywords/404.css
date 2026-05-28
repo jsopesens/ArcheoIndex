@@ -121,7 +121,6 @@
     transition: background var(--transition), transform var(--transition), border-color var(--transition);
     cursor: pointer;
     text-decoration: none;
-    outline: none;
 }
 
 .btn-primary {

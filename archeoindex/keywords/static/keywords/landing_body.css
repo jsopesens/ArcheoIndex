@@ -91,27 +91,45 @@
     color: var(--accent);
 }
 
-.keyword-header svg.showMore {
-    color: var(--text-dim);
+.expand-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;   /* 44px — WCAG 2.5.5 */
+    height: 2.75rem;
     flex-shrink: 0;
+    background: none;
+    border: none;
+    padding: 0;
     cursor: pointer;
-    transition: color var(--transition), transform 0.25s ease;
+    color: var(--text-dim);
+    transition: color var(--transition);
+    border-radius: var(--radius-sm);
+}
+
+.expand-btn svg {
+    transition: transform 0.25s ease;
+    pointer-events: none;
 }
 
 /* Hover on a closed row: rotate arrow down to hint expansion */
-#fullListKeywords .keyword:not(.is-open):hover > .keyword-header svg.showMore {
+#fullListKeywords .keyword:not(.is-open):hover > .keyword-header .expand-btn,
+.expand-btn:hover {
     color: var(--accent);
-    transform: rotate(90deg);
 }
 
-/* Hover on an already-open row: keep arrow down, just recolor */
-#fullListKeywords .keyword.is-open:hover > .keyword-header svg.showMore {
-    color: var(--accent);
+#fullListKeywords .keyword:not(.is-open):hover > .keyword-header .expand-btn svg {
+    transform: rotate(90deg);
 }
 
 /* Open state: arrow stays pointing down */
-#fullListKeywords .keyword.is-open > .keyword-header svg.showMore {
+#fullListKeywords .keyword.is-open > .keyword-header .expand-btn svg {
     transform: rotate(90deg);
+}
+
+/* Open + hover: keep arrow down */
+#fullListKeywords .keyword.is-open:hover > .keyword-header .expand-btn {
+    color: var(--accent);
 }
 
 /* ── Nested children ──────────────────────────────── */
