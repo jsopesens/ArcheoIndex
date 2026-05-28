@@ -11,14 +11,14 @@
     <title>{% block page_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}</title>
     <meta name="description" content="{% block meta_description %}ArcheoIndex is an open archaeological thesaurus browser. Explore hierarchical concepts, narrower and broader terms, and multilingual labels for archaeological vocabulary.{% endblock %}">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="{% block canonical_url %}https://archeoindex.com{% endblock %}">
+    <link rel="canonical" href="{% block canonical_url %}{{ request.scheme }}://{{ request.get_host }}/{% endblock %}">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ArcheoIndex">
     <meta property="og:title" content="{% block og_title %}ArcheoIndex — Archaeological Thesaurus{% endblock %}">
     <meta property="og:description" content="{% block og_description %}Explore the archaeological thesaurus with hierarchical concepts and multilingual labels.{% endblock %}">
-    <meta property="og:url" content="{% block og_url %}https://archeoindex.com{% endblock %}">
+    <meta property="og:url" content="{% block og_url %}{{ request.scheme }}://{{ request.get_host }}/{% endblock %}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
@@ -43,17 +43,23 @@
         "@type": "WebSite",
         "name": "ArcheoIndex",
         "description": "Open archaeological thesaurus browser with hierarchical concepts and multilingual labels",
-        "url": "https://archeoindex.com"
+        "url": "{{ request.scheme }}://{{ request.get_host }}/"
     }
     </script>
     {% endblock %}
 </head>
 <body>
     <header>
-        <a id="site-logo" href="/">
-            <span class="logo-text">ArcheoIndex</span>
-        </a>
-        <nav aria-label="Main navigation">
+        <div class="logo-nav-wrapper">
+            <a id="site-logo" href="/">
+                <span class="logo-text">ArcheoIndex</span>
+            </a>
+            <nav class="header-nav-links" aria-label="Main navigation links">
+                <a href="/" class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}">Home</a>
+                <a href="{% url 'browse' %}" class="nav-link {% if request.resolver_match.url_name == 'browse' %}active{% endif %}">Browse</a>
+            </nav>
+        </div>
+        <nav aria-label="Search bar">
             <div class="search-wrapper">
                 <form class="searchBar" role="search">
                     <svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -78,7 +84,33 @@
         </div>
     </footer>
 
+    <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+        <p class="cookie-banner__text">
+            This site may use cookies to improve your experience.
+            By continuing to browse you agree to our use of cookies.
+        </p>
+        <div class="cookie-banner__actions">
+            <button id="cookie-accept" class="cookie-btn cookie-btn--accept">Accept</button>
+            <button id="cookie-decline" class="cookie-btn cookie-btn--decline">Decline</button>
+        </div>
+    </div>
+
     <script src="{% static 'keywords/js/main.js' %}"></script>
+    <script>
+    (function () {
+        var banner = document.getElementById('cookie-banner');
+        var consent = localStorage.getItem('cookie_consent');
+        if (!consent) banner.classList.add('cookie-banner--visible');
+        document.getElementById('cookie-accept').addEventListener('click', function () {
+            localStorage.setItem('cookie_consent', 'accepted');
+            banner.classList.remove('cookie-banner--visible');
+        });
+        document.getElementById('cookie-decline').addEventListener('click', function () {
+            localStorage.setItem('cookie_consent', 'declined');
+            banner.classList.remove('cookie-banner--visible');
+        });
+    })();
+    </script>
     {% block js %}{% endblock %}
 </body>
 </html>

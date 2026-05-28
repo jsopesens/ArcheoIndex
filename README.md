@@ -66,9 +66,10 @@ python3 --version
 ```
 
 ### 2. Clone and Navigate
-Navigate to the project root directory:
+Clone the repository and navigate to the project root directory:
 ```bash
-cd /Users/cristopliakas/projects/ArcheoIndex
+git clone https://github.com/your-username/ArcheoIndex.git
+cd ArcheoIndex
 ```
 
 ### 3. Create a Virtual Environment

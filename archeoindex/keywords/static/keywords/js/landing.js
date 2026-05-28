@@ -76,3 +76,19 @@ function createArrowSVG() {
     svg.appendChild(path)
     return svg
 }
+
+// Auto-expand and scroll to scheme on load if hash is present
+window.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash
+    if (hash) {
+        const id = hash.replace('#', '')
+        const li = document.getElementById(id)
+        if (li && li.querySelector('svg.showMore')) {
+            // Delay slightly to ensure browser rendering is complete
+            setTimeout(() => {
+                toggleKeyword(li)
+                li.scrollIntoView({ behavior: 'smooth', block: 'center' })
+            }, 100)
+        }
+    }
+})

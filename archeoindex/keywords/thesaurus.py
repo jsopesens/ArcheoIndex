@@ -107,4 +107,51 @@ class Thesaurus():
             return default
         else:
             return [(SKOS.prefLabel, l_) for l_ in labels]
+
+    def get_top_concepts(self, scheme_uri: URIRef, limit: int = 5) -> list:
+        top_concept_uris = list(self.g.objects(subject=scheme_uri, predicate=SKOS.hasTopConcept))
+        top_concepts = []
+        for uri in top_concept_uris[:limit]:
+            try:
+                top_concepts.append(self.get_landing_info(uri))
+            except Exception:
+                continue
+        # Split URIs for templates
+        for concept in top_concepts:
+            concept['uri'] = concept['uri'].split('#')[1]
+        return top_concepts
+
+    def get_all_keyword_ids(self) -> list[str]:
+        ids = []
+        for concept_type in [SKOS.Concept, SKOS.ConceptScheme]:
+            for uri in self.g.subjects(RDF.type, concept_type):
+                if uri.toPython().startswith(self.uri.toPython()):
+                    ids.append(uri.toPython().split('#')[1])
+        return ids
+
+    def get_term_of_the_day(self) -> dict:
+        concepts = list(self.g.subjects(RDF.type, SKOS.Concept))
+        if not concepts:
+            return None
+        
+        import datetime
+        import hashlib
+        
+        today_str = datetime.date.today().isoformat()
+        hash_val = int(hashlib.md5(today_str.encode('utf-8')).hexdigest(), 16)
+        
+        # Filter to concepts that have a definition to make it interesting
+        concepts_with_definition = []
+        for concept in concepts:
+            if (concept, SKOS.definition, None) in self.g:
+                concepts_with_definition.append(concept)
+                
+        choices = concepts_with_definition if concepts_with_definition else concepts
+        random_index = hash_val % len(choices)
+        selected_concept = choices[random_index]
+        
+        keyword_name = selected_concept.toPython().split('#')[1]
+        data = self.get_keyword_data(keyword_name)
+        data['keyword'] = keyword_name
+        return data
         
