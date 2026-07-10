@@ -6830,7 +6830,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 495 ;
-    skos:prefLabel "40ar_39ar"@en ;
+    skos:prefLabel "40ar_39ar"@en,
+        "40Ar/39Ar"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6841,7 +6842,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 496 ;
-    skos:prefLabel "c and n stable isotopes"@en ;
+    skos:prefLabel "c and n stable isotopes"@en,
+        "isotopes stables c et n"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6852,7 +6854,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 497 ;
-    skos:prefLabel "carbon and nitrogen isotopes"@en ;
+    skos:prefLabel "carbon and nitrogen isotopes"@en,
+        "isotopes du carbone et de l'azote"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6863,7 +6866,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 498 ;
-    skos:prefLabel "carbon and oxygen isotopes"@en ;
+    skos:prefLabel "carbon and oxygen isotopes"@en,
+        "isotopes du carbone et de l'oxygène"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6874,7 +6878,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 499 ;
-    skos:prefLabel "carbon stable isotopes"@en ;
+    skos:prefLabel "carbon stable isotopes"@en,
+        "isotopes stables du carbone"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6885,7 +6890,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 500 ;
-    skos:prefLabel "combined u-series and esr dating method"@en ;
+    skos:prefLabel "combined u-series and esr dating method"@en,
+        "datation combinée par séries de l'uranium et ESR"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6896,7 +6902,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 501 ;
-    skos:prefLabel "intratooth isotope profile"@en ;
+    skos:prefLabel "intratooth isotope profile"@en,
+        "profil isotopique intra-dentaire"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6907,7 +6914,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 502 ;
-    skos:prefLabel "isotopes"@en ;
+    skos:prefLabel "isotopes"@en,
+        "isotopes"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6918,7 +6926,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 503 ;
-    skos:prefLabel "marine isotope stage 11"@en ;
+    skos:prefLabel "marine isotope stage 11"@en,
+        "stade isotopique marin 11"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6929,7 +6938,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 504 ;
-    skos:prefLabel "marine isotope stage 3"@en ;
+    skos:prefLabel "marine isotope stage 3"@en,
+        "stade isotopique marin 3"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6940,7 +6950,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 505 ;
-    skos:prefLabel "marine isotope stage 5"@en ;
+    skos:prefLabel "marine isotope stage 5"@en,
+        "stade isotopique marin 5"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6951,7 +6962,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 506 ;
-    skos:prefLabel "marine isotope tsages 3 and 2"@en ;
+    skos:prefLabel "marine isotope tsages 3 and 2"@en,
+        "stades isotopiques marins 3 et 2"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6962,7 +6974,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 507 ;
-    skos:prefLabel "mis"@en ;
+    skos:prefLabel "mis"@en,
+        "MIS"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6973,7 +6986,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 508 ;
-    skos:prefLabel "mis 11"@en ;
+    skos:prefLabel "mis 11"@en,
+        "MIS 11"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6984,7 +6998,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 509 ;
-    skos:prefLabel "mis 11-9"@en ;
+    skos:prefLabel "mis 11-9"@en,
+        "MIS 11-9"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -6995,7 +7010,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 510 ;
-    skos:prefLabel "mis 11c"@en ;
+    skos:prefLabel "mis 11c"@en,
+        "MIS 11c"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7006,7 +7022,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 511 ;
-    skos:prefLabel "mis 13mis 7"@en ;
+    skos:prefLabel "mis 13mis 7"@en,
+        "MIS 13-MIS 7"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7017,7 +7034,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 512 ;
-    skos:prefLabel "mis 17"@en ;
+    skos:prefLabel "mis 17"@en,
+        "MIS 17"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7028,7 +7046,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 513 ;
-    skos:prefLabel "mis 2"@en ;
+    skos:prefLabel "mis 2"@en,
+        "MIS 2"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7039,7 +7058,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 514 ;
-    skos:prefLabel "mis 3"@en ;
+    skos:prefLabel "mis 3"@en,
+        "MIS 3"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7050,7 +7070,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 515 ;
-    skos:prefLabel "mis 5"@en ;
+    skos:prefLabel "mis 5"@en,
+        "MIS 5"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7061,7 +7082,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 516 ;
-    skos:prefLabel "mis 5-3"@en ;
+    skos:prefLabel "mis 5-3"@en,
+        "MIS 5-3"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7072,7 +7094,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 517 ;
-    skos:prefLabel "mis 5-4"@en ;
+    skos:prefLabel "mis 5-4"@en,
+        "MIS 5-4"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7083,7 +7106,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 518 ;
-    skos:prefLabel "mis3"@en ;
+    skos:prefLabel "mis3"@en,
+        "MIS 3"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7094,7 +7118,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 519 ;
-    skos:prefLabel "oxygen stable isotopes"@en ;
+    skos:prefLabel "oxygen stable isotopes"@en,
+        "isotopes stables de l'oxygène"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7105,7 +7130,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 520 ;
-    skos:prefLabel "stable carbon and nitrogen isotopes"@en ;
+    skos:prefLabel "stable carbon and nitrogen isotopes"@en,
+        "isotopes stables du carbone et de l'azote"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7116,7 +7142,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 521 ;
-    skos:prefLabel "stable isotopes"@en ;
+    skos:prefLabel "stable isotopes"@en,
+        "isotopes stables"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7127,7 +7154,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 522 ;
-    skos:prefLabel "stable oxygen and carbon isotopes"@en ;
+    skos:prefLabel "stable oxygen and carbon isotopes"@en,
+        "isotopes stables de l'oxygène et du carbone"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7138,7 +7166,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 523 ;
-    skos:prefLabel "u-series dating"@en ;
+    skos:prefLabel "u-series dating"@en,
+        "datation par les séries de l'uranium"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7149,7 +7178,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 524 ;
-    skos:prefLabel "u-pb dating"@en ;
+    skos:prefLabel "u-pb dating"@en,
+        "datation U-Pb"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7160,7 +7190,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 525 ;
-    skos:prefLabel "u-th dating"@en ;
+    skos:prefLabel "u-th dating"@en,
+        "datation U-Th"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7171,7 +7202,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 526 ;
-    skos:prefLabel "water stable isotopes"@en ;
+    skos:prefLabel "water stable isotopes"@en,
+        "isotopes stables dans l'eau"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7182,7 +7214,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 527 ;
-    skos:prefLabel "230th-u"@en ;
+    skos:prefLabel "230th-u"@en,
+        "230Th/U"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7193,7 +7226,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 528 ;
-    skos:prefLabel "14c"@en ;
+    skos:prefLabel "14c"@en,
+        "14c"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7204,7 +7238,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 529 ;
-    skos:prefLabel "esr dating"@en ;
+    skos:prefLabel "esr dating"@en,
+        "datation ESR"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7215,7 +7250,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 530 ;
-    skos:prefLabel "esr_u-series"@en ;
+    skos:prefLabel "esr_u-series"@en,
+        "datation ESR/séries de l'uranium"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7226,7 +7262,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 531 ;
-    skos:prefLabel "luminescence dating"@en ;
+    skos:prefLabel "luminescence dating"@en,
+        "datation par luminescence"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7237,7 +7274,8 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 532 ;
-    skos:prefLabel "osl dating"@en ;
+    skos:prefLabel "osl dating"@en,
+        "datation OSL"@fr ;
     skos:semanticRelation :493,
         :494 .
 
@@ -7248,7 +7286,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 534 ;
-    skos:prefLabel "single-grain osl"@en ;
+    skos:prefLabel "single-grain osl"@en,
+        "OSL sur grain unique"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7259,7 +7298,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 535 ;
-    skos:prefLabel "magnetism"@en ;
+    skos:prefLabel "magnetism"@en,
+        "magnétisme"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7270,7 +7310,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 536 ;
-    skos:prefLabel "archaeomagnetism"@en ;
+    skos:prefLabel "archaeomagnetism"@en,
+        "archéomagnétisme"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7281,7 +7322,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 537 ;
-    skos:prefLabel "rock magnetism"@en ;
+    skos:prefLabel "rock magnetism"@en,
+        "magnétisme des roches"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7292,7 +7334,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 538 ;
-    skos:prefLabel "thermoremanent magnetization"@en ;
+    skos:prefLabel "thermoremanent magnetization"@en,
+        "magnétisation thermorémanente"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7303,7 +7346,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 539 ;
-    skos:prefLabel "paleomagnetism"@en ;
+    skos:prefLabel "paleomagnetism"@en,
+        "paléomagnétisme"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7314,7 +7358,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 540 ;
-    skos:prefLabel "phreatomagmatism"@en ;
+    skos:prefLabel "phreatomagmatism"@en,
+        "phréatomagmatisme"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7325,7 +7370,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 541 ;
-    skos:prefLabel "pre-jaramillo"@en ;
+    skos:prefLabel "pre-jaramillo"@en,
+        "pré-jaramillo"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7336,7 +7382,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 542 ;
-    skos:prefLabel "jaramillo"@en ;
+    skos:prefLabel "jaramillo"@en,
+        "jaramillo"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7347,7 +7394,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 543 ;
-    skos:prefLabel "brunhes"@en ;
+    skos:prefLabel "brunhes"@en,
+        "brunhes"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7358,7 +7406,8 @@ skos:related a owl:ObjectProperty,
         :533 ;
     skos:inScheme :492 ;
     skos:notation 544 ;
-    skos:prefLabel "brunhes-matuyama boundary"@en ;
+    skos:prefLabel "brunhes-matuyama boundary"@en,
+        "limite brunhes-matuyama"@fr ;
     skos:semanticRelation :493,
         :533 .
 
@@ -7369,7 +7418,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 546 ;
-    skos:prefLabel "arid environments"@en ;
+    skos:prefLabel "arid environments"@en,
+        "environnements arides"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7380,7 +7430,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 547 ;
-    skos:prefLabel "arid events"@en ;
+    skos:prefLabel "arid events"@en,
+        "événements arides"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7391,7 +7442,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 548 ;
-    skos:prefLabel "aridity"@en ;
+    skos:prefLabel "aridity"@en,
+        "aridité"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7402,7 +7454,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 549 ;
-    skos:prefLabel "aridity indexes"@en ;
+    skos:prefLabel "aridity indexes"@en,
+        "indices d'aridité"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7413,7 +7466,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 550 ;
-    skos:prefLabel "bioclimatic model"@en ;
+    skos:prefLabel "bioclimatic model"@en,
+        "modèle bioclimatique"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7424,7 +7478,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 551 ;
-    skos:prefLabel "climate"@en ;
+    skos:prefLabel "climate"@en,
+        "climat"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7435,7 +7490,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 552 ;
-    skos:prefLabel "climate and environmental change"@en ;
+    skos:prefLabel "climate and environmental change"@en,
+        "changement climatique et environnemental"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7446,7 +7502,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 553 ;
-    skos:prefLabel "climate change"@en ;
+    skos:prefLabel "climate change"@en,
+        "changement climatique"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7457,7 +7514,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 554 ;
-    skos:prefLabel "climate dynamics"@en ;
+    skos:prefLabel "climate dynamics"@en,
+        "dynamique climatique"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7468,7 +7526,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 555 ;
-    skos:prefLabel "climatic events"@en ;
+    skos:prefLabel "climatic events"@en,
+        "événements climatiques"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7479,7 +7538,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 556 ;
-    skos:prefLabel "climatograms"@en ;
+    skos:prefLabel "climatograms"@en,
+        "climatogrammes"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7490,7 +7550,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 557 ;
-    skos:prefLabel "cold to warm climate"@en ;
+    skos:prefLabel "cold to warm climate"@en,
+        "climat froid à chaud"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7501,7 +7562,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 558 ;
-    skos:prefLabel "environment"@en ;
+    skos:prefLabel "environment"@en,
+        "environnement"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7512,7 +7574,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 559 ;
-    skos:prefLabel "environmental and climatic reconstruction"@en ;
+    skos:prefLabel "environmental and climatic reconstruction"@en,
+        "reconstruction environnementale et climatique"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7523,7 +7586,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 561 ;
-    skos:prefLabel "environmental availability"@en ;
+    skos:prefLabel "environmental availability"@en,
+        "disponibilité environnementale"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7534,7 +7598,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 564 ;
-    skos:prefLabel "environmental scanning electron microscope"@en ;
+    skos:prefLabel "environmental scanning electron microscope"@en,
+        "microscope électronique à balayage environnemental"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7545,7 +7610,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 565 ;
-    skos:prefLabel "fluvial environment"@en ;
+    skos:prefLabel "fluvial environment"@en,
+        "milieu fluvial"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7556,7 +7622,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 568 ;
-    skos:prefLabel "local environment"@en ;
+    skos:prefLabel "local environment"@en,
+        "environnement local"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7589,7 +7656,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 571 ;
-    skos:prefLabel "ombroclimate"@en ;
+    skos:prefLabel "ombroclimate"@en,
+        "ombroclimat"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7600,7 +7668,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 572 ;
-    skos:prefLabel "orbital-scale climate variability"@en ;
+    skos:prefLabel "orbital-scale climate variability"@en,
+        "variabilité climatique à l'échelle orbitale"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7611,7 +7680,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 579 ;
-    skos:prefLabel "sea-level changes"@en ;
+    skos:prefLabel "sea-level changes"@en,
+        "changements du niveau de la mer"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -9294,7 +9364,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 560 ;
-    skos:prefLabel "environmental archaeology"@en ;
+    skos:prefLabel "environmental archaeology"@en,
+        "archéologie environnementale"@fr ;
     skos:semanticRelation :493,
         :545,
         :765 .
@@ -9309,7 +9380,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 562 ;
-    skos:prefLabel "environmental changes"@en ;
+    skos:prefLabel "environmental changes"@en,
+        "modifications liées au milieu"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9324,7 +9396,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 563 ;
-    skos:prefLabel "environmental reconstruction"@en ;
+    skos:prefLabel "environmental reconstruction"@en,
+        "reconstruction environnementale"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9339,7 +9412,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 566 ;
-    skos:prefLabel "holocene climatic changes"@en ;
+    skos:prefLabel "holocene climatic changes"@en,
+        "changements climatiques holocènes"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9354,7 +9428,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 567 ;
-    skos:prefLabel "interglacial climate"@en ;
+    skos:prefLabel "interglacial climate"@en,
+        "climat interglaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9369,7 +9444,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 573 ;
-    skos:prefLabel "palaeoenvironment"@en ;
+    skos:prefLabel "palaeoenvironment"@en,
+        "paléoenvironnement"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9384,7 +9460,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 574 ;
-    skos:prefLabel "palaeoenvironment reconstruction"@en ;
+    skos:prefLabel "palaeoenvironment reconstruction"@en,
+        "reconstruction du paléoenvironnement"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9399,7 +9476,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 575 ;
-    skos:prefLabel "palaeoenvironmental evolution"@en ;
+    skos:prefLabel "palaeoenvironmental evolution"@en,
+        "évolution paléoenvironnementale"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9414,7 +9492,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 576 ;
-    skos:prefLabel "paleotemperatures"@en ;
+    skos:prefLabel "paleotemperatures"@en,
+        "paléotempératures"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9429,7 +9508,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 577 ;
-    skos:prefLabel "precipitation"@en ;
+    skos:prefLabel "precipitation"@en,
+        "précipitations"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9444,7 +9524,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 578 ;
-    skos:prefLabel "rapid climate changes"@en ;
+    skos:prefLabel "rapid climate changes"@en,
+        "changements climatiques rapides"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9459,7 +9540,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 580 ;
-    skos:prefLabel "seasonal climate"@en ;
+    skos:prefLabel "seasonal climate"@en,
+        "climat saisonnier"@fr ;
     skos:semanticRelation :493,
         :545,
         :792 .
@@ -9474,7 +9556,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 581 ;
-    skos:prefLabel "african humid period"@en ;
+    skos:prefLabel "african humid period"@en,
+        "période humide africaine"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9489,7 +9572,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 582 ;
-    skos:prefLabel "cold period"@en ;
+    skos:prefLabel "cold period"@en,
+        "période froide"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9504,7 +9588,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 583 ;
-    skos:prefLabel "late glacial"@en ;
+    skos:prefLabel "late glacial"@en,
+        "Tardiglaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9519,7 +9604,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 584 ;
-    skos:prefLabel "late glacial interstadial"@en ;
+    skos:prefLabel "late glacial interstadial"@en,
+        "Tardiglaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9534,7 +9620,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 585 ;
-    skos:prefLabel "late glacial maximum"@en ;
+    skos:prefLabel "late glacial maximum"@en,
+        "maximum tardiglaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9549,7 +9636,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 586 ;
-    skos:prefLabel "late glacial-holocene"@en ;
+    skos:prefLabel "late glacial-holocene"@en,
+        "Tardiglaciaire-Holocène"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9564,7 +9652,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 587 ;
-    skos:prefLabel "penultimate glacial period"@en ;
+    skos:prefLabel "penultimate glacial period"@en,
+        "avant-dernière période glaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9579,7 +9668,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 588 ;
-    skos:prefLabel "subboreal-subatlantic"@en ;
+    skos:prefLabel "subboreal-subatlantic"@en,
+        "subboréal-subatlantique"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9594,7 +9684,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 589 ;
-    skos:prefLabel "last glacial"@en ;
+    skos:prefLabel "last glacial"@en,
+        "dernière glaciation"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -9609,7 +9700,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :492,
         :764 ;
     skos:notation 590 ;
-    skos:prefLabel "last glacial maximum"@en ;
+    skos:prefLabel "last glacial maximum"@en,
+        "dernier maximum glaciaire"@fr ;
     skos:semanticRelation :493,
         :545,
         :834 .
@@ -10142,7 +10234,8 @@ skos:ConceptScheme a owl:Class ;
         :543,
         :544 ;
     skos:notation 533 ;
-    skos:prefLabel "dating methods"@en ;
+    skos:prefLabel "dating methods"@en,
+        "datation"@fr ;
     skos:semanticRelation :493,
         :534,
         :535,
@@ -11406,7 +11499,8 @@ skos:ConceptScheme a owl:Class ;
         :531,
         :532 ;
     skos:notation 494 ;
-    skos:prefLabel "isotopes and dating"@en ;
+    skos:prefLabel "isotopes and dating"@en,
+        "isotopes et datation"@fr ;
     skos:semanticRelation :493,
         :495,
         :496,
@@ -11996,7 +12090,8 @@ skos:ConceptScheme a owl:Class ;
         :594,
         :595 ;
     skos:notation 545 ;
-    skos:prefLabel "climatology and climate events"@en ;
+    skos:prefLabel "climatology and climate events"@en,
+        "climatologie et événements climatiques"@fr ;
     skos:semanticRelation :373,
         :493,
         :546,
@@ -12570,7 +12665,8 @@ skos:ConceptScheme a owl:Class ;
     skos:hasTopConcept :493,
         :596 ;
     skos:notation 492 ;
-    skos:prefLabel "geoarchaeology"@en .
+    skos:prefLabel "geoarchaeology"@en,
+        "géoarchéologie"@fr .
 
 :493 a owl:NamedIndividual,
         skos:Concept ;
@@ -12682,7 +12778,8 @@ skos:ConceptScheme a owl:Class ;
         :594,
         :595 ;
     skos:notation 493 ;
-    skos:prefLabel "chronology"@en ;
+    skos:prefLabel "chronology"@en,
+        "chronologie"@fr ;
     skos:semanticRelation :373,
         :494,
         :495,
