@@ -3926,7 +3926,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :286 ;
     skos:notation 390 ;
     skos:prefLabel "european early acheulean"@en,
-        "Acheuléen ancien européen"@fr ;
+        "Acheuléen ancien européen"@fr,
+        "Achelense temprano europeo"@es ;
     skos:semanticRelation :385 .
 
 :391 a owl:NamedIndividual,
@@ -3936,7 +3937,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :286 ;
     skos:notation 391 ;
     skos:prefLabel "gravettian"@en,
-        "Gravettien"@fr ;
+        "Gravettien"@fr,
+        "Gravetiense"@es ;
     skos:semanticRelation :385 .
 
 :392 a owl:NamedIndividual,
@@ -3947,7 +3949,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:notation 392,
         397 ;
     skos:prefLabel "late acheulian"@en,
-        "Acheuléen récent"@fr ;
+        "Acheuléen récent"@fr,
+        "achelense tardío"@es ;
     skos:semanticRelation :385 .
 
 :393 a owl:NamedIndividual,
@@ -3957,7 +3960,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :286 ;
     skos:notation 393 ;
     skos:prefLabel "later stone age"@en,
-        "Later Stone Age"@fr ;
+        "Later Stone Age"@fr,
+        "Edad de Piedra Tardía"@es ;
     skos:semanticRelation :385 .
 
 :394 a owl:NamedIndividual,
@@ -3968,7 +3972,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:notation 394,
         399 ;
     skos:prefLabel "magdalenian"@en,
-        "Magdalénien"@fr ;
+        "Magdalénien"@fr,
+        "Magdaleniense"@es ;
     skos:semanticRelation :385 .
 
 :395 a owl:NamedIndividual,
@@ -3979,7 +3984,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:notation 395,
         400 ;
     skos:prefLabel "solutrean"@en,
-        "Solutréen"@fr ;
+        "Solutréen"@fr,
+        "Solutrense"@es ;
     skos:semanticRelation :385 .
 
 :396 a owl:NamedIndividual,
@@ -3989,7 +3995,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :286 ;
     skos:notation 396 ;
     skos:prefLabel "upper magdalenian"@en,
-        "Magdalénien récent"@fr ;
+        "Magdalénien récent"@fr,
+        "Magdaleniense superior"@es ;
     skos:semanticRelation :385 .
 
 :398 a owl:NamedIndividual,
@@ -3999,7 +4006,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :286 ;
     skos:notation 398 ;
     skos:prefLabel "oldowan"@en,
-        "Oldowayen"@fr ;
+        "Oldowayen"@fr,
+        "Olduvayense"@es ;
     skos:semanticRelation :385 .
 
 :4 a owl:NamedIndividual,
@@ -4031,7 +4039,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 403 ;
     skos:prefLabel "bone tools"@en,
-        "outils en os"@fr ;
+        "outils en os"@fr,
+        "herramientas de hueso"@es ;
     skos:semanticRelation :402 .
 
 :404 a owl:NamedIndividual,
@@ -4041,7 +4050,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 404 ;
     skos:prefLabel "heavy-duty tool"@en,
-        "outil lourd"@fr ;
+        "outil lourd"@fr,
+        "útil pesado"@es ;
     skos:semanticRelation :402 .
 
 :405 a owl:NamedIndividual,
@@ -4051,7 +4061,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 405 ;
     skos:prefLabel "heavy-duty scraper"@en,
-        "racloir lourd"@fr ;
+        "racloir lourd"@fr,
+        "raspador pesado"@es ;
     skos:semanticRelation :402 .
 
 :406 a owl:NamedIndividual,
@@ -4061,7 +4072,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 406 ;
     skos:prefLabel "human bone tool"@en,
-        "outil en os humain"@fr ;
+        "outil en os humain"@fr,
+        "herramienta de hueso humano"@es ;
     skos:semanticRelation :402 .
 
 :407 a owl:NamedIndividual,
@@ -4071,7 +4083,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 407 ;
     skos:prefLabel "informal tools"@en,
-        "outils informels"@fr ;
+        "outils informels"@fr,
+        "herramientas informales"@es ;
     skos:semanticRelation :402 .
 
 :408 a owl:NamedIndividual,
@@ -4081,7 +4094,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 408 ;
     skos:prefLabel "large cutting tools"@en,
-        "gros outils de coupe"@fr ;
+        "gros outils de coupe"@fr,
+        "grandes herramientas de corte"@es ;
     skos:semanticRelation :402 .
 
 :409 a owl:NamedIndividual,
@@ -4091,7 +4105,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 409 ;
     skos:prefLabel "large-sized toolkits"@en,
-        "outillages de grandes dimensions"@fr ;
+        "outillages de grandes dimensions"@fr,
+        "conjuntos de útiles de gran tamaño"@es ;
     skos:semanticRelation :402 .
 
 :41 a owl:NamedIndividual,
@@ -4112,7 +4127,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 410 ;
     skos:prefLabel "minimally modified bone tools"@en,
-        "outils en os peu modifiés"@fr ;
+        "outils en os peu modifiés"@fr,
+        "herramientas óseas mínimamente modificadas"@es ;
     skos:semanticRelation :402 .
 
 :411 a owl:NamedIndividual,
@@ -4122,7 +4138,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 411 ;
     skos:prefLabel "mobile toolkit"@en,
-        "outillage mobile"@fr ;
+        "outillage mobile"@fr,
+        "utillaje móvil"@es ;
     skos:semanticRelation :402 .
 
 :412 a owl:NamedIndividual,
@@ -4132,7 +4149,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 412 ;
     skos:prefLabel "notched tools"@en,
-        "outils crantés"@fr ;
+        "outils crantés"@fr,
+        "herramientas con muescas"@es ;
     skos:semanticRelation :402 .
 
 :413 a owl:NamedIndividual,
@@ -4142,7 +4160,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 413 ;
     skos:prefLabel "pounding tools"@en,
-        "outils de martelage"@fr ;
+        "outils de martelage"@fr,
+        "herramientas de golpeo"@es ;
     skos:semanticRelation :402 .
 
 :414 a owl:NamedIndividual,
@@ -4152,7 +4171,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 414 ;
     skos:prefLabel "shell tools"@en,
-        "outils sur coquille"@fr ;
+        "outils sur coquille"@fr,
+        "herramientas de concha"@es ;
     skos:semanticRelation :402 .
 
 :415 a owl:NamedIndividual,
@@ -4162,7 +4182,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 415 ;
     skos:prefLabel "tools"@en,
-        "outils"@fr ;
+        "outils"@fr,
+        "herramientas"@es ;
     skos:semanticRelation :402 .
 
 :416 a owl:NamedIndividual,
@@ -4172,7 +4193,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 416 ;
     skos:prefLabel "weapon-tool"@en,
-        "arme-outil"@fr ;
+        "arme-outil"@fr,
+        "arma-herramienta"@es ;
     skos:semanticRelation :402 .
 
 :417 a owl:NamedIndividual,
@@ -4182,7 +4204,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 417 ;
     skos:prefLabel "wood artifacts"@en,
-        "objets en bois"@fr ;
+        "objets en bois"@fr,
+        "artefactos de madera"@es ;
     skos:semanticRelation :402 .
 
 :418 a owl:NamedIndividual,
@@ -4192,7 +4215,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 418 ;
     skos:prefLabel "handaxe"@en,
-        "biface"@fr ;
+        "biface"@fr,
+        "bifaz"@es ;
     skos:semanticRelation :402 .
 
 :419 a owl:NamedIndividual,
@@ -4202,7 +4226,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 419 ;
     skos:prefLabel "harpoons"@en,
-        "harpons"@fr ;
+        "harpons"@fr,
+        "arpones"@es ;
     skos:semanticRelation :402 .
 
 :42 a owl:NamedIndividual,
@@ -4223,7 +4248,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 420 ;
     skos:prefLabel "endscraper"@en,
-        "grattoir"@fr ;
+        "grattoir"@fr,
+        "raspador"@es ;
     skos:semanticRelation :402 .
 
 :421 a owl:NamedIndividual,
@@ -4233,7 +4259,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 421 ;
     skos:prefLabel "denticulate"@en,
-        "denticulé"@fr ;
+        "denticulé"@fr,
+        "denticulado"@es ;
     skos:semanticRelation :402 .
 
 :422 a owl:NamedIndividual,
@@ -4243,7 +4270,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 422 ;
     skos:prefLabel "cores"@en,
-        "nucléus"@fr ;
+        "nucléus"@fr,
+        "núcleos"@es ;
     skos:semanticRelation :402 .
 
 :423 a owl:NamedIndividual,
@@ -4253,7 +4281,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 423 ;
     skos:prefLabel "core tools"@en,
-        "outils sur nucléus"@fr ;
+        "outils sur nucléus"@fr,
+        "útiles sobre núcleo"@es ;
     skos:semanticRelation :402 .
 
 :424 a owl:NamedIndividual,
@@ -4263,7 +4292,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 424 ;
     skos:prefLabel "stone flake"@en,
-        "éclat de pierre"@fr ;
+        "éclat de pierre"@fr,
+        "lasca de piedra"@es ;
     skos:semanticRelation :402 .
 
 :425 a owl:NamedIndividual,
@@ -4273,7 +4303,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 425 ;
     skos:prefLabel "microlithic"@en,
-        "microlithique"@fr ;
+        "microlithique"@fr,
+        "microlítico"@es ;
     skos:semanticRelation :402 .
 
 :426 a owl:NamedIndividual,
@@ -4283,7 +4314,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 426 ;
     skos:prefLabel "microliths"@en,
-        "microlithes"@fr ;
+        "microlithes"@fr,
+        "microlitos"@es ;
     skos:semanticRelation :402 .
 
 :427 a owl:NamedIndividual,
@@ -4293,7 +4325,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 427 ;
     skos:prefLabel "bifacial"@en,
-        "bifacial"@fr ;
+        "bifacial"@fr,
+        "bifacial"@es ;
     skos:semanticRelation :402 .
 
 :428 a owl:NamedIndividual,
@@ -4303,7 +4336,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 428 ;
     skos:prefLabel "bifaces"@en,
-        "bifaces"@fr ;
+        "bifaces"@fr,
+        "bifaces"@es ;
     skos:semanticRelation :402 .
 
 :429 a owl:NamedIndividual,
@@ -4313,7 +4347,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 429 ;
     skos:prefLabel "core technologies"@en,
-        "technologies sur nucléus"@fr ;
+        "technologies sur nucléus"@fr,
+        "tecnologías de núcleos"@es ;
     skos:semanticRelation :402 .
 
 :43 a owl:NamedIndividual,
@@ -4334,7 +4369,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 430 ;
     skos:prefLabel "core-on-flake"@en,
-        "nucléus sur éclat"@fr ;
+        "nucléus sur éclat"@fr,
+        "núcleo sobre lasca"@es ;
     skos:semanticRelation :402 .
 
 :431 a owl:NamedIndividual,
@@ -4353,7 +4389,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 432 ;
     skos:prefLabel "flakes"@en,
-        "éclats"@fr ;
+        "éclats"@fr,
+        "lascas"@es ;
     skos:semanticRelation :402 .
 
 :433 a owl:NamedIndividual,
@@ -4363,7 +4400,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 433 ;
     skos:prefLabel "large flake"@en,
-        "grand éclat"@fr ;
+        "grand éclat"@fr,
+        "lasca grande"@es ;
     skos:semanticRelation :402 .
 
 :434 a owl:NamedIndividual,
@@ -4373,7 +4411,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 434 ;
     skos:prefLabel "lithic industry"@en,
-        "industrie lithique"@fr ;
+        "industrie lithique"@fr,
+        "industria lítica"@es ;
     skos:semanticRelation :402 .
 
 :435 a owl:NamedIndividual,
@@ -4383,7 +4422,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 435 ;
     skos:prefLabel "lithic materials"@en,
-        "matériaux lithiques"@fr ;
+        "matériaux lithiques"@fr,
+        "materiales líticos"@es ;
     skos:semanticRelation :402 .
 
 :436 a owl:NamedIndividual,
@@ -4393,7 +4433,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 436 ;
     skos:prefLabel "lithic raw materials"@en,
-        "matières premières lithiques"@fr ;
+        "matières premières lithiques"@fr,
+        "materias primas líticas"@es ;
     skos:semanticRelation :402 .
 
 :437 a owl:NamedIndividual,
@@ -4403,7 +4444,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 437 ;
     skos:prefLabel "lithic tools"@en,
-        "outils lithiques"@fr ;
+        "outils lithiques"@fr,
+        "herramientas líticas"@es ;
     skos:semanticRelation :402 .
 
 :438 a owl:NamedIndividual,
@@ -4413,7 +4455,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 438 ;
     skos:prefLabel "nodules and cobbles"@en,
-        "nodules et galets"@fr ;
+        "nodules et galets"@fr,
+        "nódulos y cantos"@es ;
     skos:semanticRelation :402 .
 
 :439 a owl:NamedIndividual,
@@ -4423,7 +4466,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 439 ;
     skos:prefLabel "particle shape"@en,
-        "forme des particules"@fr ;
+        "forme des particules"@fr,
+        "forma de partícula"@es ;
     skos:semanticRelation :402 .
 
 :44 a owl:NamedIndividual,
@@ -4444,7 +4488,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 440 ;
     skos:prefLabel "percussive technology"@en,
-        "technologie percussive"@fr ;
+        "technologie percussive"@fr,
+        "tecnología de percusión"@es ;
     skos:semanticRelation :402 .
 
 :441 a owl:NamedIndividual,
@@ -4454,7 +4499,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 441 ;
     skos:prefLabel "stone technology"@en,
-        "technologie de la pierre"@fr ;
+        "technologie de la pierre"@fr,
+        "tecnología de piedra"@es ;
     skos:semanticRelation :402 .
 
 :442 a owl:NamedIndividual,
@@ -4464,7 +4510,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 442 ;
     skos:prefLabel "stone toolkits"@en,
-        "outillages lithiques"@fr ;
+        "outillages lithiques"@fr,
+        "conjuntos de útiles líticos"@es ;
     skos:semanticRelation :402 .
 
 :443 a owl:NamedIndividual,
@@ -4474,7 +4521,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 443 ;
     skos:prefLabel "stone tools"@en,
-        "outils en pierre"@fr ;
+        "outils en pierre"@fr,
+        "herramientas de piedra"@es ;
     skos:semanticRelation :402 .
 
 :444 a owl:NamedIndividual,
@@ -4484,7 +4532,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 444 ;
     skos:prefLabel "cortical flakes"@en,
-        "éclats corticaux"@fr ;
+        "éclats corticaux"@fr,
+        "lascas corticales"@es ;
     skos:semanticRelation :402 .
 
 :445 a owl:NamedIndividual,
@@ -4494,7 +4543,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 445 ;
     skos:prefLabel "giant core"@en,
-        "grand nucléus"@fr ;
+        "grand nucléus"@fr,
+        "núcleo gigante"@es ;
     skos:semanticRelation :402 .
 
 :446 a owl:NamedIndividual,
@@ -4504,7 +4554,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 446 ;
     skos:prefLabel "retouched artifacts"@en,
-        "objets retouchés"@fr ;
+        "objets retouchés"@fr,
+        "artefactos retocados"@es ;
     skos:semanticRelation :402 .
 
 :447 a owl:NamedIndividual,
@@ -4514,7 +4565,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 447 ;
     skos:prefLabel "burned artifacts"@en,
-        "objets brûlés"@fr ;
+        "objets brûlés"@fr,
+        "artefactos quemados"@es ;
     skos:semanticRelation :402 .
 
 :448 a owl:NamedIndividual,
@@ -4524,7 +4576,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 448 ;
     skos:prefLabel "notch type"@en,
-        "type d'encoche"@fr ;
+        "type d'encoche"@fr,
+        "tipo de muesca"@es ;
     skos:semanticRelation :402 .
 
 :449 a owl:NamedIndividual,
@@ -4534,7 +4587,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 449 ;
     skos:prefLabel "large flake acheulean"@en,
-        "Acheuléen à grands éclats"@fr ;
+        "Acheuléen à grands éclats"@fr,
+        "Achelense de grandes lascas"@es ;
     skos:semanticRelation :402 .
 
 :45 a owl:NamedIndividual,
@@ -4555,7 +4609,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 450 ;
     skos:prefLabel "lithic artefacts"@en,
-        "artefacts lithiques"@fr ;
+        "artefacts lithiques"@fr,
+        "artefactos líticos"@es ;
     skos:semanticRelation :402 .
 
 :451 a owl:NamedIndividual,
@@ -4565,7 +4620,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 451 ;
     skos:prefLabel "palaeolithic technology"@en,
-        "technologie paléolithique"@fr ;
+        "technologie paléolithique"@fr,
+        "tecnología paleolítica"@es ;
     skos:semanticRelation :402 .
 
 :452 a owl:NamedIndividual,
@@ -4575,7 +4631,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 452 ;
     skos:prefLabel "pleistocene technology"@en,
-        "technologie du pléistocène"@fr ;
+        "technologie du pléistocène"@fr,
+        "tecnología pleistoceno"@es ;
     skos:semanticRelation :402 .
 
 :453 a owl:NamedIndividual,
@@ -4585,7 +4642,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 453 ;
     skos:prefLabel "levallois technology"@en,
-        "technologie Levallois"@fr ;
+        "technologie Levallois"@fr,
+        "tecnología levallois"@es ;
     skos:semanticRelation :402 .
 
 :454 a owl:NamedIndividual,
@@ -4595,7 +4653,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 454 ;
     skos:prefLabel "levallois and discoid technology"@en,
-        "technologies Levallois et discoïde"@fr ;
+        "technologies Levallois et discoïde"@fr,
+        "tecnología levallois y discoide"@es ;
     skos:semanticRelation :402 .
 
 :455 a owl:NamedIndividual,
@@ -4605,7 +4664,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 455 ;
     skos:prefLabel "mode 1"@en,
-        "mode 1"@fr ;
+        "mode 1"@fr,
+        "modo 1"@es ;
     skos:semanticRelation :402 .
 
 :456 a owl:NamedIndividual,
@@ -4615,7 +4675,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 456 ;
     skos:prefLabel "mode 2"@en,
-        "mode 2"@fr ;
+        "mode 2"@fr,
+        "modo 2"@es ;
     skos:semanticRelation :402 .
 
 :458 a owl:NamedIndividual,
@@ -4625,7 +4686,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 458 ;
     skos:prefLabel "blade knapping"@en,
-        "taille de lames"@fr ;
+        "taille de lames"@fr,
+        "talla laminar"@es ;
     skos:semanticRelation :457 .
 
 :459 a owl:NamedIndividual,
@@ -4635,7 +4697,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 459 ;
     skos:prefLabel "core reduction"@en,
-        "débitage du nucléus"@fr ;
+        "débitage du nucléus"@fr,
+        "reducción del núcleo"@es ;
     skos:semanticRelation :457 .
 
 :46 a owl:NamedIndividual,
@@ -4656,7 +4719,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 460 ;
     skos:prefLabel "percussion marks"@en,
-        "traces de percussion"@fr ;
+        "traces de percussion"@fr,
+        "marcas de percusión"@es ;
     skos:semanticRelation :457 .
 
 :461 a owl:NamedIndividual,
@@ -4666,7 +4730,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 461 ;
     skos:prefLabel "lithic use-wear analysis"@en,
-        "tracéologie lithique"@fr ;
+        "tracéologie lithique"@fr,
+        "traceología lítica"@es ;
     skos:semanticRelation :457 .
 
 :462 a owl:NamedIndividual,
@@ -4676,7 +4741,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 462 ;
     skos:prefLabel "fracture planes"@en,
-        "plans de fracture"@fr ;
+        "plans de fracture"@fr,
+        "planos de fractura"@es ;
     skos:semanticRelation :457 .
 
 :463 a owl:NamedIndividual,
@@ -4686,7 +4752,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 463 ;
     skos:prefLabel "knapping"@en,
-        "taille"@fr ;
+        "taille"@fr,
+        "talla"@es ;
     skos:semanticRelation :457 .
 
 :464 a owl:NamedIndividual,
@@ -4696,7 +4763,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 464 ;
     skos:prefLabel "lithic knapping"@en,
-        "taille lithique"@fr ;
+        "taille lithique"@fr,
+        "talla lítica"@es ;
     skos:semanticRelation :457 .
 
 :465 a owl:NamedIndividual,
@@ -4706,7 +4774,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 465 ;
     skos:prefLabel "lithic reduction"@en,
-        "débitage lithique"@fr ;
+        "débitage lithique"@fr,
+        "reducción lítica"@es ;
     skos:semanticRelation :457 .
 
 :466 a owl:NamedIndividual,
@@ -4716,7 +4785,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 466 ;
     skos:prefLabel "percussive activities"@en,
-        "activités percussives"@fr ;
+        "activités percussives"@fr,
+        "actividades de percusión"@es ;
     skos:semanticRelation :457 .
 
 :467 a owl:NamedIndividual,
@@ -4726,7 +4796,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 467 ;
     skos:prefLabel "stone knapping"@en,
-        "taille de la pierre"@fr ;
+        "taille de la pierre"@fr,
+        "talla de piedra"@es ;
     skos:semanticRelation :457 .
 
 :468 a owl:NamedIndividual,
@@ -4736,7 +4807,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 468 ;
     skos:prefLabel "stone tool function"@en,
-        "fonction de l'outil en pierre"@fr ;
+        "fonction de l'outil en pierre"@fr,
+        "función de herramienta de piedra"@es ;
     skos:semanticRelation :457 .
 
 :469 a owl:NamedIndividual,
@@ -4766,7 +4838,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 471 ;
     skos:prefLabel "resharpening"@en,
-        "ravivage"@fr ;
+        "ravivage"@fr,
+        "reavivado"@es ;
     skos:semanticRelation :457 .
 
 :472 a owl:NamedIndividual,
@@ -4776,7 +4849,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 472 ;
     skos:prefLabel "tool use"@en,
-        "utilisation des outils"@fr ;
+        "utilisation des outils"@fr,
+        "uso de herramientas"@es ;
     skos:semanticRelation :457 .
 
 :474 a owl:NamedIndividual,
@@ -4786,7 +4860,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 474 ;
     skos:prefLabel "fracture pattern"@en,
-        "schéma de fracturation"@fr ;
+        "schéma de fracturation"@fr,
+        "patrón de fractura"@es ;
     skos:semanticRelation :473 .
 
 :475 a owl:NamedIndividual,
@@ -4796,7 +4871,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 475 ;
     skos:prefLabel "flaking sequence"@en,
-        "séquence de débitage"@fr ;
+        "séquence de débitage"@fr,
+        "secuencia de lascado"@es ;
     skos:semanticRelation :473 .
 
 :476 a owl:NamedIndividual,
@@ -4806,7 +4882,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 476 ;
     skos:prefLabel "knapping methods"@en,
-        "méthodes de taille"@fr ;
+        "méthodes de taille"@fr,
+        "métodos de talla"@es ;
     skos:semanticRelation :473 .
 
 :477 a owl:NamedIndividual,
@@ -4816,7 +4893,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 477 ;
     skos:prefLabel "knapping sequence"@en,
-        "séquence de taille"@fr ;
+        "séquence de taille"@fr,
+        "secuencia de talla"@es ;
     skos:semanticRelation :473 .
 
 :478 a owl:NamedIndividual,
@@ -4826,7 +4904,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 478 ;
     skos:prefLabel "knapping skill"@en,
-        "compétence de taille"@fr ;
+        "compétence de taille"@fr,
+        "habilidad de talla"@es ;
     skos:semanticRelation :473 .
 
 :479 a owl:NamedIndividual,
@@ -4836,7 +4915,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 479 ;
     skos:prefLabel "knapping strategy"@en,
-        "stratégie de taille"@fr ;
+        "stratégie de taille"@fr,
+        "estrategia de talla"@es ;
     skos:semanticRelation :473 .
 
 :48 a owl:NamedIndividual,
@@ -4857,7 +4937,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 480 ;
     skos:prefLabel "lithic assemblages"@en,
-        "assemblages lithiques"@fr ;
+        "assemblages lithiques"@fr,
+        "conjuntos líticos"@es ;
     skos:semanticRelation :473 .
 
 :481 a owl:NamedIndividual,
@@ -4867,7 +4948,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 481 ;
     skos:prefLabel "lithic refits"@en,
-        "remontages lithiques"@fr ;
+        "remontages lithiques"@fr,
+        "remontajes líticos"@es ;
     skos:semanticRelation :473 .
 
 :482 a owl:NamedIndividual,
@@ -4877,7 +4959,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 482 ;
     skos:prefLabel "node reconstruction"@en,
-        "reconstruction nodale"@fr ;
+        "reconstruction nodale"@fr,
+        "reconstrucción nodal"@es ;
     skos:semanticRelation :473 .
 
 :483 a owl:NamedIndividual,
@@ -4887,7 +4970,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 483 ;
     skos:prefLabel "refitting"@en,
-        "remontage"@fr ;
+        "remontage"@fr,
+        "reensamblaje"@es ;
     skos:semanticRelation :473 .
 
 :484 a owl:NamedIndividual,
@@ -4897,7 +4981,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 484 ;
     skos:prefLabel "shaping strategies"@en,
-        "stratégies de façonnage"@fr ;
+        "stratégies de façonnage"@fr,
+        "estrategias de configuración"@es ;
     skos:semanticRelation :473 .
 
 :485 a owl:NamedIndividual,
@@ -4907,7 +4992,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 485 ;
     skos:prefLabel "tool kinetics"@en,
-        "cinématique des outils"@fr ;
+        "cinématique des outils"@fr,
+        "cinemática de herramientas"@es ;
     skos:semanticRelation :473 .
 
 :486 a owl:NamedIndividual,
@@ -4917,7 +5003,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 486 ;
     skos:prefLabel "biface production"@en,
-        "fabrication de bifaces"@fr ;
+        "fabrication de bifaces"@fr,
+        "producción bifaz"@es ;
     skos:semanticRelation :473 .
 
 :487 a owl:NamedIndividual,
@@ -4927,7 +5014,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 487 ;
     skos:prefLabel "lithic manufacture"@en,
-        "fabrication lithique"@fr ;
+        "fabrication lithique"@fr,
+        "fabricación lítica"@es ;
     skos:semanticRelation :473 .
 
 :488 a owl:NamedIndividual,
@@ -4937,7 +5025,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 488 ;
     skos:prefLabel "lithic procurement"@en,
-        "approvisionnement lithique"@fr ;
+        "approvisionnement lithique"@fr,
+        "adquisición lítica"@es ;
     skos:semanticRelation :473 .
 
 :489 a owl:NamedIndividual,
@@ -4947,7 +5036,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 489 ;
     skos:prefLabel "lithic production"@en,
-        "production lithique"@fr ;
+        "production lithique"@fr,
+        "producción lítica"@es ;
     skos:semanticRelation :473 .
 
 :49 a owl:NamedIndividual,
@@ -4968,7 +5058,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 490 ;
     skos:prefLabel "lithic taphonomy"@en,
-        "taphonomie lithique"@fr ;
+        "taphonomie lithique"@fr,
+        "tafonomía lítica"@es ;
     skos:semanticRelation :473 .
 
 :491 a owl:NamedIndividual,
@@ -4978,7 +5069,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :401 ;
     skos:notation 491 ;
     skos:prefLabel "hand laterality"@en,
-        "latéralité de la main"@fr ;
+        "latéralité de la main"@fr,
+        "lateralidad de la mano"@es ;
     skos:semanticRelation :473 .
 
 :5 a owl:NamedIndividual,
@@ -9954,7 +10046,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 470 ;
     skos:prefLabel "hammerstone percussion"@en,
-        "percussion au percuteur de pierre"@fr ;
+        "percussion au percuteur de pierre"@fr,
+        "percusión con percutor de piedra"@es ;
     skos:semanticRelation :457,
         :735 .
 
@@ -11319,7 +11412,8 @@ skos:ConceptScheme a owl:Class ;
         :472 ;
     skos:notation 457 ;
     skos:prefLabel "use marks and functionality"@en,
-        "traces d'utilisation et fonction"@fr ;
+        "traces d'utilisation et fonction"@fr,
+        "huellas de uso y funcionalidad"@es ;
     skos:semanticRelation :458,
         :459,
         :460,
@@ -11512,7 +11606,8 @@ skos:ConceptScheme a owl:Class ;
         :491 ;
     skos:notation 473 ;
     skos:prefLabel "lithic study"@en,
-        "étude lithique"@fr ;
+        "étude lithique"@fr,
+        "estudio lítico"@es ;
     skos:semanticRelation :474,
         :475,
         :476,
@@ -11956,7 +12051,8 @@ skos:ConceptScheme a owl:Class ;
         :473 ;
     skos:notation 401 ;
     skos:prefLabel "lithic"@en,
-        "lithique"@fr .
+        "lithique"@fr,
+        "lítico"@es .
 
 :659 a owl:NamedIndividual,
         skos:Concept ;
@@ -13195,7 +13291,8 @@ skos:ConceptScheme a owl:Class ;
         :456 ;
     skos:notation 402 ;
     skos:prefLabel "lithic technology"@en,
-        "technologie lithique"@fr ;
+        "technologie lithique"@fr,
+        "tecnología lítica"@es ;
     skos:semanticRelation :403,
         :404,
         :405,
