@@ -644,7 +644,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 837 ;
     skos:prefLabel "garden hunting"@en,
-        "chasse dans les jardins"@fr ;
+        "chasse dans les jardins"@fr,
+        "caza en huertos"@es ;
     skos:topConceptOf :836 .
 
 :838 a owl:NamedIndividual,
@@ -652,7 +653,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 838 ;
     skos:prefLabel "garden hunting-wildlife management"@en,
-        "chasse dans les jardins et gestion de la faune"@fr ;
+        "chasse dans les jardins et gestion de la faune"@fr,
+        "caza en huertos y gestión de fauna silvestre"@es ;
     skos:topConceptOf :836 .
 
 :839 a owl:NamedIndividual,
@@ -660,7 +662,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 839 ;
     skos:prefLabel "animal exploitation"@en,
-        "exploitation animale"@fr ;
+        "exploitation animale"@fr,
+        "explotación animal"@es ;
     skos:topConceptOf :836 .
 
 :840 a owl:NamedIndividual,
@@ -668,7 +671,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 840 ;
     skos:prefLabel "anatomical profiles"@en,
-        "profils anatomiques"@fr ;
+        "profils anatomiques"@fr,
+        "perfiles anatómicos"@es ;
     skos:topConceptOf :836 .
 
 :841 a owl:NamedIndividual,
@@ -676,7 +680,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 841 ;
     skos:prefLabel "skeletal assemblage"@en,
-        "assemblage osseux"@fr ;
+        "assemblage osseux"@fr,
+        "conjunto esquelético"@es ;
     skos:topConceptOf :836 .
 
 :842 a owl:NamedIndividual,
@@ -684,7 +689,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 842 ;
     skos:prefLabel "carnivores"@en,
-        "carnivores"@fr ;
+        "carnivores"@fr,
+        "carnívoros"@es ;
     skos:topConceptOf :836 .
 
 :843 a owl:NamedIndividual,
@@ -692,7 +698,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 843 ;
     skos:prefLabel "mammalian carnivores"@en,
-        "mammifères carnivores"@fr ;
+        "mammifères carnivores"@fr,
+        "mamíferos carnívoros"@es ;
     skos:topConceptOf :836 .
 
 :844 a owl:NamedIndividual,
@@ -700,7 +707,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :836 ;
     skos:notation 844 ;
     skos:prefLabel "herbivore"@en,
-        "herbivore"@fr ;
+        "herbivore"@fr,
+        "herbívoro"@es ;
     skos:topConceptOf :836 .
 
 rdf:List a owl:Class .
@@ -5851,7 +5859,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 787 ;
     skos:prefLabel "pollen identification"@en,
-        "identification du pollen"@fr ;
+        "identification du pollen"@fr,
+        "identificación del polen"@es ;
     skos:semanticRelation :780 .
 
 :788 a owl:NamedIndividual,
@@ -5861,7 +5870,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 788 ;
     skos:prefLabel "pollen washes"@en,
-        "lavages polliniques"@fr ;
+        "lavages polliniques"@fr,
+        "lavados de polen"@es ;
     skos:semanticRelation :780 .
 
 :789 a owl:NamedIndividual,
@@ -5871,7 +5881,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 789 ;
     skos:prefLabel "multi-proxy analysis"@en,
-        "analyse multiproxy"@fr ;
+        "analyse multiproxy"@fr,
+        "análisis multiproxy"@es ;
     skos:semanticRelation :780 .
 
 :79 a owl:NamedIndividual,
@@ -5892,7 +5903,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 790 ;
     skos:prefLabel "multidisciplinary study"@en,
-        "étude multidisciplinaire"@fr ;
+        "étude multidisciplinaire"@fr,
+        "estudio multidisciplinario"@es ;
     skos:semanticRelation :780 .
 
 :791 a owl:NamedIndividual,
@@ -5902,7 +5914,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 791 ;
     skos:prefLabel "palaeoclimatic approach"@en,
-        "approche paléoclimatique"@fr ;
+        "approche paléoclimatique"@fr,
+        "enfoque paleoclimático"@es ;
     skos:semanticRelation :780 .
 
 :793 a owl:NamedIndividual,
@@ -5912,7 +5925,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 793 ;
     skos:prefLabel "botanical macroremains"@en,
-        "macrorestes botaniques"@fr ;
+        "macrorestes botaniques"@fr,
+        "macrorestos botánicos"@es ;
     skos:semanticRelation :792 .
 
 :795 a owl:NamedIndividual,
@@ -5922,7 +5936,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 795 ;
     skos:prefLabel "palaeovegetation"@en,
-        "paléovégétation"@fr ;
+        "paléovégétation"@fr,
+        "paleovegetación"@es ;
     skos:semanticRelation :792 .
 
 :796 a owl:NamedIndividual,
@@ -5932,7 +5947,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 796 ;
     skos:prefLabel "past vegetation"@en,
-        "végétation passée"@fr ;
+        "végétation passée"@fr,
+        "vegetación pasada"@es ;
     skos:semanticRelation :792 .
 
 :797 a owl:NamedIndividual,
@@ -5942,7 +5958,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 797 ;
     skos:prefLabel "plant communities"@en,
-        "communautés végétales"@fr ;
+        "communautés végétales"@fr,
+        "comunidades vegetales"@es ;
     skos:semanticRelation :792 .
 
 :798 a owl:NamedIndividual,
@@ -5952,7 +5969,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 798 ;
     skos:prefLabel "spores"@en,
-        "spores"@fr ;
+        "spores"@fr,
+        "esporas"@es ;
     skos:semanticRelation :792 .
 
 :799 a owl:NamedIndividual,
@@ -5962,7 +5980,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 799 ;
     skos:prefLabel "root canals"@en,
-        "canaux racinaires"@fr ;
+        "canaux racinaires"@fr,
+        "conductos radiculares"@es ;
     skos:semanticRelation :792 .
 
 :8 a owl:NamedIndividual,
@@ -5994,7 +6013,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 800 ;
     skos:prefLabel "archaeological parenchyma"@en,
-        "parenchyme archéologique"@fr ;
+        "parenchyme archéologique"@fr,
+        "parénquima arqueológico"@es ;
     skos:semanticRelation :792 .
 
 :801 a owl:NamedIndividual,
@@ -6004,7 +6024,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 801 ;
     skos:prefLabel "vegetal formation"@en,
-        "formation végétale"@fr ;
+        "formation végétale"@fr,
+        "formación vegetal"@es ;
     skos:semanticRelation :792 .
 
 :802 a owl:NamedIndividual,
@@ -6014,7 +6035,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 802 ;
     skos:prefLabel "vegetation"@en,
-        "végétation"@fr ;
+        "végétation"@fr,
+        "vegetación"@es ;
     skos:semanticRelation :792 .
 
 :803 a owl:NamedIndividual,
@@ -6024,7 +6046,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 803 ;
     skos:prefLabel "vegetation dynamics"@en,
-        "dynamique de la végétation"@fr ;
+        "dynamique de la végétation"@fr,
+        "dinámica de la vegetación"@es ;
     skos:semanticRelation :792 .
 
 :804 a owl:NamedIndividual,
@@ -6034,7 +6057,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 804 ;
     skos:prefLabel "palaeoclimate"@en,
-        "paléoclimat"@fr ;
+        "paléoclimat"@fr,
+        "paleoclima"@es ;
     skos:semanticRelation :792 .
 
 :805 a owl:NamedIndividual,
@@ -6044,7 +6068,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 805 ;
     skos:prefLabel "paleoclimatic reconstruction"@en,
-        "reconstruction paléoclimatique"@fr ;
+        "reconstruction paléoclimatique"@fr,
+        "reconstrucción paleoclimática"@es ;
     skos:semanticRelation :792 .
 
 :807 a owl:NamedIndividual,
@@ -6054,7 +6079,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 807 ;
     skos:prefLabel "archaeological wood and charcoal"@en,
-        "bois et charbon de bois archéologiques"@fr ;
+        "bois et charbon de bois archéologiques"@fr,
+        "madera y carbón arqueológicos"@es ;
     skos:semanticRelation :806 .
 
 :808 a owl:NamedIndividual,
@@ -6064,7 +6090,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 808 ;
     skos:prefLabel "ashes"@en,
-        "cendres"@fr ;
+        "cendres"@fr,
+        "cenizas"@es ;
     skos:semanticRelation :806 .
 
 :809 a owl:NamedIndividual,
@@ -6074,7 +6101,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 809 ;
     skos:prefLabel "biomass burning"@en,
-        "combustion de biomasse"@fr ;
+        "combustion de biomasse"@fr,
+        "quema de biomasa"@es ;
     skos:semanticRelation :806 .
 
 :81 a owl:NamedIndividual,
@@ -6095,7 +6123,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 810 ;
     skos:prefLabel "burning"@en,
-        "brûlage"@fr ;
+        "brûlage"@fr,
+        "quemado"@es ;
     skos:semanticRelation :806 .
 
 :811 a owl:NamedIndividual,
@@ -6105,7 +6134,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 811 ;
     skos:prefLabel "burnt bones"@en,
-        "os brûlés"@fr ;
+        "os brûlés"@fr,
+        "huesos quemados"@es ;
     skos:semanticRelation :806 .
 
 :812 a owl:NamedIndividual,
@@ -6115,7 +6145,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 812 ;
     skos:prefLabel "charcoal"@en,
-        "charbon de bois"@fr ;
+        "charbon de bois"@fr,
+        "carbón vegetal"@es ;
     skos:semanticRelation :806 .
 
 :814 a owl:NamedIndividual,
@@ -6125,7 +6156,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 814 ;
     skos:prefLabel "charcoal taphonomy"@en,
-        "taphonomie du charbon de bois"@fr ;
+        "taphonomie du charbon de bois"@fr,
+        "tafonomía del carbón vegetal"@es ;
     skos:semanticRelation :806 .
 
 :815 a owl:NamedIndividual,
@@ -6135,7 +6167,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 815 ;
     skos:prefLabel "controlled use of fire"@en,
-        "utilisation contrôlée du feu"@fr ;
+        "utilisation contrôlée du feu"@fr,
+        "uso controlado del fuego"@es ;
     skos:semanticRelation :806 .
 
 :816 a owl:NamedIndividual,
@@ -6145,7 +6178,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 816 ;
     skos:prefLabel "dung burning"@en,
-        "combustion de fumier"@fr ;
+        "combustion de fumier"@fr,
+        "quema de estiércol"@es ;
     skos:semanticRelation :806 .
 
 :817 a owl:NamedIndividual,
@@ -6155,7 +6189,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 817 ;
     skos:prefLabel "dung management"@en,
-        "gestion du fumier"@fr ;
+        "gestion du fumier"@fr,
+        "manejo del estiércol"@es ;
     skos:semanticRelation :806 .
 
 :818 a owl:NamedIndividual,
@@ -6165,7 +6200,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 818 ;
     skos:prefLabel "dung spherulites"@en,
-        "sphérulites de fumier"@fr ;
+        "sphérulites de fumier"@fr,
+        "esferulitas de estiércol"@es ;
     skos:semanticRelation :806 .
 
 :819 a owl:NamedIndividual,
@@ -6175,7 +6211,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 819 ;
     skos:prefLabel "fire"@en,
-        "feu"@fr ;
+        "feu"@fr,
+        "fuego"@es ;
     skos:semanticRelation :806 .
 
 :82 a owl:NamedIndividual,
@@ -6196,7 +6233,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 820 ;
     skos:prefLabel "fire making"@en,
-        "production du feu"@fr ;
+        "production du feu"@fr,
+        "producción de fuego"@es ;
     skos:semanticRelation :806 .
 
 :821 a owl:NamedIndividual,
@@ -6206,7 +6244,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 821 ;
     skos:prefLabel "firewood"@en,
-        "bois de chauffage"@fr ;
+        "bois de chauffage"@fr,
+        "leña"@es ;
     skos:semanticRelation :806 .
 
 :822 a owl:NamedIndividual,
@@ -6216,7 +6255,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 822 ;
     skos:prefLabel "wood charcoal analysis"@en,
-        "analyse du charbon de bois"@fr ;
+        "analyse du charbon de bois"@fr,
+        "análisis de carbón vegetal"@es ;
     skos:semanticRelation :806 .
 
 :823 a owl:NamedIndividual,
@@ -6226,7 +6266,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 823 ;
     skos:prefLabel "combustion structures"@en,
-        "structures de combustion"@fr ;
+        "structures de combustion"@fr,
+        "estructuras de combustión"@es ;
     skos:semanticRelation :806 .
 
 :824 a owl:NamedIndividual,
@@ -6236,7 +6277,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 824 ;
     skos:prefLabel "flash-pyrolysis"@en,
-        "pyrolyse flash"@fr ;
+        "pyrolyse flash"@fr,
+        "pirólisis flash"@es ;
     skos:semanticRelation :806 .
 
 :825 a owl:NamedIndividual,
@@ -6246,7 +6288,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 825 ;
     skos:prefLabel "archaeological hearths"@en,
-        "foyers archéologiques"@fr ;
+        "foyers archéologiques"@fr,
+        "hogares arqueológicos"@es ;
     skos:semanticRelation :806 .
 
 :826 a owl:NamedIndividual,
@@ -6256,7 +6299,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 826 ;
     skos:prefLabel "hearth-related accumulations"@en,
-        "accumulations liées aux foyers"@fr ;
+        "accumulations liées aux foyers"@fr,
+        "acumulaciones relacionadas con el hogar"@es ;
     skos:semanticRelation :806 .
 
 :827 a owl:NamedIndividual,
@@ -6266,7 +6310,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 827 ;
     skos:prefLabel "hearth-related activities"@en,
-        "activités liées au foyer"@fr ;
+        "activités liées au foyer"@fr,
+        "actividades relacionadas con el hogar"@es ;
     skos:semanticRelation :806 .
 
 :828 a owl:NamedIndividual,
@@ -6276,7 +6321,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 828 ;
     skos:prefLabel "hearths"@en,
-        "foyers"@fr ;
+        "foyers"@fr,
+        "hogares"@es ;
     skos:semanticRelation :806 .
 
 :829 a owl:NamedIndividual,
@@ -6286,7 +6332,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 829 ;
     skos:prefLabel "pit hearth"@en,
-        "foyer en fosse"@fr ;
+        "foyer en fosse"@fr,
+        "hogar en fosa"@es ;
     skos:semanticRelation :806 .
 
 :83 a owl:NamedIndividual,
@@ -6307,7 +6354,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 831 ;
     skos:prefLabel "human disturbance"@en,
-        "perturbation humaine"@fr ;
+        "perturbation humaine"@fr,
+        "perturbación humana"@es ;
     skos:semanticRelation :830 .
 
 :832 a owl:NamedIndividual,
@@ -6317,7 +6365,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 832 ;
     skos:prefLabel "land use patterns"@en,
-        "modes d'occupation du sol"@fr ;
+        "modes d'occupation du sol"@fr,
+        "patrones de uso del suelo"@es ;
     skos:semanticRelation :830 .
 
 :833 a owl:NamedIndividual,
@@ -6327,7 +6376,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 833 ;
     skos:prefLabel "neolithic land-use"@en,
-        "occupation du sol au Néolithique"@fr ;
+        "occupation du sol au Néolithique"@fr,
+        "uso del suelo en el Neolítico"@es ;
     skos:semanticRelation :830 .
 
 :835 a owl:NamedIndividual,
@@ -6337,7 +6387,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 835 ;
     skos:prefLabel "holocene atlantic period"@en,
-        "période holocène atlantique"@fr ;
+        "période holocène atlantique"@fr,
+        "período atlántico holoceno"@es ;
     skos:semanticRelation :834 .
 
 :84 a owl:NamedIndividual,
@@ -6384,7 +6435,8 @@ skos:inScheme a owl:ObjectProperty ;
         :1035 ;
     skos:notation 874 ;
     skos:prefLabel "hunting and foraging"@en,
-        "chasse et collecte"@fr ;
+        "chasse et collecte"@fr,
+        "caza y recolección"@es ;
     skos:semanticRelation :1024,
         :1030,
         :1035 ;
@@ -6823,7 +6875,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 813 ;
     skos:prefLabel "charcoal analysis"@en,
-        "analyse du charbon de bois"@fr ;
+        "analyse du charbon de bois"@fr,
+        "análisis de carbón vegetal"@es ;
     skos:related :776 ;
     skos:semanticRelation :806 .
 
@@ -6834,7 +6887,8 @@ skos:related a owl:ObjectProperty,
     skos:narrowerTransitive :740 ;
     skos:notation 926 ;
     skos:prefLabel "spatial taphonomy"@en,
-        "taphonomie spatiale"@fr ;
+        "taphonomie spatiale"@fr,
+        "tafonomía espacial"@es ;
     skos:semanticRelation :740 ;
     skos:topConceptOf :882 .
 
@@ -9806,7 +9860,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 941 ;
     skos:prefLabel "aggressive cannibalism"@en,
-        "cannibalisme agressif"@fr ;
+        "cannibalisme agressif"@fr,
+        "canibalismo agresivo"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9818,7 +9873,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 942 ;
     skos:prefLabel "cannibalism"@en,
-        "cannibalisme"@fr ;
+        "cannibalisme"@fr,
+        "canibalismo"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9830,7 +9886,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 943 ;
     skos:prefLabel "gastronomic and nutritional cannibalism"@en,
-        "cannibalisme gastronomique et nutritionnel"@fr ;
+        "cannibalisme gastronomique et nutritionnel"@fr,
+        "canibalismo gastronómico y nutricional"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9842,7 +9899,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 944 ;
     skos:prefLabel "nutritional cannibalism"@en,
-        "cannibalisme nutritionnel"@fr ;
+        "cannibalisme nutritionnel"@fr,
+        "canibalismo nutricional"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9854,7 +9912,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 945 ;
     skos:prefLabel "prehistoric cannibalism"@en,
-        "cannibalisme préhistorique"@fr ;
+        "cannibalisme préhistorique"@fr,
+        "canibalismo prehistórico"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9866,7 +9925,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 946 ;
     skos:prefLabel "ritual cannibalism"@en,
-        "cannibalisme rituel"@fr ;
+        "cannibalisme rituel"@fr,
+        "canibalismo ritual"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9878,7 +9938,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 947 ;
     skos:prefLabel "survival cannibalism"@en,
-        "cannibalisme de survie"@fr ;
+        "cannibalisme de survie"@fr,
+        "canibalismo de supervivencia"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9890,7 +9951,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 948 ;
     skos:prefLabel "endocannibalism"@en,
-        "endocannibalisme"@fr ;
+        "endocannibalisme"@fr,
+        "endocanibalismo"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9902,7 +9964,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 949 ;
     skos:prefLabel "exocannibalism"@en,
-        "exocannibalisme"@fr ;
+        "exocannibalisme"@fr,
+        "exocanibalismo"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9914,7 +9977,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 950 ;
     skos:prefLabel "anthropophagy"@en,
-        "anthropophagie"@fr ;
+        "anthropophagie"@fr,
+        "antropofagia"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9926,7 +9990,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 951 ;
     skos:prefLabel "human skull-cup"@en,
-        "coupe crânienne humaine"@fr ;
+        "coupe crânienne humaine"@fr,
+        "copa de cráneo humano"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9938,7 +10003,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 952 ;
     skos:prefLabel "scalping"@en,
-        "scalpation"@fr ;
+        "scalpation"@fr,
+        "escalpamiento"@es ;
     skos:semanticRelation :939,
         :987 .
 
@@ -9950,7 +10016,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 954 ;
     skos:prefLabel "mass vs mutiple death"@en,
-        "décès de masse ou multiples"@fr ;
+        "décès de masse ou multiples"@fr,
+        "muerte masiva frente a múltiple"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -9962,7 +10029,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 955 ;
     skos:prefLabel "burial"@en,
-        "sépulture"@fr ;
+        "sépulture"@fr,
+        "sepultura"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -9974,7 +10042,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 956 ;
     skos:prefLabel "burial deposit"@en,
-        "dépôt funéraire"@fr ;
+        "dépôt funéraire"@fr,
+        "depósito funerario"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -9986,7 +10055,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 957 ;
     skos:prefLabel "funerary practices"@en,
-        "pratique funéraire"@fr ;
+        "pratique funéraire"@fr,
+        "prácticas funerarias"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -9998,7 +10068,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 958 ;
     skos:prefLabel "megalithic tombs"@en,
-        "tombeaux mégalithiques"@fr ;
+        "tombeaux mégalithiques"@fr,
+        "tumbas megalíticas"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10010,7 +10081,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 959 ;
     skos:prefLabel "mousterian burial"@en,
-        "sépulture moustérienne"@fr ;
+        "sépulture moustérienne"@fr,
+        "sepultura musteriense"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10022,7 +10094,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 960 ;
     skos:prefLabel "collective burial"@en,
-        "sépulture collective"@fr ;
+        "sépulture collective"@fr,
+        "sepultura colectiva"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10034,7 +10107,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 961 ;
     skos:prefLabel "double burial"@en,
-        "sépulture double"@fr ;
+        "sépulture double"@fr,
+        "sepultura doble"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10046,7 +10120,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 962 ;
     skos:prefLabel "grave"@en,
-        "sépulture"@fr ;
+        "sépulture"@fr,
+        "sepultura"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10058,7 +10133,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 963 ;
     skos:prefLabel "graveyard"@en,
-        "cimetière"@fr ;
+        "cimetière"@fr,
+        "cementerio"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10070,7 +10146,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 964 ;
     skos:prefLabel "incineration"@en,
-        "crémation"@fr ;
+        "crémation"@fr,
+        "incineración"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10082,7 +10159,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 965 ;
     skos:prefLabel "cremation"@en,
-        "crémation"@fr ;
+        "crémation"@fr,
+        "cremación"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10094,7 +10172,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 966 ;
     skos:prefLabel "grave goods"@en,
-        "mobilier funéraire"@fr ;
+        "mobilier funéraire"@fr,
+        "ajuar funerario"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10106,7 +10185,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 967 ;
     skos:prefLabel "mmummy"@en,
-        "momie"@fr ;
+        "momie"@fr,
+        "momia"@es ;
     skos:semanticRelation :1019,
         :939 .
 
@@ -10118,7 +10198,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 969 ;
     skos:prefLabel "interpersonal violence"@en,
-        "violence interpersonnelle"@fr ;
+        "violence interpersonnelle"@fr,
+        "violencia interpersonal"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10130,7 +10211,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 970 ;
     skos:prefLabel "violencia"@en,
-        "violence"@fr ;
+        "violence"@fr,
+        "violencia"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10142,7 +10224,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 971 ;
     skos:prefLabel "scapling"@en,
-        "scalpation"@fr ;
+        "scalpation"@fr,
+        "escalpamiento"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10154,7 +10237,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 972 ;
     skos:prefLabel "decapitation"@en,
-        "décapitation"@fr ;
+        "décapitation"@fr,
+        "decapitación"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10317,7 +10401,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 794 ;
     skos:prefLabel "microscopic charcoal"@en,
-        "charbons microscopiques"@fr ;
+        "charbons microscopiques"@fr,
+        "microcarbones"@es ;
     skos:semanticRelation :792,
         :806 .
 
@@ -10885,7 +10970,8 @@ skos:semanticRelation a owl:ObjectProperty ;
         :998 ;
     skos:notation 865 ;
     skos:prefLabel "sheparding and farming"@en,
-        "pastoralisme et agriculture"@fr ;
+        "pastoralisme et agriculture"@fr,
+        "pastoreo y agricultura"@es ;
     skos:semanticRelation :1001,
         :1014,
         :1025,
@@ -10924,7 +11010,8 @@ skos:mappingRelation a owl:ObjectProperty ;
         :833 ;
     skos:notation 830 ;
     skos:prefLabel "land use and human impact"@en,
-        "occupation du sol et impact anthropique"@fr ;
+        "occupation du sol et impact anthropique"@fr,
+        "uso del suelo e impacto humano"@es ;
     skos:semanticRelation :831,
         :832,
         :833 ;
@@ -10941,7 +11028,8 @@ skos:mappingRelation a owl:ObjectProperty ;
         :1064 ;
     skos:notation 878 ;
     skos:prefLabel "taxonomy"@en,
-        "taxonomie"@fr ;
+        "taxonomie"@fr,
+        "taxonomía"@es ;
     skos:semanticRelation :1017,
         :1018,
         :1064 ;
@@ -11064,7 +11152,8 @@ skos:ConceptScheme a owl:Class ;
         :997 ;
     skos:notation 861 ;
     skos:prefLabel "functionality"@en,
-        "fonctionnalité"@fr ;
+        "fonctionnalité"@fr,
+        "funcionalidad"@es ;
     skos:semanticRelation :264,
         :283,
         :285,
@@ -11307,7 +11396,8 @@ skos:ConceptScheme a owl:Class ;
         :988 ;
     skos:notation 927 ;
     skos:prefLabel "taphonomic agent"@en,
-        "agent taphonomique"@fr ;
+        "agent taphonomique"@fr,
+        "agente tafonómico"@es ;
     skos:semanticRelation :1006,
         :1015,
         :1016,
@@ -11439,7 +11529,8 @@ skos:ConceptScheme a owl:Class ;
         :835 ;
     skos:notation 834 ;
     skos:prefLabel "climate periods"@en,
-        "périodes climatiques"@fr ;
+        "périodes climatiques"@fr,
+        "periodos climáticos"@es ;
     skos:semanticRelation :567,
         :581,
         :582,
@@ -11803,7 +11894,8 @@ skos:ConceptScheme a owl:Class ;
         :1071 ;
     skos:notation 847 ;
     skos:prefLabel "ecology"@en,
-        "écologie"@fr ;
+        "écologie"@fr,
+        "ecología"@es ;
     skos:semanticRelation :1004,
         :1005,
         :1013,
@@ -11999,7 +12091,8 @@ skos:ConceptScheme a owl:Class ;
         :878 ;
     skos:notation 836 ;
     skos:prefLabel "zooarchaeology"@en,
-        "zooarchéologie"@fr .
+        "zooarchéologie"@fr,
+        "zooarqueología"@es .
 
 :698 a owl:NamedIndividual,
         skos:Concept ;
@@ -12127,7 +12220,8 @@ skos:ConceptScheme a owl:Class ;
         :805 ;
     skos:notation 792 ;
     skos:prefLabel "object of study"@en,
-        "objet d'étude"@fr ;
+        "objet d'étude"@fr,
+        "objeto de estudio"@es ;
     skos:semanticRelation :562,
         :563,
         :566,
@@ -12206,7 +12300,8 @@ skos:ConceptScheme a owl:Class ;
         :829 ;
     skos:notation 806 ;
     skos:prefLabel "burn and combustion"@en,
-        "brûlage et combustion"@fr ;
+        "brûlage et combustion"@fr,
+        "quemado y combustión"@es ;
     skos:semanticRelation :794,
         :807,
         :808,
@@ -12491,7 +12586,8 @@ skos:ConceptScheme a owl:Class ;
         :987 ;
     skos:notation 939 ;
     skos:prefLabel "forensic taphonomy"@en,
-        "taphonomie médico-légale"@fr ;
+        "taphonomie médico-légale"@fr,
+        "tafonomía forense"@es ;
     skos:semanticRelation :1019,
         :1072,
         :760,
@@ -12698,7 +12794,8 @@ skos:ConceptScheme a owl:Class ;
         :939 ;
     skos:notation 882 ;
     skos:prefLabel "taphonomy"@en,
-        "taphonomie"@fr .
+        "taphonomie"@fr,
+        "tafonomía"@es .
 
 :341 a owl:NamedIndividual,
         skos:Concept ;
