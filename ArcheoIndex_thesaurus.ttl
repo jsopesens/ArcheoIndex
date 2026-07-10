@@ -356,7 +356,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 721 ;
     skos:prefLabel "darwinism"@en,
-        "darwinisme"@fr ;
+        "darwinisme"@fr,
+        "darwinismo"@es ;
     skos:topConceptOf :697 .
 
 :722 a owl:NamedIndividual,
@@ -364,7 +365,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 722 ;
     skos:prefLabel "dispersal"@en,
-        "dispersion"@fr ;
+        "dispersion"@fr,
+        "dispersión"@es ;
     skos:topConceptOf :697 .
 
 :723 a owl:NamedIndividual,
@@ -372,7 +374,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 723 ;
     skos:prefLabel "early modern humans"@en,
-        "les premiers humains modernes"@fr ;
+        "les premiers humains modernes"@fr,
+        "primeros humanos modernos"@es ;
     skos:topConceptOf :697 .
 
 :724 a owl:NamedIndividual,
@@ -380,7 +383,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 724 ;
     skos:prefLabel "evolution"@en,
-        "évolution"@fr ;
+        "évolution"@fr,
+        "evolución"@es ;
     skos:topConceptOf :697 .
 
 :725 a owl:NamedIndividual,
@@ -388,7 +392,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 725 ;
     skos:prefLabel "extinction"@en,
-        "extinction"@fr ;
+        "extinction"@fr,
+        "extinción"@es ;
     skos:topConceptOf :697 .
 
 :726 a owl:NamedIndividual,
@@ -396,7 +401,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 726 ;
     skos:prefLabel "evolutionary constraint"@en,
-        "contrainte évolutive"@fr ;
+        "contrainte évolutive"@fr,
+        "restricción evolutiva"@es ;
     skos:topConceptOf :697 .
 
 :727 a owl:NamedIndividual,
@@ -404,7 +410,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 727 ;
     skos:prefLabel "evolutionary scenario"@en,
-        "scénario évolutif"@fr ;
+        "scénario évolutif"@fr,
+        "escenario evolutivo"@es ;
     skos:topConceptOf :697 .
 
 :728 a owl:NamedIndividual,
@@ -412,7 +419,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 728 ;
     skos:prefLabel "evolutionary trends"@en,
-        "tendances évolutives"@fr ;
+        "tendances évolutives"@fr,
+        "tendencias evolutivas"@es ;
     skos:topConceptOf :697 .
 
 :729 a owl:NamedIndividual,
@@ -420,7 +428,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 729 ;
     skos:prefLabel "extinction event"@en,
-        "événement d'extinction"@fr ;
+        "événement d'extinction"@fr,
+        "evento de extinción"@es ;
     skos:topConceptOf :697 .
 
 :730 a owl:NamedIndividual,
@@ -428,7 +437,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 730 ;
     skos:prefLabel "fossil record"@en,
-        "registre fossile"@fr ;
+        "registre fossile"@fr,
+        "registro fósil"@es ;
     skos:topConceptOf :697 .
 
 :731 a owl:NamedIndividual,
@@ -436,7 +446,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 731 ;
     skos:prefLabel "intraspecific variation"@en,
-        "variation intraspécifique"@fr ;
+        "variation intraspécifique"@fr,
+        "variación intraespecífica"@es ;
     skos:topConceptOf :697 .
 
 :732 a owl:NamedIndividual,
@@ -444,7 +455,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 732 ;
     skos:prefLabel "phylogeny"@en,
-        "phylogénie"@fr ;
+        "phylogénie"@fr,
+        "filogenia"@es ;
     skos:topConceptOf :697 .
 
 :733 a owl:NamedIndividual,
@@ -452,7 +464,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :697 ;
     skos:notation 733 ;
     skos:prefLabel "new species"@en,
-        "nouvelle espèce"@fr ;
+        "nouvelle espèce"@fr,
+        "nueva especie"@es ;
     skos:topConceptOf :697 .
 
 :736 a owl:NamedIndividual,
@@ -460,7 +473,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 736 ;
     skos:prefLabel "bioapatite"@en,
-        "bioapatite"@fr ;
+        "bioapatite"@fr,
+        "bioapatita"@es ;
     skos:topConceptOf :734 .
 
 :737 a owl:NamedIndividual,
@@ -468,7 +482,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 737 ;
     skos:prefLabel "body mass"@en,
-        "masse corporelle"@fr ;
+        "masse corporelle"@fr,
+        "masa corporal"@es ;
     skos:topConceptOf :734 .
 
 :738 a owl:NamedIndividual,
@@ -476,7 +491,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 738 ;
     skos:prefLabel "body size"@en,
-        "taille du corps"@fr ;
+        "taille du corps"@fr,
+        "tamaño del cuerpo"@es ;
     skos:topConceptOf :734 .
 
 :741 a owl:NamedIndividual,
@@ -484,7 +500,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 741 ;
     skos:prefLabel "body shape"@en,
-        "forme du corps"@fr ;
+        "forme du corps"@fr,
+        "forma del cuerpo"@es ;
     skos:topConceptOf :734 .
 
 :745 a owl:NamedIndividual,
@@ -492,7 +509,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 745 ;
     skos:prefLabel "bone lesions"@en,
-        "lésions osseuses"@fr ;
+        "lésions osseuses"@fr,
+        "lesiones óseas"@es ;
     skos:topConceptOf :734 .
 
 :746 a owl:NamedIndividual,
@@ -500,7 +518,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 746 ;
     skos:prefLabel "chemical alteration"@en,
-        "altération chimique"@fr ;
+        "altération chimique"@fr,
+        "alteración química"@es ;
     skos:topConceptOf :734 .
 
 :747 a owl:NamedIndividual,
@@ -508,7 +527,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 747 ;
     skos:prefLabel "chemical weathering"@en,
-        "altération chimique"@fr ;
+        "altération chimique"@fr,
+        "meteorización química"@es ;
     skos:topConceptOf :734 .
 
 :748 a owl:NamedIndividual,
@@ -516,7 +536,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 748 ;
     skos:prefLabel "hamann-todd collection"@en,
-        "collection hamann-todd"@fr ;
+        "collection hamann-todd"@fr,
+        "colección hamann-todd"@es ;
     skos:topConceptOf :734 .
 
 :749 a owl:NamedIndividual,
@@ -524,7 +545,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 749 ;
     skos:prefLabel "individual number"@en,
-        "nombre d'individus"@fr ;
+        "nombre d'individus"@fr,
+        "número de individuos"@es ;
     skos:topConceptOf :734 .
 
 :750 a owl:NamedIndividual,
@@ -532,7 +554,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 750 ;
     skos:prefLabel "insertion areas"@en,
-        "zones d'insertion"@fr ;
+        "zones d'insertion"@fr,
+        "áreas de inserción"@es ;
     skos:topConceptOf :734 .
 
 :751 a owl:NamedIndividual,
@@ -540,7 +563,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 751 ;
     skos:prefLabel "mechanical alteration"@en,
-        "altération mécanique"@fr ;
+        "altération mécanique"@fr,
+        "alteración mecánica"@es ;
     skos:topConceptOf :734 .
 
 :752 a owl:NamedIndividual,
@@ -548,7 +572,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 752 ;
     skos:prefLabel "muscle architecture"@en,
-        "architecture musculaire"@fr ;
+        "architecture musculaire"@fr,
+        "arquitectura muscular"@es ;
     skos:topConceptOf :734 .
 
 :753 a owl:NamedIndividual,
@@ -556,7 +581,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 753 ;
     skos:prefLabel "musculoskeletal stress markers"@en,
-        "marqueurs de stress musculo-squelettique"@fr ;
+        "marqueurs de stress musculo-squelettique"@fr,
+        "marcadores de estrés musculoesquelético"@es ;
     skos:topConceptOf :734 .
 
 :757 a owl:NamedIndividual,
@@ -564,7 +590,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 757 ;
     skos:prefLabel "qualitative anatomical identification"@en,
-        "identification anatomique qualitative"@fr ;
+        "identification anatomique qualitative"@fr,
+        "identificación anatómica cualitativa"@es ;
     skos:topConceptOf :734 .
 
 :758 a owl:NamedIndividual,
@@ -572,7 +599,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 758 ;
     skos:prefLabel "relationship between muscles and bones"@en,
-        "relation entre les muscles et les os"@fr ;
+        "relation entre les muscles et les os"@fr,
+        "relación entre músculos y huesos"@es ;
     skos:topConceptOf :734 .
 
 :759 a owl:NamedIndividual,
@@ -580,7 +608,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 759 ;
     skos:prefLabel "ritual practices"@en,
-        "pratiques rituelles"@fr ;
+        "pratiques rituelles"@fr,
+        "prácticas rituales"@es ;
     skos:topConceptOf :734 .
 
 :761 a owl:NamedIndividual,
@@ -588,7 +617,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 761 ;
     skos:prefLabel "sex-based division of labor"@en,
-        "division du travail selon le sexe"@fr ;
+        "division du travail selon le sexe"@fr,
+        "división del trabajo basada en el sexo"@es ;
     skos:topConceptOf :734 .
 
 :762 a owl:NamedIndividual,
@@ -596,7 +626,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 762 ;
     skos:prefLabel "stature"@en,
-        "stature"@fr ;
+        "stature"@fr,
+        "estatura"@es ;
     skos:topConceptOf :734 .
 
 :763 a owl:NamedIndividual,
@@ -604,7 +635,8 @@ skos:scopeNote a owl:AnnotationProperty ;
     skos:inScheme :734 ;
     skos:notation 763 ;
     skos:prefLabel "stress"@en,
-        "stress"@fr ;
+        "stress"@fr,
+        "estrés"@es ;
     skos:topConceptOf :734 .
 
 :837 a owl:NamedIndividual,
@@ -729,7 +761,8 @@ skos:topConceptOf a owl:ObjectProperty ;
         :836 ;
     skos:notation 754 ;
     skos:prefLabel "osteoarcheological remains"@en,
-        "vestiges ostéoarchéologiques"@fr ;
+        "vestiges ostéoarchéologiques"@fr,
+        "restos osteoarqueológicos"@es ;
     skos:topConceptOf :734,
         :836 .
 
@@ -5322,7 +5355,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 699 ;
     skos:prefLabel "american peopling"@en,
-        "peuplement américain"@fr ;
+        "peuplement américain"@fr,
+        "poblamiento americano"@es ;
     skos:semanticRelation :698 .
 
 :7 a owl:NamedIndividual,
@@ -5354,7 +5388,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 700 ;
     skos:prefLabel "anatomically modern humans"@en,
-        "humains anatomiquement modernes"@fr ;
+        "humains anatomiquement modernes"@fr,
+        "humanos anatómicamente modernos"@es ;
     skos:semanticRelation :698 .
 
 :701 a owl:NamedIndividual,
@@ -5364,7 +5399,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 701 ;
     skos:prefLabel "hominin evolution"@en,
-        "évolution des hominines"@fr ;
+        "évolution des hominines"@fr,
+        "evolución de los homininos"@es ;
     skos:semanticRelation :698 .
 
 :702 a owl:NamedIndividual,
@@ -5374,7 +5410,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 702 ;
     skos:prefLabel "hominin fossils"@en,
-        "fossiles d'hominines"@fr ;
+        "fossiles d'hominines"@fr,
+        "fósiles de homininos"@es ;
     skos:semanticRelation :698 .
 
 :703 a owl:NamedIndividual,
@@ -5384,7 +5421,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 703 ;
     skos:prefLabel "hominin subsistence strategies"@en,
-        "stratégies de subsistance des hominines"@fr ;
+        "stratégies de subsistance des hominines"@fr,
+        "estrategias de subsistencia de los homininos"@es ;
     skos:semanticRelation :698 .
 
 :704 a owl:NamedIndividual,
@@ -5394,7 +5432,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 704 ;
     skos:prefLabel "hominisation"@en,
-        "hominisation"@fr ;
+        "hominisation"@fr,
+        "hominización"@es ;
     skos:semanticRelation :698 .
 
 :705 a owl:NamedIndividual,
@@ -5404,7 +5443,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 705 ;
     skos:prefLabel "human fossils"@en,
-        "fossiles humains"@fr ;
+        "fossiles humains"@fr,
+        "fósiles humanos"@es ;
     skos:semanticRelation :698 .
 
 :706 a owl:NamedIndividual,
@@ -5414,7 +5454,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 706 ;
     skos:prefLabel "human impact"@en,
-        "impact humain"@fr ;
+        "impact humain"@fr,
+        "impacto humano"@es ;
     skos:semanticRelation :698 .
 
 :707 a owl:NamedIndividual,
@@ -5424,7 +5465,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 707 ;
     skos:prefLabel "human osteology"@en,
-        "ostéologie humaine"@fr ;
+        "ostéologie humaine"@fr,
+        "osteología humana"@es ;
     skos:semanticRelation :698 .
 
 :708 a owl:NamedIndividual,
@@ -5434,7 +5476,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 708 ;
     skos:prefLabel "human practices"@en,
-        "pratiques humaines"@fr ;
+        "pratiques humaines"@fr,
+        "prácticas humanas"@es ;
     skos:semanticRelation :698 .
 
 :709 a owl:NamedIndividual,
@@ -5444,7 +5487,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 709 ;
     skos:prefLabel "human prehistory"@en,
-        "préhistoire humaine"@fr ;
+        "préhistoire humaine"@fr,
+        "prehistoria humana"@es ;
     skos:semanticRelation :698 .
 
 :71 a owl:NamedIndividual,
@@ -5465,7 +5509,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 710 ;
     skos:prefLabel "last neanderthals"@en,
-        "derniers néandertaliens"@fr ;
+        "derniers néandertaliens"@fr,
+        "últimos neandertales"@es ;
     skos:semanticRelation :698 .
 
 :711 a owl:NamedIndividual,
@@ -5475,7 +5520,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 711 ;
     skos:prefLabel "modern human variability"@en,
-        "variabilité humaine moderne"@fr ;
+        "variabilité humaine moderne"@fr,
+        "variabilidad humana moderna"@es ;
     skos:semanticRelation :698 .
 
 :712 a owl:NamedIndividual,
@@ -5485,7 +5531,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 712 ;
     skos:prefLabel "early hominins"@en,
-        "premiers hominines"@fr ;
+        "premiers hominines"@fr,
+        "primeros homininos"@es ;
     skos:semanticRelation :698 .
 
 :713 a owl:NamedIndividual,
@@ -5495,7 +5542,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 713 ;
     skos:prefLabel "early homo"@en,
-        "premiers Homo"@fr ;
+        "premiers Homo"@fr,
+        "primeros Homo"@es ;
     skos:semanticRelation :698 .
 
 :714 a owl:NamedIndividual,
@@ -5505,7 +5553,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 714 ;
     skos:prefLabel "european hominins"@en,
-        "hominines européens"@fr ;
+        "hominines européens"@fr,
+        "homininos europeos"@es ;
     skos:semanticRelation :698 .
 
 :715 a owl:NamedIndividual,
@@ -5515,7 +5564,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 715 ;
     skos:prefLabel "ages of homo"@en,
-        "âges du genre Homo"@fr ;
+        "âges du genre Homo"@fr,
+        "edades del género Homo"@es ;
     skos:semanticRelation :698 .
 
 :716 a owl:NamedIndividual,
@@ -5525,7 +5575,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 716 ;
     skos:prefLabel "early humans"@en,
-        "les premiers humains"@fr ;
+        "les premiers humains"@fr,
+        "primeros humanos"@es ;
     skos:semanticRelation :698 .
 
 :717 a owl:NamedIndividual,
@@ -5535,7 +5586,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 717 ;
     skos:prefLabel "kebara 2"@en,
-        "kebara 2"@fr ;
+        "kebara 2"@fr,
+        "Kebara 2"@es ;
     skos:semanticRelation :698 .
 
 :718 a owl:NamedIndividual,
@@ -5545,7 +5597,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 718 ;
     skos:prefLabel "la quina 5"@en,
-        "la quina 5"@fr ;
+        "la quina 5"@fr,
+        "la quina 5"@es ;
     skos:semanticRelation :698 .
 
 :719 a owl:NamedIndividual,
@@ -5555,7 +5608,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 719 ;
     skos:prefLabel "spy 1"@en,
-        "Spy 1"@fr ;
+        "Spy 1"@fr,
+        "Spy 1"@es ;
     skos:semanticRelation :698 .
 
 :72 a owl:NamedIndividual,
@@ -5577,7 +5631,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :697 ;
     skos:notation 720 ;
     skos:prefLabel "homo erectus"@en,
-        "homo erectus"@fr ;
+        "homo erectus"@fr,
+        "homo erectus"@es ;
     skos:semanticRelation :698 .
 
 :73 a owl:NamedIndividual,
@@ -5631,7 +5686,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 766 ;
     skos:prefLabel "archaeobiology"@en,
-        "archéobiologie"@fr ;
+        "archéobiologie"@fr,
+        "arqueobiología"@es ;
     skos:semanticRelation :765 .
 
 :767 a owl:NamedIndividual,
@@ -5641,7 +5697,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 767 ;
     skos:prefLabel "palaeoecology"@en,
-        "paléoécologie"@fr ;
+        "paléoécologie"@fr,
+        "paleoecología"@es ;
     skos:semanticRelation :765 .
 
 :768 a owl:NamedIndividual,
@@ -5651,7 +5708,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 768 ;
     skos:prefLabel "palaeobiology"@en,
-        "paléobiologie"@fr ;
+        "paléobiologie"@fr,
+        "paleobiología"@es ;
     skos:semanticRelation :765 .
 
 :769 a owl:NamedIndividual,
@@ -5661,7 +5719,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 769 ;
     skos:prefLabel "biogeography"@en,
-        "biogéographie"@fr ;
+        "biogéographie"@fr,
+        "biogeografía"@es ;
     skos:semanticRelation :765 .
 
 :77 a owl:NamedIndividual,
@@ -5682,7 +5741,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 770 ;
     skos:prefLabel "palaeogeography"@en,
-        "paléogéographie"@fr ;
+        "paléogéographie"@fr,
+        "paleogeografía"@es ;
     skos:semanticRelation :765 .
 
 :771 a owl:NamedIndividual,
@@ -5692,7 +5752,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 771 ;
     skos:prefLabel "palaeoclimatology"@en,
-        "paléoclimatologie"@fr ;
+        "paléoclimatologie"@fr,
+        "paleoclimatología"@es ;
     skos:semanticRelation :765 .
 
 :772 a owl:NamedIndividual,
@@ -5702,7 +5763,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 772 ;
     skos:prefLabel "palaeobiogeography"@en,
-        "paléobiogéographie"@fr ;
+        "paléobiogéographie"@fr,
+        "paleobiogeografía"@es ;
     skos:semanticRelation :765 .
 
 :78 a owl:NamedIndividual,
@@ -5723,7 +5785,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 781 ;
     skos:prefLabel "anthraco-typology"@en,
-        "anthraco-typologie"@fr ;
+        "anthraco-typologie"@fr,
+        "antracotipología"@es ;
     skos:semanticRelation :780 .
 
 :782 a owl:NamedIndividual,
@@ -5733,7 +5796,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 782 ;
     skos:prefLabel "fire ecology"@en,
-        "écologie du feu"@fr ;
+        "écologie du feu"@fr,
+        "ecología del fuego"@es ;
     skos:semanticRelation :780 .
 
 :783 a owl:NamedIndividual,
@@ -5743,7 +5807,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 783 ;
     skos:prefLabel "archaeopalynology"@en,
-        "archéopalynologie"@fr ;
+        "archéopalynologie"@fr,
+        "arqueopalinología"@es ;
     skos:semanticRelation :780 .
 
 :784 a owl:NamedIndividual,
@@ -5753,7 +5818,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 784 ;
     skos:prefLabel "palaeopalynology"@en,
-        "paléopalynologie"@fr ;
+        "paléopalynologie"@fr,
+        "paleopalinología"@es ;
     skos:semanticRelation :780 .
 
 :785 a owl:NamedIndividual,
@@ -5763,7 +5829,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 785 ;
     skos:prefLabel "pollen taphonomy"@en,
-        "taphonomie pollinique"@fr ;
+        "taphonomie pollinique"@fr,
+        "tafonomía del polen"@es ;
     skos:semanticRelation :780 .
 
 :786 a owl:NamedIndividual,
@@ -5773,7 +5840,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :764 ;
     skos:notation 786 ;
     skos:prefLabel "non-pollen palynomorphs"@en,
-        "palynomorphes non polliniques"@fr ;
+        "palynomorphes non polliniques"@fr,
+        "palinomorfos no polínicos"@es ;
     skos:semanticRelation :780 .
 
 :787 a owl:NamedIndividual,
@@ -6704,7 +6772,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 739 ;
     skos:prefLabel "bone modifications"@en,
-        "modifications osseuses"@fr ;
+        "modifications osseuses"@fr,
+        "modificaciones óseas"@es ;
     skos:semanticRelation :735 ;
     skos:topConceptOf :734 .
 
@@ -6716,7 +6785,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 740 ;
     skos:prefLabel "bone refits"@en,
-        "remontages osseux"@fr ;
+        "remontages osseux"@fr,
+        "remontajes óseos"@es ;
     skos:semanticRelation :926 ;
     skos:topConceptOf :734 .
 
@@ -6728,7 +6798,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 742 ;
     skos:prefLabel "bone alteration"@en,
-        "altération osseuse"@fr ;
+        "altération osseuse"@fr,
+        "alteración ósea"@es ;
     skos:semanticRelation :735 ;
     skos:topConceptOf :734 .
 
@@ -6740,7 +6811,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 743 ;
     skos:prefLabel "bone breakage"@en,
-        "fracture osseuse"@fr ;
+        "fracture osseuse"@fr,
+        "rotura de huesos"@es ;
     skos:semanticRelation :735 ;
     skos:topConceptOf :734 .
 
@@ -9630,7 +9702,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 689 ;
     skos:prefLabel "chert"@en,
-        "chert"@fr ;
+        "chert"@fr,
+        "chert"@es ;
     skos:semanticRelation :596,
         :659 .
 
@@ -9642,7 +9715,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 691 ;
     skos:prefLabel "raw material procurement"@en,
-        "approvisionnement en matières premières"@fr ;
+        "approvisionnement en matières premières"@fr,
+        "adquisición de materia prima"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9654,7 +9728,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 692 ;
     skos:prefLabel "raw material selection"@en,
-        "sélection des matières premières"@fr ;
+        "sélection des matières premières"@fr,
+        "selección de materia prima"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9666,7 +9741,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 693 ;
     skos:prefLabel "raw material sources"@en,
-        "sources de matières premières"@fr ;
+        "sources de matières premières"@fr,
+        "fuentes de materia prima"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9678,7 +9754,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 694 ;
     skos:prefLabel "logistic mobility"@en,
-        "mobilité logistique"@fr ;
+        "mobilité logistique"@fr,
+        "movilidad logística"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9690,7 +9767,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 695 ;
     skos:prefLabel "single-grain"@en,
-        "monograine"@fr ;
+        "monograine"@fr,
+        "monograno"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9702,7 +9780,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :492 ;
     skos:notation 696 ;
     skos:prefLabel "obsidian sourcing"@en,
-        "approvisionnement en obsidienne"@fr ;
+        "approvisionnement en obsidienne"@fr,
+        "abastecimiento de obsidiana"@es ;
     skos:semanticRelation :596,
         :690 .
 
@@ -9714,7 +9793,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 774 ;
     skos:prefLabel "palaeobotany"@en,
-        "paléobotanique"@fr ;
+        "paléobotanique"@fr,
+        "paleobotánica"@es ;
     skos:semanticRelation :765,
         :773 .
 
@@ -10222,7 +10302,8 @@ skos:related a owl:ObjectProperty,
         :882 ;
     skos:notation 760 ;
     skos:prefLabel "ritualization of skulls"@en,
-        "ritualisation des crânes"@fr ;
+        "ritualisation des crânes"@fr,
+        "ritualización de cráneos"@es ;
     skos:semanticRelation :1019,
         :939 ;
     skos:topConceptOf :734 .
@@ -10264,7 +10345,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 777 ;
     skos:prefLabel "sedimentary charcoal analysis"@en,
-        "analyse du charbon sédimentaire"@fr ;
+        "analyse du charbon sédimentaire"@fr,
+        "análisis de carbón sedimentario"@es ;
     skos:semanticRelation :765,
         :773,
         :775 .
@@ -10278,7 +10360,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 778 ;
     skos:prefLabel "palynology or pollen analysis"@en,
-        "palynologie ou analyse pollinique"@fr ;
+        "palynologie ou analyse pollinique"@fr,
+        "palinología o análisis de polen"@es ;
     skos:semanticRelation :765,
         :773,
         :775 .
@@ -10292,7 +10375,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :764 ;
     skos:notation 779 ;
     skos:prefLabel "carpology"@en,
-        "carpologie"@fr ;
+        "carpologie"@fr,
+        "carpología"@es ;
     skos:semanticRelation :765,
         :773,
         :775 .
@@ -10720,7 +10804,8 @@ skos:semanticRelation a owl:ObjectProperty ;
         :882 ;
     skos:notation 744 ;
     skos:prefLabel "bone density"@en,
-        "densité osseuse"@fr ;
+        "densité osseuse"@fr,
+        "densidad ósea"@es ;
     skos:semanticRelation :596,
         :597,
         :602 ;
@@ -10736,7 +10821,8 @@ skos:semanticRelation a owl:ObjectProperty ;
         :882 ;
     skos:notation 755 ;
     skos:prefLabel "post-depositional processes"@en,
-        "processus postdépositionnels"@fr ;
+        "processus postdépositionnels"@fr,
+        "procesos postdeposicionales"@es ;
     skos:semanticRelation :596,
         :597,
         :602 ;
@@ -10752,7 +10838,8 @@ skos:semanticRelation a owl:ObjectProperty ;
         :882 ;
     skos:notation 756 ;
     skos:prefLabel "post-depositional surface modifications"@en,
-        "modifications de surface postdépositionnelles"@fr ;
+        "modifications de surface postdépositionnelles"@fr,
+        "modificaciones superficiales postdeposicionales"@es ;
     skos:semanticRelation :596,
         :597,
         :602 ;
@@ -10883,7 +10970,8 @@ skos:ConceptScheme a owl:Class ;
         :779 ;
     skos:notation 773 ;
     skos:prefLabel "archaeoecology"@en,
-        "archéoécologie"@fr ;
+        "archéoécologie"@fr,
+        "arqueoecología"@es ;
     skos:semanticRelation :765,
         :774,
         :775,
@@ -10912,7 +11000,8 @@ skos:ConceptScheme a owl:Class ;
         778,
         779 ;
     skos:prefLabel "archaeobotany"@en,
-        "archéobotanique"@fr ;
+        "archéobotanique"@fr,
+        "arqueobotánica"@es ;
     skos:semanticRelation :765,
         :773,
         :776,
@@ -11032,7 +11121,8 @@ skos:ConceptScheme a owl:Class ;
         :696 ;
     skos:notation 690 ;
     skos:prefLabel "derivated terminology"@en,
-        "terminologie dérivée"@fr ;
+        "terminologie dérivée"@fr,
+        "terminología derivada"@es ;
     skos:semanticRelation :596,
         :691,
         :692,
@@ -11175,7 +11265,8 @@ skos:ConceptScheme a owl:Class ;
         :791 ;
     skos:notation 780 ;
     skos:prefLabel "applications"@en,
-        "applications"@fr ;
+        "applications"@fr,
+        "aplicaciones"@es ;
     skos:semanticRelation :781,
         :782,
         :783,
@@ -11438,7 +11529,8 @@ skos:ConceptScheme a owl:Class ;
         :779 ;
     skos:notation 765 ;
     skos:prefLabel "disciplines"@en,
-        "disciplines"@fr ;
+        "disciplines"@fr,
+        "disciplinas"@es ;
     skos:semanticRelation :560,
         :766,
         :767,
@@ -11750,7 +11842,8 @@ skos:ConceptScheme a owl:Class ;
         :733 ;
     skos:notation 697 ;
     skos:prefLabel "paleoanthropology"@en,
-        "paléoanthropologie"@fr .
+        "paléoanthropologie"@fr,
+        "paleoantropología"@es .
 
 :473 a owl:NamedIndividual,
         skos:Concept ;
@@ -11884,7 +11977,8 @@ skos:ConceptScheme a owl:Class ;
         :763 ;
     skos:notation 734 ;
     skos:prefLabel "bioarchaeology"@en,
-        "bioarchéologie"@fr .
+        "bioarchéologie"@fr,
+        "bioarqueología"@es .
 
 :836 a owl:NamedIndividual,
         skos:ConceptScheme ;
@@ -11956,7 +12050,8 @@ skos:ConceptScheme a owl:Class ;
         :720 ;
     skos:notation 698 ;
     skos:prefLabel "human evolution"@en,
-        "évolution humaine"@fr ;
+        "évolution humaine"@fr,
+        "evolución humana"@es ;
     skos:semanticRelation :699,
         :700,
         :701,
@@ -12454,7 +12549,8 @@ skos:ConceptScheme a owl:Class ;
         :834 ;
     skos:notation 764 ;
     skos:prefLabel "paleoecology"@en,
-        "paléoécologie"@fr .
+        "paléoécologie"@fr,
+        "paleoecología"@es .
 
 :286 a owl:NamedIndividual,
         skos:ConceptScheme ;
@@ -12839,7 +12935,8 @@ skos:ConceptScheme a owl:Class ;
         :999 ;
     skos:notation 735 ;
     skos:prefLabel "bone surface modifications"@en,
-        "modifications de la surface osseuse"@fr ;
+        "modifications de la surface osseuse"@fr,
+        "modificaciones de la superficie ósea"@es ;
     skos:semanticRelation :1000,
         :1002,
         :1003,
