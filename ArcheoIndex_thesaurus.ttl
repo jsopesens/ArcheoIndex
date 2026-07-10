@@ -673,7 +673,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 10 ;
-    skos:prefLabel "atapuerca gran dolina td6"@en ;
+    skos:prefLabel "atapuerca gran dolina td6"@en,
+        "Atapuerca Gran Dolina TD6"@fr ;
     skos:semanticRelation :2 .
 
 :100 a owl:NamedIndividual,
@@ -1393,7 +1394,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 11 ;
-    skos:prefLabel "azokh cave"@en ;
+    skos:prefLabel "azokh cave"@en,
+        "grotte d'Azokh"@fr ;
     skos:semanticRelation :2 .
 
 :110 a owl:NamedIndividual,
@@ -1492,7 +1494,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 12 ;
-    skos:prefLabel "barranc de la boella"@en ;
+    skos:prefLabel "barranc de la boella"@en,
+        "Barranc de la Boella"@fr ;
     skos:semanticRelation :2 .
 
 :120 a owl:NamedIndividual,
@@ -1591,7 +1594,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 13 ;
-    skos:prefLabel "barranco leon"@en ;
+    skos:prefLabel "barranco leon"@en,
+        "Barranco León"@fr ;
     skos:semanticRelation :2 .
 
 :130 a owl:NamedIndividual,
@@ -1645,7 +1649,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 14 ;
-    skos:prefLabel "bed ii olduvai gorge"@en ;
+    skos:prefLabel "bed ii olduvai gorge"@en,
+        "niveau II des gorges d'Olduvai"@fr ;
     skos:semanticRelation :2 .
 
 :15 a owl:NamedIndividual,
@@ -1654,7 +1659,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 15 ;
-    skos:prefLabel "bolomor cave"@en ;
+    skos:prefLabel "bolomor cave"@en,
+        "grotte de Bolomor"@fr ;
     skos:semanticRelation :2 .
 
 :16 a owl:NamedIndividual,
@@ -1663,7 +1669,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 16 ;
-    skos:prefLabel "bosque de riofro"@en ;
+    skos:prefLabel "bosque de riofro"@en,
+        "Bosque de Riofrío"@fr ;
     skos:semanticRelation :2 .
 
 :17 a owl:NamedIndividual,
@@ -1672,7 +1679,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 17 ;
-    skos:prefLabel "camp dels ninots"@en ;
+    skos:prefLabel "camp dels ninots"@en,
+        "Camp dels Ninots"@fr ;
     skos:semanticRelation :2 .
 
 :18 a owl:NamedIndividual,
@@ -1681,7 +1689,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 18 ;
-    skos:prefLabel "cap de barbaria ii"@en ;
+    skos:prefLabel "cap de barbaria ii"@en,
+        "Cap de Barbaria II"@fr ;
     skos:semanticRelation :2 .
 
 :19 a owl:NamedIndividual,
@@ -1690,7 +1699,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 19 ;
-    skos:prefLabel "cau del duc"@en ;
+    skos:prefLabel "cau del duc"@en,
+        "Cau del Duc"@fr ;
     skos:semanticRelation :2 .
 
 :193 a owl:NamedIndividual,
@@ -1762,7 +1772,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 20 ;
-    skos:prefLabel "caune de larago"@en ;
+    skos:prefLabel "caune de larago"@en,
+        "Caune de l'Arago"@fr ;
     skos:semanticRelation :2 .
 
 :200 a owl:NamedIndividual,
@@ -1852,7 +1863,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 21 ;
-    skos:prefLabel "cerro juan daz"@en ;
+    skos:prefLabel "cerro juan daz"@en,
+        "Cerro Juan Díaz"@fr ;
     skos:semanticRelation :2 .
 
 :210 a owl:NamedIndividual,
@@ -1951,7 +1963,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 22 ;
-    skos:prefLabel "cerro mangote"@en ;
+    skos:prefLabel "cerro mangote"@en,
+        "Cerro Mangote"@fr ;
     skos:semanticRelation :2 .
 
 :220 a owl:NamedIndividual,
@@ -2050,7 +2063,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 23 ;
-    skos:prefLabel "cinglera del capello"@en ;
+    skos:prefLabel "cinglera del capello"@en,
+        "Cinglera del Capelló"@fr ;
     skos:semanticRelation :2 .
 
 :230 a owl:NamedIndividual,
@@ -2140,7 +2154,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 24 ;
-    skos:prefLabel "cova del coll verdaguer"@en ;
+    skos:prefLabel "cova del coll verdaguer"@en,
+        "Cova del Coll Verdaguer"@fr ;
     skos:semanticRelation :2 .
 
 :240 a owl:NamedIndividual,
@@ -2239,7 +2254,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 25 ;
-    skos:prefLabel "cova del rinoceront"@en ;
+    skos:prefLabel "cova del rinoceront"@en,
+        "Cova del Rinoceront"@fr ;
     skos:semanticRelation :2 .
 
 :250 a owl:NamedIndividual,
@@ -2293,7 +2309,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 26 ;
-    skos:prefLabel "cova eiros"@en ;
+    skos:prefLabel "cova eiros"@en,
+        "Cova Eirós"@fr ;
     skos:semanticRelation :2 .
 
 :27 a owl:NamedIndividual,
@@ -2302,7 +2319,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 27 ;
-    skos:prefLabel "cueva anton"@en ;
+    skos:prefLabel "cueva anton"@en,
+        "Cueva Antón"@fr ;
     skos:semanticRelation :2 .
 
 :28 a owl:NamedIndividual,
@@ -2311,7 +2329,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 28 ;
-    skos:prefLabel "el forn"@en ;
+    skos:prefLabel "el forn"@en,
+        "El Forn"@fr ;
     skos:semanticRelation :2 .
 
 :288 a owl:NamedIndividual,
@@ -2338,7 +2357,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 29 ;
-    skos:prefLabel "el mirador cave"@en ;
+    skos:prefLabel "el mirador cave"@en,
+        "grotte du mirador"@fr ;
     skos:semanticRelation :2 .
 
 :290 a owl:NamedIndividual,
@@ -2437,7 +2457,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 3 ;
-    skos:prefLabel "abel beth maacah"@en ;
+    skos:prefLabel "abel beth maacah"@en,
+        "Abel Beth Maacah"@fr ;
     skos:semanticRelation :2 .
 
 :30 a owl:NamedIndividual,
@@ -2446,7 +2467,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 30 ;
-    skos:prefLabel "ghamari cave"@en ;
+    skos:prefLabel "ghamari cave"@en,
+        "grotte Ghamari"@fr ;
     skos:semanticRelation :2 .
 
 :300 a owl:NamedIndividual,
@@ -2545,7 +2567,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 31 ;
-    skos:prefLabel "gilvaran cave"@en ;
+    skos:prefLabel "gilvaran cave"@en,
+        "grotte de Gilvaran"@fr ;
     skos:semanticRelation :2 .
 
 :310 a owl:NamedIndividual,
@@ -2644,7 +2667,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 32 ;
-    skos:prefLabel "gorhams cave"@en ;
+    skos:prefLabel "gorhams cave"@en,
+        "grotte de Gorhams"@fr ;
     skos:semanticRelation :2 .
 
 :320 a owl:NamedIndividual,
@@ -2743,7 +2767,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 33 ;
-    skos:prefLabel "gran dolina"@en ;
+    skos:prefLabel "gran dolina"@en,
+        "Gran Dolina"@fr ;
     skos:semanticRelation :2 .
 
 :330 a owl:NamedIndividual,
@@ -2842,7 +2867,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 34 ;
-    skos:prefLabel "gran dolina td10-1"@en ;
+    skos:prefLabel "gran dolina td10-1"@en,
+        "Gran Dolina TD10-1"@fr ;
     skos:semanticRelation :2 .
 
 :340 a owl:NamedIndividual,
@@ -2932,7 +2958,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 35 ;
-    skos:prefLabel "grotta paglicci"@en ;
+    skos:prefLabel "grotta paglicci"@en,
+        "Grotta Paglicci"@fr ;
     skos:semanticRelation :2 .
 
 :350 a owl:NamedIndividual,
@@ -3031,7 +3058,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 36 ;
-    skos:prefLabel "grotte des barasses ii"@en ;
+    skos:prefLabel "grotte des barasses ii"@en,
+        "grotte des barasses II"@fr ;
     skos:semanticRelation :2 .
 
 :360 a owl:NamedIndividual,
@@ -3130,7 +3158,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 37 ;
-    skos:prefLabel "grottes-bergeries"@en ;
+    skos:prefLabel "grottes-bergeries"@en,
+        "grottes-bergeries"@fr ;
     skos:semanticRelation :2 .
 
 :370 a owl:NamedIndividual,
@@ -3220,7 +3249,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 38 ;
-    skos:prefLabel "jarama vi"@en ;
+    skos:prefLabel "jarama vi"@en,
+        "Jarama VI"@fr ;
     skos:semanticRelation :2 .
 
 :380 a owl:NamedIndividual,
@@ -3310,7 +3340,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 39 ;
-    skos:prefLabel "kaldar cave"@en ;
+    skos:prefLabel "kaldar cave"@en,
+        "grotte de Kaldar"@fr ;
     skos:semanticRelation :2 .
 
 :390 a owl:NamedIndividual,
@@ -3394,7 +3425,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 4 ;
-    skos:prefLabel "abri des pcheurs"@en ;
+    skos:prefLabel "abri des pcheurs"@en,
+        "abri des pêcheurs"@fr ;
     skos:semanticRelation :2 .
 
 :40 a owl:NamedIndividual,
@@ -3403,7 +3435,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 40 ;
-    skos:prefLabel "kvabebi"@en ;
+    skos:prefLabel "kvabebi"@en,
+        "Kvabebi"@fr ;
     skos:semanticRelation :2 .
 
 :403 a owl:NamedIndividual,
@@ -3475,7 +3508,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 41 ;
-    skos:prefLabel "la cansaladeta"@en ;
+    skos:prefLabel "la cansaladeta"@en,
+        "la cansaladeta"@fr ;
     skos:semanticRelation :2 .
 
 :410 a owl:NamedIndividual,
@@ -3574,7 +3608,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 42 ;
-    skos:prefLabel "la cativera"@en ;
+    skos:prefLabel "la cativera"@en,
+        "la cativera"@fr ;
     skos:semanticRelation :2 .
 
 :420 a owl:NamedIndividual,
@@ -3673,7 +3708,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 43 ;
-    skos:prefLabel "la chapelle-aux-saints"@en ;
+    skos:prefLabel "la chapelle-aux-saints"@en,
+        "La Chapelle-aux-Saints"@fr ;
     skos:semanticRelation :2 .
 
 :430 a owl:NamedIndividual,
@@ -3772,7 +3808,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 44 ;
-    skos:prefLabel "la draga"@en ;
+    skos:prefLabel "la draga"@en,
+        "La Draga"@fr ;
     skos:semanticRelation :2 .
 
 :440 a owl:NamedIndividual,
@@ -3871,7 +3908,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 45 ;
-    skos:prefLabel "la mallada"@en ;
+    skos:prefLabel "la mallada"@en,
+        "La Mallada"@fr ;
     skos:semanticRelation :2 .
 
 :450 a owl:NamedIndividual,
@@ -3961,7 +3999,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 46 ;
-    skos:prefLabel "la mina"@en ;
+    skos:prefLabel "la mina"@en,
+        "La Mina"@fr ;
     skos:semanticRelation :2 .
 
 :460 a owl:NamedIndividual,
@@ -4060,7 +4099,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 47 ;
-    skos:prefLabel "lhort de la boquera"@en ;
+    skos:prefLabel "lhort de la boquera"@en,
+        "l'Hort de la Boquera"@fr ;
     skos:semanticRelation :2 .
 
 :471 a owl:NamedIndividual,
@@ -4141,7 +4181,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 48 ;
-    skos:prefLabel "malarnaud"@en ;
+    skos:prefLabel "malarnaud"@en,
+        "malarnaud"@fr ;
     skos:semanticRelation :2 .
 
 :480 a owl:NamedIndividual,
@@ -4240,7 +4281,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 49 ;
-    skos:prefLabel "maltravieso cave"@en ;
+    skos:prefLabel "maltravieso cave"@en,
+        "Grotte de Maltravieso"@fr ;
     skos:semanticRelation :2 .
 
 :490 a owl:NamedIndividual,
@@ -4267,7 +4309,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 5 ;
-    skos:prefLabel "abri du maras"@en ;
+    skos:prefLabel "abri du maras"@en,
+        "abri du Maras"@fr ;
     skos:semanticRelation :2 .
 
 :50 a owl:NamedIndividual,
@@ -4276,7 +4319,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 50 ;
-    skos:prefLabel "mar gwergalan cave"@en ;
+    skos:prefLabel "mar gwergalan cave"@en,
+        "Grotte de Mar Gwergalan"@fr ;
     skos:semanticRelation :2 .
 
 :51 a owl:NamedIndividual,
@@ -4285,7 +4329,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 51 ;
-    skos:prefLabel "melka wakena site-complex"@en ;
+    skos:prefLabel "melka wakena site-complex"@en,
+        "complexe de sites de Melka Wakena"@fr ;
     skos:semanticRelation :2 .
 
 :52 a owl:NamedIndividual,
@@ -4294,7 +4339,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 52 ;
-    skos:prefLabel "mumba rock shelter"@en ;
+    skos:prefLabel "mumba rock shelter"@en,
+        "abri sous roche de Mumba"@fr ;
     skos:semanticRelation :2 .
 
 :53 a owl:NamedIndividual,
@@ -4303,7 +4349,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 53 ;
-    skos:prefLabel "navalmaillo rock shelter"@en ;
+    skos:prefLabel "navalmaillo rock shelter"@en,
+        "abri sous roche de Navalmaíllo"@fr ;
     skos:semanticRelation :2 .
 
 :54 a owl:NamedIndividual,
@@ -4312,7 +4359,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 54 ;
-    skos:prefLabel "neanderthals-el sidron"@en ;
+    skos:prefLabel "neanderthals-el sidron"@en,
+        "Néandertaliens d'El Sidrón"@fr ;
     skos:semanticRelation :2 .
 
 :55 a owl:NamedIndividual,
@@ -4321,7 +4369,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 55 ;
-    skos:prefLabel "olduvai gorge"@en ;
+    skos:prefLabel "olduvai gorge"@en,
+        "gorges d'Olduvai"@fr ;
     skos:semanticRelation :2 .
 
 :56 a owl:NamedIndividual,
@@ -4330,7 +4379,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 56 ;
-    skos:prefLabel "oued sarrat"@en ;
+    skos:prefLabel "oued sarrat"@en,
+        "Oued Sarrat"@fr ;
     skos:semanticRelation :2 .
 
 :57 a owl:NamedIndividual,
@@ -4339,7 +4389,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 57 ;
-    skos:prefLabel "portel-ouest cave"@en ;
+    skos:prefLabel "portel-ouest cave"@en,
+        "grotte du Portel-Ouest"@fr ;
     skos:semanticRelation :2 .
 
 :58 a owl:NamedIndividual,
@@ -4348,7 +4399,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 58 ;
-    skos:prefLabel "prado vargas"@en ;
+    skos:prefLabel "prado vargas"@en,
+        "prado vargas"@fr ;
     skos:semanticRelation :2 .
 
 :59 a owl:NamedIndividual,
@@ -4357,7 +4409,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 59 ;
-    skos:prefLabel "pyrenean site"@en ;
+    skos:prefLabel "pyrenean site"@en,
+        "site pyrénéen"@fr ;
     skos:semanticRelation :2 .
 
 :6 a owl:NamedIndividual,
@@ -4366,7 +4419,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 6 ;
-    skos:prefLabel "abric romani"@en ;
+    skos:prefLabel "abric romani"@en,
+        "Abric Romaní"@fr ;
     skos:semanticRelation :2 .
 
 :60 a owl:NamedIndividual,
@@ -4375,7 +4429,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 60 ;
-    skos:prefLabel "qesem cave"@en ;
+    skos:prefLabel "qesem cave"@en,
+        "grotte de Qesem"@fr ;
     skos:semanticRelation :2 .
 
 :61 a owl:NamedIndividual,
@@ -4384,7 +4439,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 61 ;
-    skos:prefLabel "sierra de atapuerca sites"@en ;
+    skos:prefLabel "sierra de atapuerca sites"@en,
+        "sites de la Sierra d'Atapuerca"@fr ;
     skos:semanticRelation :2 .
 
 :62 a owl:NamedIndividual,
@@ -4393,7 +4449,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 62 ;
-    skos:prefLabel "sima de los huesos"@en ;
+    skos:prefLabel "sima de los huesos"@en,
+        "Sima de los Huesos"@fr ;
     skos:semanticRelation :2 .
 
 :63 a owl:NamedIndividual,
@@ -4402,7 +4459,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 63 ;
-    skos:prefLabel "sima del elefante"@en ;
+    skos:prefLabel "sima del elefante"@en,
+        "Sima del Elefante"@fr ;
     skos:semanticRelation :2 .
 
 :64 a owl:NamedIndividual,
@@ -4411,7 +4469,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 64 ;
-    skos:prefLabel "fuente nueva 3"@en ;
+    skos:prefLabel "fuente nueva 3"@en,
+        "Fuente Nueva 3"@fr ;
     skos:semanticRelation :2 .
 
 :65 a owl:NamedIndividual,
@@ -4420,7 +4479,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 65 ;
-    skos:prefLabel "gar arjeneh rockshelter"@en ;
+    skos:prefLabel "gar arjeneh rockshelter"@en,
+        "abri sous roche de Gar Arjeneh"@fr ;
     skos:semanticRelation :2 .
 
 :66 a owl:NamedIndividual,
@@ -4429,7 +4489,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 66 ;
-    skos:prefLabel "td6 unit"@en ;
+    skos:prefLabel "td6 unit"@en,
+        "unité td6"@fr ;
     skos:semanticRelation :2 .
 
 :67 a owl:NamedIndividual,
@@ -4438,7 +4499,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 67 ;
-    skos:prefLabel "teixoneres cave"@en ;
+    skos:prefLabel "teixoneres cave"@en,
+        "grotte des Teixoneres"@fr ;
     skos:semanticRelation :2 .
 
 :68 a owl:NamedIndividual,
@@ -4447,7 +4509,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 68 ;
-    skos:prefLabel "toll cave"@en ;
+    skos:prefLabel "toll cave"@en,
+        "grotte du Toll"@fr ;
     skos:semanticRelation :2 .
 
 :69 a owl:NamedIndividual,
@@ -4456,7 +4519,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 69 ;
-    skos:prefLabel "trinchera del ferrocarril"@en ;
+    skos:prefLabel "trinchera del ferrocarril"@en,
+        "Trinchera del Ferrocarril"@fr ;
     skos:semanticRelation :2 .
 
 :699 a owl:NamedIndividual,
@@ -4474,7 +4538,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 7 ;
-    skos:prefLabel "abrigo de los oculados"@en ;
+    skos:prefLabel "abrigo de los oculados"@en,
+        "Abrigo de los Oculados"@fr ;
     skos:semanticRelation :2 .
 
 :70 a owl:NamedIndividual,
@@ -4483,7 +4548,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 70 ;
-    skos:prefLabel "tritons cave"@en ;
+    skos:prefLabel "tritons cave"@en,
+        "grotte des tritons"@fr ;
     skos:semanticRelation :2 .
 
 :700 a owl:NamedIndividual,
@@ -4582,7 +4648,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 71 ;
-    skos:prefLabel "vanguard cave"@en ;
+    skos:prefLabel "vanguard cave"@en,
+        "grotte de Vanguard"@fr ;
     skos:semanticRelation :2 .
 
 :710 a owl:NamedIndividual,
@@ -4681,7 +4748,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 72 ;
-    skos:prefLabel "aguazuque"@en ;
+    skos:prefLabel "aguazuque"@en,
+        "aguazuque"@fr ;
     skos:semanticRelation :2 .
 
 :720 a owl:NamedIndividual,
@@ -4700,7 +4768,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 73 ;
-    skos:prefLabel "cova bonica"@en ;
+    skos:prefLabel "cova bonica"@en,
+        "cova bonica"@fr ;
     skos:semanticRelation :2 .
 
 :74 a owl:NamedIndividual,
@@ -4709,7 +4778,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 74 ;
-    skos:prefLabel "cowshead cave"@en ;
+    skos:prefLabel "cowshead cave"@en,
+        "grotte de la tête de vache"@fr ;
     skos:semanticRelation :2 .
 
 :75 a owl:NamedIndividual,
@@ -4718,7 +4788,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 75 ;
-    skos:prefLabel "croscat volcano"@en ;
+    skos:prefLabel "croscat volcano"@en,
+        "volcan du Croscat"@fr ;
     skos:semanticRelation :2 .
 
 :76 a owl:NamedIndividual,
@@ -4727,7 +4798,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 76 ;
-    skos:prefLabel "dmanisi"@en ;
+    skos:prefLabel "dmanisi"@en,
+        "Dmanissi"@fr ;
     skos:semanticRelation :2 .
 
 :766 a owl:NamedIndividual,
@@ -4772,7 +4844,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 77 ;
-    skos:prefLabel "huescar-1"@en ;
+    skos:prefLabel "huescar-1"@en,
+        "Huéscar-1"@fr ;
     skos:semanticRelation :2 .
 
 :770 a owl:NamedIndividual,
@@ -4808,7 +4881,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 78 ;
-    skos:prefLabel "irgiz 1"@en ;
+    skos:prefLabel "irgiz 1"@en,
+        "Irgiz 1"@fr ;
     skos:semanticRelation :2 .
 
 :781 a owl:NamedIndividual,
@@ -4898,7 +4972,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 79 ;
-    skos:prefLabel "pirro nord"@en ;
+    skos:prefLabel "pirro nord"@en,
+        "Pirro Nord"@fr ;
     skos:semanticRelation :2 .
 
 :790 a owl:NamedIndividual,
@@ -4979,7 +5054,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 8 ;
-    skos:prefLabel "arlanzon"@en ;
+    skos:prefLabel "arlanzon"@en,
+        "Arlanzón"@fr ;
     skos:semanticRelation :2 .
 
 :80 a owl:NamedIndividual,
@@ -4988,7 +5064,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 80 ;
-    skos:prefLabel "pirro nord 13"@en ;
+    skos:prefLabel "pirro nord 13"@en,
+        "Pirro Nord 13"@fr ;
     skos:semanticRelation :2 .
 
 :800 a owl:NamedIndividual,
@@ -5078,7 +5155,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 81 ;
-    skos:prefLabel "song terus"@en ;
+    skos:prefLabel "song terus"@en,
+        "Song Terus"@fr ;
     skos:semanticRelation :2 .
 
 :810 a owl:NamedIndividual,
@@ -5168,7 +5246,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 82 ;
-    skos:prefLabel "terrasses de la riera dels canyars"@en ;
+    skos:prefLabel "terrasses de la riera dels canyars"@en,
+        "terrasses de la Riera dels Canyars"@fr ;
     skos:semanticRelation :2 .
 
 :820 a owl:NamedIndividual,
@@ -5267,7 +5346,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 83 ;
-    skos:prefLabel "venta micena"@en ;
+    skos:prefLabel "venta micena"@en,
+        "Venta Micena"@fr ;
     skos:semanticRelation :2 .
 
 :831 a owl:NamedIndividual,
@@ -5312,7 +5392,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 84 ;
-    skos:prefLabel "heppenloch"@en ;
+    skos:prefLabel "heppenloch"@en,
+        "heppenloch"@fr ;
     skos:semanticRelation :2 .
 
 :85 a owl:NamedIndividual,
@@ -5321,7 +5402,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 85 ;
-    skos:prefLabel "stellmoor"@en ;
+    skos:prefLabel "stellmoor"@en,
+        "stellmoor"@fr ;
     skos:semanticRelation :2 .
 
 :86 a owl:NamedIndividual,
@@ -5330,7 +5412,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 86 ;
-    skos:prefLabel "pilauco"@en ;
+    skos:prefLabel "pilauco"@en,
+        "pilauco"@fr ;
     skos:semanticRelation :2 .
 
 :874 a owl:NamedIndividual,
@@ -5355,7 +5438,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 88 ;
-    skos:prefLabel "belarus"@en ;
+    skos:prefLabel "belarus"@en,
+        "Biélorussie"@fr ;
     skos:semanticRelation :87 .
 
 :89 a owl:NamedIndividual,
@@ -5364,7 +5448,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 89 ;
-    skos:prefLabel "belgium"@en ;
+    skos:prefLabel "belgium"@en,
+        "Belgique"@fr ;
     skos:semanticRelation :87 .
 
 :9 a owl:NamedIndividual,
@@ -5373,7 +5458,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :2 ;
     skos:inScheme :1 ;
     skos:notation 9 ;
-    skos:prefLabel "atapuerca"@en ;
+    skos:prefLabel "atapuerca"@en,
+        "Atapuerca"@fr ;
     skos:semanticRelation :2 .
 
 :90 a owl:NamedIndividual,
@@ -5382,7 +5468,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 90 ;
-    skos:prefLabel "britain"@en ;
+    skos:prefLabel "britain"@en,
+        "grande bretagne"@fr ;
     skos:semanticRelation :87 .
 
 :91 a owl:NamedIndividual,
@@ -5391,7 +5478,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 91 ;
-    skos:prefLabel "calabrian"@en ;
+    skos:prefLabel "calabrian"@en,
+        "Calabrien"@fr ;
     skos:semanticRelation :87 .
 
 :92 a owl:NamedIndividual,
@@ -5400,7 +5488,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 92 ;
-    skos:prefLabel "castelluccio"@en ;
+    skos:prefLabel "castelluccio"@en,
+        "Castelluccio"@fr ;
     skos:semanticRelation :87 .
 
 :93 a owl:NamedIndividual,
@@ -5409,7 +5498,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 93 ;
-    skos:prefLabel "central europe"@en ;
+    skos:prefLabel "central europe"@en,
+        "Europe centrale"@fr ;
     skos:semanticRelation :87 .
 
 :94 a owl:NamedIndividual,
@@ -5418,7 +5508,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 94 ;
-    skos:prefLabel "crete"@en ;
+    skos:prefLabel "crete"@en,
+        "Crète"@fr ;
     skos:semanticRelation :87 .
 
 :95 a owl:NamedIndividual,
@@ -5427,7 +5518,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 95 ;
-    skos:prefLabel "eastern adriatic"@en ;
+    skos:prefLabel "eastern adriatic"@en,
+        "Adriatique orientale"@fr ;
     skos:semanticRelation :87 .
 
 :96 a owl:NamedIndividual,
@@ -5436,7 +5528,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 96 ;
-    skos:prefLabel "eastern europe"@en ;
+    skos:prefLabel "eastern europe"@en,
+        "Europe orientale"@fr ;
     skos:semanticRelation :87 .
 
 :97 a owl:NamedIndividual,
@@ -5445,7 +5538,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :87 ;
     skos:inScheme :1 ;
     skos:notation 97 ;
-    skos:prefLabel "eastern pyrenees"@en ;
+    skos:prefLabel "eastern pyrenees"@en,
+        "Pyrénées orientales"@fr ;
     skos:semanticRelation :87 .
 
 :98 a owl:NamedIndividual,
@@ -12698,7 +12792,8 @@ skos:ConceptScheme a owl:Class ;
         :86,
         :9 ;
     skos:notation 2 ;
-    skos:prefLabel "site"@en ;
+    skos:prefLabel "site"@en,
+        "site"@fr ;
     skos:semanticRelation :10,
         :11,
         :12,
@@ -12941,7 +13036,8 @@ skos:ConceptScheme a owl:Class ;
         :98,
         :99 ;
     skos:notation 87 ;
-    skos:prefLabel "europe"@en ;
+    skos:prefLabel "europe"@en,
+        "Europe"@fr ;
     skos:semanticRelation :100,
         :101,
         :102,
@@ -13057,7 +13153,8 @@ skos:ConceptScheme a owl:Class ;
         :253,
         :87 ;
     skos:notation 1 ;
-    skos:prefLabel "place"@en .
+    skos:prefLabel "place"@en,
+        "lieu"@fr .
 
 skos:Concept a owl:Class ;
     rdfs:label "Concept"@en ;
