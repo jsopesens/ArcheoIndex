@@ -2510,7 +2510,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 292 ;
-    skos:prefLabel "copper age"@en ;
+    skos:prefLabel "copper age"@en,
+        "Chalcolithique"@fr ;
     skos:semanticRelation :287 .
 
 :293 a owl:NamedIndividual,
@@ -2519,7 +2520,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 293 ;
-    skos:prefLabel "early bronze age"@en ;
+    skos:prefLabel "early bronze age"@en,
+        "Bronze ancien"@fr ;
     skos:semanticRelation :287 .
 
 :294 a owl:NamedIndividual,
@@ -2528,7 +2530,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 294 ;
-    skos:prefLabel "early middle palaeolithic"@en ;
+    skos:prefLabel "early middle palaeolithic"@en,
+        "Paléolithique moyen ancien"@fr ;
     skos:semanticRelation :287 .
 
 :295 a owl:NamedIndividual,
@@ -2537,7 +2540,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 295 ;
-    skos:prefLabel "early modern period"@en ;
+    skos:prefLabel "early modern period"@en,
+        "époque moderne"@fr ;
     skos:semanticRelation :287 .
 
 :296 a owl:NamedIndividual,
@@ -2546,7 +2550,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 296 ;
-    skos:prefLabel "early neolithic"@en ;
+    skos:prefLabel "early neolithic"@en,
+        "Néolithique ancien"@fr ;
     skos:semanticRelation :287 .
 
 :297 a owl:NamedIndividual,
@@ -2555,7 +2560,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 297 ;
-    skos:prefLabel "early upper paleolithic"@en ;
+    skos:prefLabel "early upper paleolithic"@en,
+        "Paléolithique supérieur ancien"@fr ;
     skos:semanticRelation :287 .
 
 :298 a owl:NamedIndividual,
@@ -2564,7 +2570,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 298 ;
-    skos:prefLabel "final upper palaeolithic"@en ;
+    skos:prefLabel "final upper palaeolithic"@en,
+        "Paléolithique supérieur final"@fr ;
     skos:semanticRelation :287 .
 
 :299 a owl:NamedIndividual,
@@ -2573,7 +2580,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 299 ;
-    skos:prefLabel "first century ad"@en ;
+    skos:prefLabel "first century ad"@en,
+        "Ier siècle apr. J.-C."@fr ;
     skos:semanticRelation :287 .
 
 :3 a owl:NamedIndividual,
@@ -2602,7 +2610,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 300 ;
-    skos:prefLabel "iberian peninsula prehistory"@en ;
+    skos:prefLabel "iberian peninsula prehistory"@en,
+        "préhistoire de la péninsule ibérique"@fr ;
     skos:semanticRelation :287 .
 
 :301 a owl:NamedIndividual,
@@ -2611,7 +2620,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 301 ;
-    skos:prefLabel "iron age"@en ;
+    skos:prefLabel "iron age"@en,
+        "âge du fer"@fr ;
     skos:semanticRelation :287 .
 
 :302 a owl:NamedIndividual,
@@ -2620,7 +2630,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 302 ;
-    skos:prefLabel "late antiquity"@en ;
+    skos:prefLabel "late antiquity"@en,
+        "Antiquité tardive"@fr ;
     skos:semanticRelation :287 .
 
 :303 a owl:NamedIndividual,
@@ -2629,7 +2640,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 303 ;
-    skos:prefLabel "late archaic"@en ;
+    skos:prefLabel "late archaic"@en,
+        "Archaïque récent"@fr ;
     skos:semanticRelation :287 .
 
 :304 a owl:NamedIndividual,
@@ -2638,7 +2650,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 304 ;
-    skos:prefLabel "late bronze age"@en ;
+    skos:prefLabel "late bronze age"@en,
+        "Bronze final"@fr ;
     skos:semanticRelation :287 .
 
 :305 a owl:NamedIndividual,
@@ -2647,7 +2660,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 305 ;
-    skos:prefLabel "late copper age"@en ;
+    skos:prefLabel "late copper age"@en,
+        "Chalcolithique final"@fr ;
     skos:semanticRelation :287 .
 
 :306 a owl:NamedIndividual,
@@ -2656,7 +2670,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 306 ;
-    skos:prefLabel "late lower palaeolithic"@en ;
+    skos:prefLabel "late lower palaeolithic"@en,
+        "Paléolithique inférieur récent"@fr ;
     skos:semanticRelation :287 .
 
 :307 a owl:NamedIndividual,
@@ -2665,7 +2680,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 307 ;
-    skos:prefLabel "late mesolithic"@en ;
+    skos:prefLabel "late mesolithic"@en,
+        "Mésolithique récent"@fr ;
     skos:semanticRelation :287 .
 
 :308 a owl:NamedIndividual,
@@ -2674,7 +2690,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 308 ;
-    skos:prefLabel "late middle paleolithic"@en ;
+    skos:prefLabel "late middle paleolithic"@en,
+        "Paléolithique moyen récent"@fr ;
     skos:semanticRelation :287 .
 
 :309 a owl:NamedIndividual,
@@ -2683,7 +2700,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 309 ;
-    skos:prefLabel "late neolithic"@en ;
+    skos:prefLabel "late neolithic"@en,
+        "Néolithique récent"@fr ;
     skos:semanticRelation :287 .
 
 :31 a owl:NamedIndividual,
@@ -2702,7 +2720,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 310 ;
-    skos:prefLabel "late palaeolithic"@en ;
+    skos:prefLabel "late palaeolithic"@en,
+        "Paléolithique récent"@fr ;
     skos:semanticRelation :287 .
 
 :311 a owl:NamedIndividual,
@@ -2711,7 +2730,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 311 ;
-    skos:prefLabel "late preceramic"@en ;
+    skos:prefLabel "late preceramic"@en,
+        "Précéramique récent"@fr ;
     skos:semanticRelation :287 .
 
 :312 a owl:NamedIndividual,
@@ -2720,7 +2740,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 312 ;
-    skos:prefLabel "late prehistory"@en ;
+    skos:prefLabel "late prehistory"@en,
+        "Préhistoire récente"@fr ;
     skos:semanticRelation :287 .
 
 :313 a owl:NamedIndividual,
@@ -2729,7 +2750,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 313 ;
-    skos:prefLabel "late roman-byzantine period"@en ;
+    skos:prefLabel "late roman-byzantine period"@en,
+        "période romano-byzantine tardive"@fr ;
     skos:semanticRelation :287 .
 
 :314 a owl:NamedIndividual,
@@ -2738,7 +2760,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 314 ;
-    skos:prefLabel "late upper palaeolithic"@en ;
+    skos:prefLabel "late upper palaeolithic"@en,
+        "Paléolithique supérieur récent"@fr ;
     skos:semanticRelation :287 .
 
 :315 a owl:NamedIndividual,
@@ -2747,7 +2770,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 315 ;
-    skos:prefLabel "lower palaeolithic"@en ;
+    skos:prefLabel "lower palaeolithic"@en,
+        "Paléolithique inférieur"@fr ;
     skos:semanticRelation :287 .
 
 :316 a owl:NamedIndividual,
@@ -2756,7 +2780,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 316 ;
-    skos:prefLabel "mesolithic"@en ;
+    skos:prefLabel "mesolithic"@en,
+        "Mésolithique"@fr ;
     skos:semanticRelation :287 .
 
 :317 a owl:NamedIndividual,
@@ -2765,7 +2790,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 317 ;
-    skos:prefLabel "mesolithic-epipaleolithic"@en ;
+    skos:prefLabel "mesolithic-epipaleolithic"@en,
+        "Mésolithique-Épipaléolithique"@fr ;
     skos:semanticRelation :287 .
 
 :318 a owl:NamedIndividual,
@@ -2774,7 +2800,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 318 ;
-    skos:prefLabel "mesolithic-neolithic transition"@en ;
+    skos:prefLabel "mesolithic-neolithic transition"@en,
+        "transition Mésolithique-Néolithique"@fr ;
     skos:semanticRelation :287 .
 
 :319 a owl:NamedIndividual,
@@ -2783,7 +2810,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 319 ;
-    skos:prefLabel "middle bronze"@en ;
+    skos:prefLabel "middle bronze"@en,
+        "Bronze moyen"@fr ;
     skos:semanticRelation :287 .
 
 :32 a owl:NamedIndividual,
@@ -2802,7 +2830,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 320 ;
-    skos:prefLabel "middle palaeolithic"@en ;
+    skos:prefLabel "middle palaeolithic"@en,
+        "Paléolithique moyen"@fr ;
     skos:semanticRelation :287 .
 
 :321 a owl:NamedIndividual,
@@ -2811,7 +2840,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 321 ;
-    skos:prefLabel "neolithic"@en ;
+    skos:prefLabel "neolithic"@en,
+        "Néolithique"@fr ;
     skos:semanticRelation :287 .
 
 :322 a owl:NamedIndividual,
@@ -2820,7 +2850,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 322 ;
-    skos:prefLabel "neolithic-medieval period"@en ;
+    skos:prefLabel "neolithic-medieval period"@en,
+        "période du Néolithique au Moyen Âge"@fr ;
     skos:semanticRelation :287 .
 
 :323 a owl:NamedIndividual,
@@ -2829,7 +2860,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 323 ;
-    skos:prefLabel "palaeolithic"@en ;
+    skos:prefLabel "palaeolithic"@en,
+        "Paléolithique"@fr ;
     skos:semanticRelation :287 .
 
 :324 a owl:NamedIndividual,
@@ -2838,7 +2870,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 324 ;
-    skos:prefLabel "prehistory"@en ;
+    skos:prefLabel "prehistory"@en,
+        "Préhistoire"@fr ;
     skos:semanticRelation :287 .
 
 :325 a owl:NamedIndividual,
@@ -2847,7 +2880,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 325 ;
-    skos:prefLabel "rancholabrean"@en ;
+    skos:prefLabel "rancholabrean"@en,
+        "Rancholabréen"@fr ;
     skos:semanticRelation :287 .
 
 :326 a owl:NamedIndividual,
@@ -2856,7 +2890,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 326 ;
-    skos:prefLabel "rancholabrean nalma"@en ;
+    skos:prefLabel "rancholabrean nalma"@en,
+        "NALMA rancholabréen"@fr ;
     skos:semanticRelation :287 .
 
 :327 a owl:NamedIndividual,
@@ -2865,7 +2900,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 327 ;
-    skos:prefLabel "recent prehistory"@en ;
+    skos:prefLabel "recent prehistory"@en,
+        "préhistoire récente"@fr ;
     skos:semanticRelation :287 .
 
 :328 a owl:NamedIndividual,
@@ -2874,7 +2910,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 328 ;
-    skos:prefLabel "roman and byzantine times"@en ;
+    skos:prefLabel "roman and byzantine times"@en,
+        "époques romaine et byzantine"@fr ;
     skos:semanticRelation :287 .
 
 :329 a owl:NamedIndividual,
@@ -2883,7 +2920,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 329 ;
-    skos:prefLabel "roman period"@en ;
+    skos:prefLabel "roman period"@en,
+        "époque romaine"@fr ;
     skos:semanticRelation :287 .
 
 :33 a owl:NamedIndividual,
@@ -2902,7 +2940,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 330 ;
-    skos:prefLabel "sixth millennium cal bc"@en ;
+    skos:prefLabel "sixth millennium cal bc"@en,
+        "VIe millénaire cal. av. J.-C."@fr ;
     skos:semanticRelation :287 .
 
 :331 a owl:NamedIndividual,
@@ -2911,7 +2950,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 331 ;
-    skos:prefLabel "start of neolithic"@en ;
+    skos:prefLabel "start of neolithic"@en,
+        "début du Néolithique"@fr ;
     skos:semanticRelation :287 .
 
 :332 a owl:NamedIndividual,
@@ -2920,7 +2960,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 332 ;
-    skos:prefLabel "uluzzian"@en ;
+    skos:prefLabel "uluzzian"@en,
+        "Uluzzien"@fr ;
     skos:semanticRelation :287 .
 
 :333 a owl:NamedIndividual,
@@ -2929,7 +2970,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 333 ;
-    skos:prefLabel "upper palaeolithic"@en ;
+    skos:prefLabel "upper palaeolithic"@en,
+        "Paléolithique supérieur"@fr ;
     skos:semanticRelation :287 .
 
 :334 a owl:NamedIndividual,
@@ -2938,7 +2980,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 334 ;
-    skos:prefLabel "epipalaeolithic"@en ;
+    skos:prefLabel "epipalaeolithic"@en,
+        "Épipaléolithique"@fr ;
     skos:semanticRelation :287 .
 
 :335 a owl:NamedIndividual,
@@ -2947,7 +2990,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 335 ;
-    skos:prefLabel "akchagylian"@en ;
+    skos:prefLabel "akchagylian"@en,
+        "Akchagylien"@fr ;
     skos:semanticRelation :287 .
 
 :336 a owl:NamedIndividual,
@@ -2956,7 +3000,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 336 ;
-    skos:prefLabel "interglacial"@en ;
+    skos:prefLabel "interglacial"@en,
+        "interglaciaire"@fr ;
     skos:semanticRelation :287 .
 
 :337 a owl:NamedIndividual,
@@ -2965,7 +3010,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 337 ;
-    skos:prefLabel "tardiglaciar"@en ;
+    skos:prefLabel "tardiglaciar"@en,
+        "Tardiglaciaire"@fr ;
     skos:semanticRelation :287 .
 
 :338 a owl:NamedIndividual,
@@ -2974,7 +3020,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 338 ;
-    skos:prefLabel "younger dryas"@en ;
+    skos:prefLabel "younger dryas"@en,
+        "Dryas récent"@fr ;
     skos:semanticRelation :287 .
 
 :339 a owl:NamedIndividual,
@@ -2983,7 +3030,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 339 ;
-    skos:prefLabel "middle neolithic"@en ;
+    skos:prefLabel "middle neolithic"@en,
+        "Néolithique moyen"@fr ;
     skos:semanticRelation :287 .
 
 :34 a owl:NamedIndividual,
@@ -3002,7 +3050,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 340 ;
-    skos:prefLabel "middle neolithic-early bronze age"@en ;
+    skos:prefLabel "middle neolithic-early bronze age"@en,
+        "Néolithique moyen-Bronze ancien"@fr ;
     skos:semanticRelation :287 .
 
 :342 a owl:NamedIndividual,
@@ -3011,7 +3060,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 342 ;
-    skos:prefLabel "early holocene"@en ;
+    skos:prefLabel "early holocene"@en,
+        "Holocène ancien"@fr ;
     skos:semanticRelation :341 .
 
 :343 a owl:NamedIndividual,
@@ -3029,7 +3079,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 344 ;
-    skos:prefLabel "early middle pleistocene"@en ;
+    skos:prefLabel "early middle pleistocene"@en,
+        "Pléistocène moyen ancien"@fr ;
     skos:semanticRelation :341 .
 
 :345 a owl:NamedIndividual,
@@ -3038,7 +3089,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 345 ;
-    skos:prefLabel "early pleistocene"@en ;
+    skos:prefLabel "early pleistocene"@en,
+        "Pléistocène inférieur"@fr ;
     skos:semanticRelation :341 .
 
 :346 a owl:NamedIndividual,
@@ -3047,7 +3099,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 346 ;
-    skos:prefLabel "early pliocene"@en ;
+    skos:prefLabel "early pliocene"@en,
+        "Pliocène inférieur"@fr ;
     skos:semanticRelation :341 .
 
 :347 a owl:NamedIndividual,
@@ -3056,7 +3109,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 347 ;
-    skos:prefLabel "early-middle pleistocene"@en ;
+    skos:prefLabel "early-middle pleistocene"@en,
+        "Pléistocène inférieur-moyen"@fr ;
     skos:semanticRelation :341 .
 
 :348 a owl:NamedIndividual,
@@ -3065,7 +3119,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 348 ;
-    skos:prefLabel "early-middle pleistocene boundary"@en ;
+    skos:prefLabel "early-middle pleistocene boundary"@en,
+        "limite Pléistocène inférieur-moyen"@fr ;
     skos:semanticRelation :341 .
 
 :349 a owl:NamedIndividual,
@@ -3074,7 +3129,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 349 ;
-    skos:prefLabel "early-middle pleistocene palaeontology"@en ;
+    skos:prefLabel "early-middle pleistocene palaeontology"@en,
+        "paléontologie du Pléistocène inférieur-moyen"@fr ;
     skos:semanticRelation :341 .
 
 :35 a owl:NamedIndividual,
@@ -3093,7 +3149,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 350 ;
-    skos:prefLabel "early-middle pleistocene transition"@en ;
+    skos:prefLabel "early-middle pleistocene transition"@en,
+        "transition Pléistocène inférieur-moyen"@fr ;
     skos:semanticRelation :341 .
 
 :351 a owl:NamedIndividual,
@@ -3102,7 +3159,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 351 ;
-    skos:prefLabel "european pleistocene"@en ;
+    skos:prefLabel "european pleistocene"@en,
+        "pléistocène européen"@fr ;
     skos:semanticRelation :341 .
 
 :352 a owl:NamedIndividual,
@@ -3111,7 +3169,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 352 ;
-    skos:prefLabel "final upper pleistocene"@en ;
+    skos:prefLabel "final upper pleistocene"@en,
+        "fin du Pléistocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :353 a owl:NamedIndividual,
@@ -3120,7 +3179,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 353 ;
-    skos:prefLabel "late early pleistocene"@en ;
+    skos:prefLabel "late early pleistocene"@en,
+        "fin du Pléistocène inférieur"@fr ;
     skos:semanticRelation :341 .
 
 :354 a owl:NamedIndividual,
@@ -3129,7 +3189,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 354 ;
-    skos:prefLabel "middle-late pleistocene"@en ;
+    skos:prefLabel "middle-late pleistocene"@en,
+        "Pléistocène moyen-supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :355 a owl:NamedIndividual,
@@ -3138,7 +3199,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 355 ;
-    skos:prefLabel "late pleistocene"@en ;
+    skos:prefLabel "late pleistocene"@en,
+        "Pléistocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :356 a owl:NamedIndividual,
@@ -3147,7 +3209,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 356 ;
-    skos:prefLabel "late pleistocene-early holocene"@en ;
+    skos:prefLabel "late pleistocene-early holocene"@en,
+        "Pléistocène supérieur-Holocène ancien"@fr ;
     skos:semanticRelation :341 .
 
 :357 a owl:NamedIndividual,
@@ -3156,7 +3219,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 357 ;
-    skos:prefLabel "late pliocene"@en ;
+    skos:prefLabel "late pliocene"@en,
+        "Pliocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :358 a owl:NamedIndividual,
@@ -3165,7 +3229,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 358 ;
-    skos:prefLabel "late miocene"@en ;
+    skos:prefLabel "late miocene"@en,
+        "Miocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :359 a owl:NamedIndividual,
@@ -3174,7 +3239,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 359 ;
-    skos:prefLabel "latest middle pleistocene"@en ;
+    skos:prefLabel "latest middle pleistocene"@en,
+        "fin du Pléistocène moyen"@fr ;
     skos:semanticRelation :341 .
 
 :36 a owl:NamedIndividual,
@@ -3193,7 +3259,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 360 ;
-    skos:prefLabel "miocene"@en ;
+    skos:prefLabel "miocene"@en,
+        "Miocène"@fr ;
     skos:semanticRelation :341 .
 
 :361 a owl:NamedIndividual,
@@ -3202,7 +3269,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 361 ;
-    skos:prefLabel "middle and late pleistocene"@en ;
+    skos:prefLabel "middle and late pleistocene"@en,
+        "Pléistocène moyen et supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :362 a owl:NamedIndividual,
@@ -3211,7 +3279,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 362 ;
-    skos:prefLabel "middle holocene"@en ;
+    skos:prefLabel "middle holocene"@en,
+        "Holocène moyen"@fr ;
     skos:semanticRelation :341 .
 
 :363 a owl:NamedIndividual,
@@ -3220,7 +3289,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 363 ;
-    skos:prefLabel "middle pleistocene"@en ;
+    skos:prefLabel "middle pleistocene"@en,
+        "Pléistocène moyen"@fr ;
     skos:semanticRelation :341 .
 
 :364 a owl:NamedIndividual,
@@ -3229,7 +3299,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 364 ;
-    skos:prefLabel "middle pleistocene to holocene"@en ;
+    skos:prefLabel "middle pleistocene to holocene"@en,
+        "du Pléistocène moyen à l'Holocène"@fr ;
     skos:semanticRelation :341 .
 
 :365 a owl:NamedIndividual,
@@ -3238,7 +3309,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 365 ;
-    skos:prefLabel "middle to late pleistocene"@en ;
+    skos:prefLabel "middle to late pleistocene"@en,
+        "Pléistocène moyen à supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :366 a owl:NamedIndividual,
@@ -3247,7 +3319,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 366 ;
-    skos:prefLabel "middle-early late pleistocene"@en ;
+    skos:prefLabel "middle-early late pleistocene"@en,
+        "Pléistocène moyen-début du Pléistocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :367 a owl:NamedIndividual,
@@ -3256,7 +3329,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 367 ;
-    skos:prefLabel "middle-late holocene"@en ;
+    skos:prefLabel "middle-late holocene"@en,
+        "Holocène moyen-récent"@fr ;
     skos:semanticRelation :341 .
 
 :368 a owl:NamedIndividual,
@@ -3265,7 +3339,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 368 ;
-    skos:prefLabel "pleistocene"@en ;
+    skos:prefLabel "pleistocene"@en,
+        "Pléistocène"@fr ;
     skos:semanticRelation :341 .
 
 :369 a owl:NamedIndividual,
@@ -3274,7 +3349,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 369 ;
-    skos:prefLabel "plio-pleistocene"@en ;
+    skos:prefLabel "plio-pleistocene"@en,
+        "Plio-Pléistocène"@fr ;
     skos:semanticRelation :341 .
 
 :37 a owl:NamedIndividual,
@@ -3293,7 +3369,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 370 ;
-    skos:prefLabel "pliocene"@en ;
+    skos:prefLabel "pliocene"@en,
+        "Pliocène"@fr ;
     skos:semanticRelation :341 .
 
 :371 a owl:NamedIndividual,
@@ -3302,7 +3379,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 371 ;
-    skos:prefLabel "upper pleistocene"@en ;
+    skos:prefLabel "upper pleistocene"@en,
+        "Pléistocène supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :372 a owl:NamedIndividual,
@@ -3311,7 +3389,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 372 ;
-    skos:prefLabel "pleistocene-holocene transition"@en ;
+    skos:prefLabel "pleistocene-holocene transition"@en,
+        "transition Pléistocène-Holocène"@fr ;
     skos:semanticRelation :341 .
 
 :374 a owl:NamedIndividual,
@@ -3320,7 +3399,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 374 ;
-    skos:prefLabel "late cenozoic"@en ;
+    skos:prefLabel "late cenozoic"@en,
+        "Cénozoïque supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :375 a owl:NamedIndividual,
@@ -3329,7 +3409,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 375 ;
-    skos:prefLabel "cenozoic"@en ;
+    skos:prefLabel "cenozoic"@en,
+        "Cénozoïque"@fr ;
     skos:semanticRelation :341 .
 
 :376 a owl:NamedIndividual,
@@ -3338,7 +3419,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 376 ;
-    skos:prefLabel "quaternary"@en ;
+    skos:prefLabel "quaternary"@en,
+        "Quaternaire"@fr ;
     skos:semanticRelation :341 .
 
 :377 a owl:NamedIndividual,
@@ -3347,7 +3429,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 377 ;
-    skos:prefLabel "maastrichtian"@en ;
+    skos:prefLabel "maastrichtian"@en,
+        "Maastrichtien"@fr ;
     skos:semanticRelation :341 .
 
 :378 a owl:NamedIndividual,
@@ -3356,7 +3439,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 378 ;
-    skos:prefLabel "early ruscinian"@en ;
+    skos:prefLabel "early ruscinian"@en,
+        "Ruscinien ancien"@fr ;
     skos:semanticRelation :341 .
 
 :379 a owl:NamedIndividual,
@@ -3365,7 +3449,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 379 ;
-    skos:prefLabel "turolian"@en ;
+    skos:prefLabel "turolian"@en,
+        "Turolien"@fr ;
     skos:semanticRelation :341 .
 
 :38 a owl:NamedIndividual,
@@ -3384,7 +3469,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 380 ;
-    skos:prefLabel "upper barremian"@en ;
+    skos:prefLabel "upper barremian"@en,
+        "barrémien supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :381 a owl:NamedIndividual,
@@ -3393,7 +3479,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 381 ;
-    skos:prefLabel "messinian"@en ;
+    skos:prefLabel "messinian"@en,
+        "Messinien"@fr ;
     skos:semanticRelation :341 .
 
 :382 a owl:NamedIndividual,
@@ -3402,7 +3489,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 382 ;
-    skos:prefLabel "zanclean"@en ;
+    skos:prefLabel "zanclean"@en,
+        "Zancléen (déprécié)"@fr ;
     skos:semanticRelation :341 .
 
 :383 a owl:NamedIndividual,
@@ -3411,7 +3499,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 383 ;
-    skos:prefLabel "vallesian"@en ;
+    skos:prefLabel "vallesian"@en,
+        "Vallésien"@fr ;
     skos:semanticRelation :341 .
 
 :384 a owl:NamedIndividual,
@@ -3420,7 +3509,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :341 ;
     skos:inScheme :286 ;
     skos:notation 384 ;
-    skos:prefLabel "late villafranchian"@en ;
+    skos:prefLabel "late villafranchian"@en,
+        "Villafranchien supérieur"@fr ;
     skos:semanticRelation :341 .
 
 :386 a owl:NamedIndividual,
@@ -3429,7 +3519,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :385 ;
     skos:inScheme :286 ;
     skos:notation 386 ;
-    skos:prefLabel "aurignacian"@en ;
+    skos:prefLabel "aurignacian"@en,
+        "Aurignacien"@fr ;
     skos:semanticRelation :385 .
 
 :387 a owl:NamedIndividual,
@@ -3438,7 +3529,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :385 ;
     skos:inScheme :286 ;
     skos:notation 387 ;
-    skos:prefLabel "chatelperronian"@en ;
+    skos:prefLabel "chatelperronian"@en,
+        "Châtelperronien"@fr ;
     skos:semanticRelation :385 .
 
 :388 a owl:NamedIndividual,
@@ -3447,7 +3539,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :385 ;
     skos:inScheme :286 ;
     skos:notation 388 ;
-    skos:prefLabel "early acheulian"@en ;
+    skos:prefLabel "early acheulian"@en,
+        "Acheuléen ancien"@fr ;
     skos:semanticRelation :385 .
 
 :389 a owl:NamedIndividual,
@@ -3456,7 +3549,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :385 ;
     skos:inScheme :286 ;
     skos:notation 389 ;
-    skos:prefLabel "early stone age"@en ;
+    skos:prefLabel "early stone age"@en,
+        "Âge de la pierre ancien"@fr ;
     skos:semanticRelation :385 .
 
 :39 a owl:NamedIndividual,
@@ -9091,7 +9185,8 @@ skos:semanticRelation a owl:ObjectProperty ;
     skos:inScheme :286,
         :492 ;
     skos:notation 373 ;
-    skos:prefLabel "holocene"@en ;
+    skos:prefLabel "holocene"@en,
+        "Holocène"@fr ;
     skos:semanticRelation :341,
         :493,
         :545 .
@@ -9996,7 +10091,8 @@ skos:ConceptScheme a owl:Class ;
         :396,
         :398 ;
     skos:notation 385 ;
-    skos:prefLabel "cultural period"@en ;
+    skos:prefLabel "cultural period"@en,
+        "période culturelle"@fr ;
     skos:semanticRelation :386,
         :387,
         :388,
@@ -11357,7 +11453,8 @@ skos:ConceptScheme a owl:Class ;
         :383,
         :384 ;
     skos:notation 341 ;
-    skos:prefLabel "geological period"@en ;
+    skos:prefLabel "geological period"@en,
+        "période géologique"@fr ;
     skos:semanticRelation :342,
         :343,
         :344,
