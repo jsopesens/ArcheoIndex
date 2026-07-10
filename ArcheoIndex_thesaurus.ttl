@@ -7692,7 +7692,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 591 ;
-    skos:prefLabel "tiglian"@en ;
+    skos:prefLabel "tiglian"@en,
+        "Tiglien"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7703,7 +7704,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 592 ;
-    skos:prefLabel "drought"@en ;
+    skos:prefLabel "drought"@en,
+        "sécheresse"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7714,7 +7716,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 593 ;
-    skos:prefLabel "heinrich event 1"@en ;
+    skos:prefLabel "heinrich event 1"@en,
+        "événement Heinrich 1"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7725,7 +7728,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 594 ;
-    skos:prefLabel "heinrich stadial 4"@en ;
+    skos:prefLabel "heinrich stadial 4"@en,
+        "Stade Heinrich 4"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7736,7 +7740,8 @@ skos:related a owl:ObjectProperty,
         :545 ;
     skos:inScheme :492 ;
     skos:notation 595 ;
-    skos:prefLabel "messinian salinity crisis"@en ;
+    skos:prefLabel "messinian salinity crisis"@en,
+        "crise de salinité messinienne"@fr ;
     skos:semanticRelation :493,
         :545 .
 
@@ -7747,7 +7752,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 598 ;
-    skos:prefLabel "cave deposits"@en ;
+    skos:prefLabel "cave deposits"@en,
+        "dépôts de grotte"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7758,7 +7764,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 599 ;
-    skos:prefLabel "cave entrances"@en ;
+    skos:prefLabel "cave entrances"@en,
+        "entrées de grottes"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7769,7 +7776,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 600 ;
-    skos:prefLabel "cave sediments"@en ;
+    skos:prefLabel "cave sediments"@en,
+        "sédiments de grottes"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7780,7 +7788,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 601 ;
-    skos:prefLabel "cave sequences"@en ;
+    skos:prefLabel "cave sequences"@en,
+        "séquences de grottes"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7791,7 +7800,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 603 ;
-    skos:prefLabel "fluvial incision"@en ;
+    skos:prefLabel "fluvial incision"@en,
+        "incision fluviale"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7802,7 +7812,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 604 ;
-    skos:prefLabel "fluvial sediments"@en ;
+    skos:prefLabel "fluvial sediments"@en,
+        "sédiments fluviaux"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7813,7 +7824,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 605 ;
-    skos:prefLabel "fluvial terraces"@en ;
+    skos:prefLabel "fluvial terraces"@en,
+        "terrasses fluviales"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7824,7 +7836,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 606 ;
-    skos:prefLabel "formation processes"@en ;
+    skos:prefLabel "formation processes"@en,
+        "processus de formation"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7835,7 +7848,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 607 ;
-    skos:prefLabel "hot springs"@en ;
+    skos:prefLabel "hot springs"@en,
+        "sources chaudes"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7846,7 +7860,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 608 ;
-    skos:prefLabel "illuviation"@en ;
+    skos:prefLabel "illuviation"@en,
+        "illuviation"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7857,7 +7872,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 609 ;
-    skos:prefLabel "isostatic adjustment"@en ;
+    skos:prefLabel "isostatic adjustment"@en,
+        "ajustement isostatique"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7868,7 +7884,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 610 ;
-    skos:prefLabel "karst"@en ;
+    skos:prefLabel "karst"@en,
+        "karst"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7879,7 +7896,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 611 ;
-    skos:prefLabel "karst geomorphology"@en ;
+    skos:prefLabel "karst geomorphology"@en,
+        "géomorphologie karstique"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7890,7 +7908,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 612 ;
-    skos:prefLabel "karst sediments"@en ;
+    skos:prefLabel "karst sediments"@en,
+        "sédiments karstiques"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7901,7 +7920,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 613 ;
-    skos:prefLabel "karstic cave"@en ;
+    skos:prefLabel "karstic cave"@en,
+        "grotte karstique"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7912,7 +7932,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 614 ;
-    skos:prefLabel "knickpoint"@en ;
+    skos:prefLabel "knickpoint"@en,
+        "rupture de pente"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7923,7 +7944,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 615 ;
-    skos:prefLabel "lacustrine systems"@en ;
+    skos:prefLabel "lacustrine systems"@en,
+        "systèmes lacustres"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7934,7 +7956,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 616 ;
-    skos:prefLabel "maar"@en ;
+    skos:prefLabel "maar"@en,
+        "maar"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7945,7 +7968,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 617 ;
-    skos:prefLabel "maar lake"@en ;
+    skos:prefLabel "maar lake"@en,
+        "lac maar"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7956,7 +7980,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 618 ;
-    skos:prefLabel "maar-diatreme"@en ;
+    skos:prefLabel "maar-diatreme"@en,
+        "maar-diatrème"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7967,7 +7992,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 619 ;
-    skos:prefLabel "palaeokarst filling"@en ;
+    skos:prefLabel "palaeokarst filling"@en,
+        "remplissage paléokarstique"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7978,7 +8004,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 620 ;
-    skos:prefLabel "paleosols"@en ;
+    skos:prefLabel "paleosols"@en,
+        "paléosols"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -7989,7 +8016,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 621 ;
-    skos:prefLabel "site formation processes"@en ;
+    skos:prefLabel "site formation processes"@en,
+        "processus de formation du site"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8000,7 +8028,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 622 ;
-    skos:prefLabel "site location"@en ;
+    skos:prefLabel "site location"@en,
+        "emplacement du site"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8011,7 +8040,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 623 ;
-    skos:prefLabel "site structure"@en ;
+    skos:prefLabel "site structure"@en,
+        "structure du site"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8022,7 +8052,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 624 ;
-    skos:prefLabel "speleogenesis"@en ;
+    skos:prefLabel "speleogenesis"@en,
+        "spéléogenèse"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8033,7 +8064,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 625 ;
-    skos:prefLabel "water flows"@en ;
+    skos:prefLabel "water flows"@en,
+        "écoulements d'eau"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8044,7 +8076,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 626 ;
-    skos:prefLabel "carbonate rock shelter"@en ;
+    skos:prefLabel "carbonate rock shelter"@en,
+        "abri sous roche carbonatée"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8055,7 +8088,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 627 ;
-    skos:prefLabel "cave"@en ;
+    skos:prefLabel "cave"@en,
+        "grotte"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8066,7 +8100,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 628 ;
-    skos:prefLabel "high mountains"@en ;
+    skos:prefLabel "high mountains"@en,
+        "hautes montagnes"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8077,7 +8112,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 629 ;
-    skos:prefLabel "lake"@en ;
+    skos:prefLabel "lake"@en,
+        "lac"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8088,7 +8124,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 630 ;
-    skos:prefLabel "multilevel caves"@en ;
+    skos:prefLabel "multilevel caves"@en,
+        "grottes à plusieurs niveaux"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8099,7 +8136,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 631 ;
-    skos:prefLabel "proglacial lake"@en ;
+    skos:prefLabel "proglacial lake"@en,
+        "lac proglaciaire"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8110,7 +8148,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 632 ;
-    skos:prefLabel "rock shelter"@en ;
+    skos:prefLabel "rock shelter"@en,
+        "abri sous roche"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8121,7 +8160,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 633 ;
-    skos:prefLabel "saline lake"@en ;
+    skos:prefLabel "saline lake"@en,
+        "lac salin"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8132,7 +8172,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 634 ;
-    skos:prefLabel "salt lake"@en ;
+    skos:prefLabel "salt lake"@en,
+        "lac salé"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8143,7 +8184,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 635 ;
-    skos:prefLabel "colluvial fans"@en ;
+    skos:prefLabel "colluvial fans"@en,
+        "cônes colluviaux"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8154,7 +8196,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 636 ;
-    skos:prefLabel "steppe"@en ;
+    skos:prefLabel "steppe"@en,
+        "steppe"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8165,7 +8208,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 637 ;
-    skos:prefLabel "wetlands"@en ;
+    skos:prefLabel "wetlands"@en,
+        "zones humides"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8176,7 +8220,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 638 ;
-    skos:prefLabel "endokarst"@en ;
+    skos:prefLabel "endokarst"@en,
+        "endokarst"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8187,7 +8232,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 639 ;
-    skos:prefLabel "valley evolution"@en ;
+    skos:prefLabel "valley evolution"@en,
+        "évolution de la vallée"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8198,7 +8244,8 @@ skos:related a owl:ObjectProperty,
         :597 ;
     skos:inScheme :492 ;
     skos:notation 640 ;
-    skos:prefLabel "island evolution"@en ;
+    skos:prefLabel "island evolution"@en,
+        "évolution de l'île"@fr ;
     skos:semanticRelation :596,
         :597 .
 
@@ -8209,7 +8256,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 642 ;
-    skos:prefLabel "detrital supply"@en ;
+    skos:prefLabel "detrital supply"@en,
+        "approvisionnement détritique"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8220,7 +8268,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 643 ;
-    skos:prefLabel "geogenic"@en ;
+    skos:prefLabel "geogenic"@en,
+        "géogénique"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8231,7 +8280,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 644 ;
-    skos:prefLabel "geological deposits"@en ;
+    skos:prefLabel "geological deposits"@en,
+        "dépôts géologiques"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8242,7 +8292,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 645 ;
-    skos:prefLabel "reworking"@en ;
+    skos:prefLabel "reworking"@en,
+        "remaniement"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8253,7 +8304,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 646 ;
-    skos:prefLabel "sedimentary facies"@en ;
+    skos:prefLabel "sedimentary facies"@en,
+        "faciès sédimentaire"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8264,7 +8316,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 647 ;
-    skos:prefLabel "sedimentary package"@en ;
+    skos:prefLabel "sedimentary package"@en,
+        "ensemble sédimentaire"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8275,7 +8328,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 648 ;
-    skos:prefLabel "size sorting"@en ;
+    skos:prefLabel "size sorting"@en,
+        "tri par taille"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8286,7 +8340,8 @@ skos:related a owl:ObjectProperty,
         :641 ;
     skos:inScheme :492 ;
     skos:notation 649 ;
-    skos:prefLabel "soil microfacies"@en ;
+    skos:prefLabel "soil microfacies"@en,
+        "microfaciès du sol"@fr ;
     skos:semanticRelation :596,
         :641 .
 
@@ -8297,7 +8352,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 651 ;
-    skos:prefLabel "geomorphology"@en ;
+    skos:prefLabel "geomorphology"@en,
+        "géomorphologie"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8308,7 +8364,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 652 ;
-    skos:prefLabel "gis"@en ;
+    skos:prefLabel "gis"@en,
+        "SIG"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8319,7 +8376,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 653 ;
-    skos:prefLabel "gis predictive modelling"@en ;
+    skos:prefLabel "gis predictive modelling"@en,
+        "modélisation prédictive SIG"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8330,7 +8388,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 654 ;
-    skos:prefLabel "gravity survey"@en ;
+    skos:prefLabel "gravity survey"@en,
+        "levé gravimétrique"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8341,7 +8400,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 655 ;
-    skos:prefLabel "petrographic analysis"@en ;
+    skos:prefLabel "petrographic analysis"@en,
+        "analyse pétrographique"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8352,7 +8412,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 656 ;
-    skos:prefLabel "petrographic characterisation"@en ;
+    skos:prefLabel "petrographic characterisation"@en,
+        "caractérisation pétrographique"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8363,7 +8424,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 657 ;
-    skos:prefLabel "thin section"@en ;
+    skos:prefLabel "thin section"@en,
+        "lame mince"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8374,7 +8436,8 @@ skos:related a owl:ObjectProperty,
         :650 ;
     skos:inScheme :492 ;
     skos:notation 658 ;
-    skos:prefLabel "three-dimensional geologic modeling"@en ;
+    skos:prefLabel "three-dimensional geologic modeling"@en,
+        "modélisation géologique tridimensionnelle"@fr ;
     skos:semanticRelation :596,
         :650 .
 
@@ -8385,7 +8448,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 660 ;
-    skos:prefLabel "bamboo"@en ;
+    skos:prefLabel "bamboo"@en,
+        "bambou"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8396,7 +8460,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 661 ;
-    skos:prefLabel "basalt"@en ;
+    skos:prefLabel "basalt"@en,
+        "basalte"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8407,7 +8472,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 662 ;
-    skos:prefLabel "bleached quartz"@en ;
+    skos:prefLabel "bleached quartz"@en,
+        "quartz blanchi"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8418,7 +8484,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 663 ;
-    skos:prefLabel "calcium oxalate"@en ;
+    skos:prefLabel "calcium oxalate"@en,
+        "oxalate de calcium"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8429,7 +8496,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 664 ;
-    skos:prefLabel "carbon"@en ;
+    skos:prefLabel "carbon"@en,
+        "carbone"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8440,7 +8508,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 665 ;
-    skos:prefLabel "faecal matter"@en ;
+    skos:prefLabel "faecal matter"@en,
+        "matière fécale"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8451,7 +8520,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 666 ;
-    skos:prefLabel "feather"@en ;
+    skos:prefLabel "feather"@en,
+        "plume"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8462,7 +8532,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 667 ;
-    skos:prefLabel "hydrocarbon fuel"@en ;
+    skos:prefLabel "hydrocarbon fuel"@en,
+        "combustible hydrocarboné"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8473,7 +8544,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 668 ;
-    skos:prefLabel "limestone"@en ;
+    skos:prefLabel "limestone"@en,
+        "calcaire"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8484,7 +8556,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 669 ;
-    skos:prefLabel "mercury"@en ;
+    skos:prefLabel "mercury"@en,
+        "mercure"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8495,7 +8568,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 670 ;
-    skos:prefLabel "obsidian"@en ;
+    skos:prefLabel "obsidian"@en,
+        "obsidienne"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8506,7 +8580,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 671 ;
-    skos:prefLabel "porphyry"@en ;
+    skos:prefLabel "porphyry"@en,
+        "porphyre"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8517,7 +8592,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 672 ;
-    skos:prefLabel "quartz"@en ;
+    skos:prefLabel "quartz"@en,
+        "quartz"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8528,7 +8604,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 673 ;
-    skos:prefLabel "quartz flakes"@en ;
+    skos:prefLabel "quartz flakes"@en,
+        "éclats de quartz"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8539,7 +8616,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 674 ;
-    skos:prefLabel "quartz single grains"@en ;
+    skos:prefLabel "quartz single grains"@en,
+        "grains individuels de quartz"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8550,7 +8628,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 675 ;
-    skos:prefLabel "quartzite"@en ;
+    skos:prefLabel "quartzite"@en,
+        "quartzite"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8561,7 +8640,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 676 ;
-    skos:prefLabel "rock crystal"@en ;
+    skos:prefLabel "rock crystal"@en,
+        "cristal de roche"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8572,7 +8652,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 677 ;
-    skos:prefLabel "string"@en ;
+    skos:prefLabel "string"@en,
+        "ficelle"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8583,7 +8664,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 678 ;
-    skos:prefLabel "strontium"@en ;
+    skos:prefLabel "strontium"@en,
+        "strontium"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8594,7 +8676,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 679 ;
-    skos:prefLabel "tinder"@en ;
+    skos:prefLabel "tinder"@en,
+        "amadou"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8605,7 +8688,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 680 ;
-    skos:prefLabel "castor fiber"@en ;
+    skos:prefLabel "castor fiber"@en,
+        "Castor fiber"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8616,7 +8700,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 681 ;
-    skos:prefLabel "cinnabar"@en ;
+    skos:prefLabel "cinnabar"@en,
+        "cinabre"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8627,7 +8712,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 682 ;
-    skos:prefLabel "cowries"@en ;
+    skos:prefLabel "cowries"@en,
+        "cauris"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8638,7 +8724,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 683 ;
-    skos:prefLabel "marine shells"@en ;
+    skos:prefLabel "marine shells"@en,
+        "coquillages marins"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8649,7 +8736,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 684 ;
-    skos:prefLabel "non-condensable gases"@en ;
+    skos:prefLabel "non-condensable gases"@en,
+        "gaz non condensables"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8660,7 +8748,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 685 ;
-    skos:prefLabel "oxygen"@en ;
+    skos:prefLabel "oxygen"@en,
+        "oxygène"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8671,7 +8760,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 686 ;
-    skos:prefLabel "wood"@en ;
+    skos:prefLabel "wood"@en,
+        "bois"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8682,7 +8772,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 687 ;
-    skos:prefLabel "seashell"@en ;
+    skos:prefLabel "seashell"@en,
+        "coquillage"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -8693,7 +8784,8 @@ skos:related a owl:ObjectProperty,
         :659 ;
     skos:inScheme :492 ;
     skos:notation 688 ;
-    skos:prefLabel "shell beads"@en ;
+    skos:prefLabel "shell beads"@en,
+        "perles de coquillage"@fr ;
     skos:semanticRelation :596,
         :659 .
 
@@ -9923,7 +10015,8 @@ skos:ConceptScheme a owl:Class ;
         :756,
         :989 ;
     skos:notation 602 ;
-    skos:prefLabel "diagenesis"@en ;
+    skos:prefLabel "diagenesis"@en,
+        "diagenèse"@fr ;
     skos:semanticRelation :596,
         :597,
         :744,
@@ -10044,7 +10137,8 @@ skos:ConceptScheme a owl:Class ;
         :648,
         :649 ;
     skos:notation 641 ;
-    skos:prefLabel "site formation"@en ;
+    skos:prefLabel "site formation"@en,
+        "formation du site"@fr ;
     skos:semanticRelation :596,
         :642,
         :643,
@@ -11263,7 +11357,8 @@ skos:ConceptScheme a owl:Class ;
         :688,
         :689 ;
     skos:notation 659 ;
-    skos:prefLabel "raw materials"@en ;
+    skos:prefLabel "raw materials"@en,
+        "matières premières"@fr ;
     skos:semanticRelation :596,
         :660,
         :661,
@@ -11932,7 +12027,8 @@ skos:ConceptScheme a owl:Class ;
         :756,
         :989 ;
     skos:notation 597 ;
-    skos:prefLabel "natural formation"@en ;
+    skos:prefLabel "natural formation"@en,
+        "formation naturelle"@fr ;
     skos:semanticRelation :596,
         :598,
         :599,
@@ -12998,7 +13094,8 @@ skos:ConceptScheme a owl:Class ;
         :756,
         :989 ;
     skos:notation 596 ;
-    skos:prefLabel "geological approach"@en ;
+    skos:prefLabel "geological approach"@en,
+        "approche géologique"@fr ;
     skos:semanticRelation :597,
         :598,
         :599,
