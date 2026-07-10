@@ -130,175 +130,200 @@ skos:scopeNote a owl:AnnotationProperty ;
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 257 ;
-    skos:prefLabel "african tropical forest"@en ;
+    skos:prefLabel "african tropical forest"@en,
+        "forêt tropicale africaine"@fr ;
     skos:topConceptOf :256 .
 
 :258 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 258 ;
-    skos:prefLabel "archaeo-palaeontological site"@en ;
+    skos:prefLabel "archaeo-palaeontological site"@en,
+        "site archéo-paléontologique"@fr ;
     skos:topConceptOf :256 .
 
 :259 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 259 ;
-    skos:prefLabel "archaeological site"@en ;
+    skos:prefLabel "archaeological site"@en,
+        "site archéologique"@fr ;
     skos:topConceptOf :256 .
 
 :260 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 260 ;
-    skos:prefLabel "biotic regions"@en ;
+    skos:prefLabel "biotic regions"@en,
+        "régions biotiques"@fr ;
     skos:topConceptOf :256 .
 
 :261 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 261 ;
-    skos:prefLabel "bison bone bed"@en ;
+    skos:prefLabel "bison bone bed"@en,
+        "lit en os de bison"@fr ;
     skos:topConceptOf :256 .
 
 :262 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 262 ;
-    skos:prefLabel "boreholes"@en ;
+    skos:prefLabel "boreholes"@en,
+        "forages"@fr ;
     skos:topConceptOf :256 .
 
 :263 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 263 ;
-    skos:prefLabel "catalan volcanic zone"@en ;
+    skos:prefLabel "catalan volcanic zone"@en,
+        "zone volcanique catalane"@fr ;
     skos:topConceptOf :256 .
 
 :265 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 265 ;
-    skos:prefLabel "excavation"@en ;
+    skos:prefLabel "excavation"@en,
+        "fouille"@fr ;
     skos:topConceptOf :256 .
 
 :266 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 266 ;
-    skos:prefLabel "grassland"@en ;
+    skos:prefLabel "grassland"@en,
+        "prairie"@fr ;
     skos:topConceptOf :256 .
 
 :267 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 267 ;
-    skos:prefLabel "home base"@en ;
+    skos:prefLabel "home base"@en,
+        "camp de base"@fr ;
     skos:topConceptOf :256 .
 
 :268 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 268 ;
-    skos:prefLabel "island southeast asia"@en ;
+    skos:prefLabel "island southeast asia"@en,
+        "Asie du Sud-Est insulaire"@fr ;
     skos:topConceptOf :256 .
 
 :269 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 269 ;
-    skos:prefLabel "kill site"@en ;
+    skos:prefLabel "kill site"@en,
+        "site d'abattage"@fr ;
     skos:topConceptOf :256 .
 
 :270 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 270 ;
-    skos:prefLabel "open-air camp"@en ;
+    skos:prefLabel "open-air camp"@en,
+        "campement de plein air"@fr ;
     skos:topConceptOf :256 .
 
 :271 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 271 ;
-    skos:prefLabel "open-air sites"@en ;
+    skos:prefLabel "open-air sites"@en,
+        "sites de plein air"@fr ;
     skos:topConceptOf :256 .
 
 :272 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 272 ;
-    skos:prefLabel "palaeontological site"@en ;
+    skos:prefLabel "palaeontological site"@en,
+        "site paléontologique"@fr ;
     skos:topConceptOf :256 .
 
 :274 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 274 ;
-    skos:prefLabel "pleistocene heritage site"@en ;
+    skos:prefLabel "pleistocene heritage site"@en,
+        "site du patrimoine du Pléistocène"@fr ;
     skos:topConceptOf :256 .
 
 :275 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 275 ;
-    skos:prefLabel "residential site"@en ;
+    skos:prefLabel "residential site"@en,
+        "site d'habitat"@fr ;
     skos:topConceptOf :256 .
 
 :276 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 276 ;
-    skos:prefLabel "sanctuary"@en ;
+    skos:prefLabel "sanctuary"@en,
+        "sanctuaire"@fr ;
     skos:topConceptOf :256 .
 
 :277 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 277 ;
-    skos:prefLabel "sepulcros de fosa"@en ;
+    skos:prefLabel "sepulcros de fosa"@en,
+        "sépulcres en fosse"@fr ;
     skos:topConceptOf :256 .
 
 :278 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 278 ;
-    skos:prefLabel "sheepfold cave"@en ;
+    skos:prefLabel "sheepfold cave"@en,
+        "grotte-bergerie"@fr ;
     skos:topConceptOf :256 .
 
 :279 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 279 ;
-    skos:prefLabel "shelter"@en ;
+    skos:prefLabel "shelter"@en,
+        "abri"@fr ;
     skos:topConceptOf :256 .
 
 :280 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 280 ;
-    skos:prefLabel "semi-arid north"@en ;
+    skos:prefLabel "semi-arid north"@en,
+        "nord semi-aride"@fr ;
     skos:topConceptOf :256 .
 
 :281 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 281 ;
-    skos:prefLabel "hunting camp"@en ;
+    skos:prefLabel "hunting camp"@en,
+        "campement de chasse"@fr ;
     skos:topConceptOf :256 .
 
 :282 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 282 ;
-    skos:prefLabel "prehistoric settlements"@en ;
+    skos:prefLabel "prehistoric settlements"@en,
+        "habitats préhistoriques"@fr ;
     skos:topConceptOf :256 .
 
 :284 a owl:NamedIndividual,
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 284 ;
-    skos:prefLabel "neotropics"@en ;
+    skos:prefLabel "neotropics"@en,
+        "néotropiques"@fr ;
     skos:topConceptOf :256 .
 
 :721 a owl:NamedIndividual,
@@ -627,7 +652,8 @@ skos:topConceptOf a owl:ObjectProperty ;
     skos:inScheme :256,
         :697 ;
     skos:notation 273 ;
-    skos:prefLabel "paleoanthropological sites"@en ;
+    skos:prefLabel "paleoanthropological sites"@en,
+        "sites paléoanthropologiques"@fr ;
     skos:topConceptOf :256,
         :697 .
 
@@ -1764,7 +1790,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 195 ;
-    skos:prefLabel "eastern africa"@en ;
+    skos:prefLabel "eastern africa"@en,
+        "Afrique orientale"@fr ;
     skos:semanticRelation :192 .
 
 :196 a owl:NamedIndividual,
@@ -1773,7 +1800,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 196 ;
-    skos:prefLabel "eastern morocco"@en ;
+    skos:prefLabel "eastern morocco"@en,
+        "Est du Maroc"@fr ;
     skos:semanticRelation :192 .
 
 :197 a owl:NamedIndividual,
@@ -1782,7 +1810,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 197 ;
-    skos:prefLabel "eritrea"@en ;
+    skos:prefLabel "eritrea"@en,
+        "Érythrée"@fr ;
     skos:semanticRelation :192 .
 
 :198 a owl:NamedIndividual,
@@ -1791,7 +1820,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 198 ;
-    skos:prefLabel "ethiopia"@en ;
+    skos:prefLabel "ethiopia"@en,
+        "Éthiopie"@fr ;
     skos:semanticRelation :192 .
 
 :199 a owl:NamedIndividual,
@@ -1800,7 +1830,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 199 ;
-    skos:prefLabel "morocco"@en ;
+    skos:prefLabel "morocco"@en,
+        "Maroc"@fr ;
     skos:semanticRelation :192 .
 
 :20 a owl:NamedIndividual,
@@ -1819,7 +1850,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 200 ;
-    skos:prefLabel "north africa"@en ;
+    skos:prefLabel "north africa"@en,
+        "Afrique du Nord"@fr ;
     skos:semanticRelation :192 .
 
 :201 a owl:NamedIndividual,
@@ -1828,7 +1860,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 201 ;
-    skos:prefLabel "nw tunisia"@en ;
+    skos:prefLabel "nw tunisia"@en,
+        "nord-ouest de la Tunisie"@fr ;
     skos:semanticRelation :192 .
 
 :202 a owl:NamedIndividual,
@@ -1837,7 +1870,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 202 ;
-    skos:prefLabel "somalia-masai and zambezian zone"@en ;
+    skos:prefLabel "somalia-masai and zambezian zone"@en,
+        "zone somalo-masaï et zambézienne"@fr ;
     skos:semanticRelation :192 .
 
 :203 a owl:NamedIndividual,
@@ -1846,7 +1880,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 203 ;
-    skos:prefLabel "tunisia"@en ;
+    skos:prefLabel "tunisia"@en,
+        "Tunisie"@fr ;
     skos:semanticRelation :192 .
 
 :204 a owl:NamedIndividual,
@@ -1855,7 +1890,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 204 ;
-    skos:prefLabel "west africa"@en ;
+    skos:prefLabel "west africa"@en,
+        "Afrique occidentale"@fr ;
     skos:semanticRelation :192 .
 
 :205 a owl:NamedIndividual,
@@ -1864,7 +1900,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 205 ;
-    skos:prefLabel "west turkana"@en ;
+    skos:prefLabel "west turkana"@en,
+        "Turkana occidental"@fr ;
     skos:semanticRelation :192 .
 
 :206 a owl:NamedIndividual,
@@ -1873,7 +1910,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 206 ;
-    skos:prefLabel "equatorial guinea"@en ;
+    skos:prefLabel "equatorial guinea"@en,
+        "Guinée équatoriale"@fr ;
     skos:semanticRelation :192 .
 
 :207 a owl:NamedIndividual,
@@ -1882,7 +1920,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :192 ;
     skos:inScheme :1 ;
     skos:notation 207 ;
-    skos:prefLabel "high plateaus basin"@en ;
+    skos:prefLabel "high plateaus basin"@en,
+        "bassin des Hauts Plateaux"@fr ;
     skos:semanticRelation :192 .
 
 :209 a owl:NamedIndividual,
@@ -1891,7 +1930,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 209 ;
-    skos:prefLabel "anatolia"@en ;
+    skos:prefLabel "anatolia"@en,
+        "Anatolie"@fr ;
     skos:semanticRelation :208 .
 
 :21 a owl:NamedIndividual,
@@ -1910,7 +1950,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 210 ;
-    skos:prefLabel "armenia"@en ;
+    skos:prefLabel "armenia"@en,
+        "Arménie"@fr ;
     skos:semanticRelation :208 .
 
 :211 a owl:NamedIndividual,
@@ -1919,7 +1960,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 211 ;
-    skos:prefLabel "central asia"@en ;
+    skos:prefLabel "central asia"@en,
+        "Asie centrale"@fr ;
     skos:semanticRelation :208 .
 
 :212 a owl:NamedIndividual,
@@ -1928,7 +1970,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 212 ;
-    skos:prefLabel "central zagros"@en ;
+    skos:prefLabel "central zagros"@en,
+        "Zagros central"@fr ;
     skos:semanticRelation :208 .
 
 :213 a owl:NamedIndividual,
@@ -1937,7 +1980,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 213 ;
-    skos:prefLabel "india"@en ;
+    skos:prefLabel "india"@en,
+        "Inde"@fr ;
     skos:semanticRelation :208 .
 
 :214 a owl:NamedIndividual,
@@ -1946,7 +1990,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 214 ;
-    skos:prefLabel "indonesia"@en ;
+    skos:prefLabel "indonesia"@en,
+        "Indonésie"@fr ;
     skos:semanticRelation :208 .
 
 :215 a owl:NamedIndividual,
@@ -1955,7 +2000,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 215 ;
-    skos:prefLabel "iran"@en ;
+    skos:prefLabel "iran"@en,
+        "Iran"@fr ;
     skos:semanticRelation :208 .
 
 :216 a owl:NamedIndividual,
@@ -1964,7 +2010,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 216 ;
-    skos:prefLabel "kelabit highlands"@en ;
+    skos:prefLabel "kelabit highlands"@en,
+        "hauts plateaux de Kelabit"@fr ;
     skos:semanticRelation :208 .
 
 :217 a owl:NamedIndividual,
@@ -1973,7 +2020,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 217 ;
-    skos:prefLabel "khorramabad valley"@en ;
+    skos:prefLabel "khorramabad valley"@en,
+        "vallée de Khorramabad"@fr ;
     skos:semanticRelation :208 .
 
 :218 a owl:NamedIndividual,
@@ -1982,7 +2030,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 218 ;
-    skos:prefLabel "kinkazan island"@en ;
+    skos:prefLabel "kinkazan island"@en,
+        "île de Kinkazan"@fr ;
     skos:semanticRelation :208 .
 
 :219 a owl:NamedIndividual,
@@ -1991,7 +2040,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 219 ;
-    skos:prefLabel "malaysian borneo"@en ;
+    skos:prefLabel "malaysian borneo"@en,
+        "Bornéo malaisien"@fr ;
     skos:semanticRelation :208 .
 
 :22 a owl:NamedIndividual,
@@ -2010,7 +2060,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 220 ;
-    skos:prefLabel "nagorno-karabakh"@en ;
+    skos:prefLabel "nagorno-karabakh"@en,
+        "Haut-Karabagh"@fr ;
     skos:semanticRelation :208 .
 
 :221 a owl:NamedIndividual,
@@ -2019,7 +2070,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 221 ;
-    skos:prefLabel "niah caves"@en ;
+    skos:prefLabel "niah caves"@en,
+        "grottes de Niah"@fr ;
     skos:semanticRelation :208 .
 
 :222 a owl:NamedIndividual,
@@ -2028,7 +2080,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 222 ;
-    skos:prefLabel "sarawak"@en ;
+    skos:prefLabel "sarawak"@en,
+        "Sarawak"@fr ;
     skos:semanticRelation :208 .
 
 :223 a owl:NamedIndividual,
@@ -2037,7 +2090,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 223 ;
-    skos:prefLabel "south asia"@en ;
+    skos:prefLabel "south asia"@en,
+        "asie du sud"@fr ;
     skos:semanticRelation :208 .
 
 :224 a owl:NamedIndividual,
@@ -2046,7 +2100,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 224 ;
-    skos:prefLabel "southeast asia"@en ;
+    skos:prefLabel "southeast asia"@en,
+        "Asie du Sud-Est"@fr ;
     skos:semanticRelation :208 .
 
 :225 a owl:NamedIndividual,
@@ -2055,7 +2110,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 225 ;
-    skos:prefLabel "southern anatolia"@en ;
+    skos:prefLabel "southern anatolia"@en,
+        "Anatolie du sud"@fr ;
     skos:semanticRelation :208 .
 
 :226 a owl:NamedIndividual,
@@ -2064,7 +2120,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 226 ;
-    skos:prefLabel "southwest asia"@en ;
+    skos:prefLabel "southwest asia"@en,
+        "Asie du Sud-Ouest"@fr ;
     skos:semanticRelation :208 .
 
 :227 a owl:NamedIndividual,
@@ -2073,7 +2130,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 227 ;
-    skos:prefLabel "tel megiddo"@en ;
+    skos:prefLabel "tel megiddo"@en,
+        "Tel Megiddo"@fr ;
     skos:semanticRelation :208 .
 
 :228 a owl:NamedIndividual,
@@ -2082,7 +2140,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 228 ;
-    skos:prefLabel "tel shadud"@en ;
+    skos:prefLabel "tel shadud"@en,
+        "Tel Shadud"@fr ;
     skos:semanticRelation :208 .
 
 :229 a owl:NamedIndividual,
@@ -2091,7 +2150,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 229 ;
-    skos:prefLabel "udabno"@en ;
+    skos:prefLabel "udabno"@en,
+        "Udabno"@fr ;
     skos:semanticRelation :208 .
 
 :23 a owl:NamedIndividual,
@@ -2110,7 +2170,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 230 ;
-    skos:prefLabel "western iran"@en ;
+    skos:prefLabel "western iran"@en,
+        "l'ouest de l'Iran"@fr ;
     skos:semanticRelation :208 .
 
 :231 a owl:NamedIndividual,
@@ -2119,7 +2180,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 231 ;
-    skos:prefLabel "yehud"@en ;
+    skos:prefLabel "yehud"@en,
+        "Yehud"@fr ;
     skos:semanticRelation :208 .
 
 :232 a owl:NamedIndividual,
@@ -2128,7 +2190,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 232 ;
-    skos:prefLabel "zagros mountains"@en ;
+    skos:prefLabel "zagros mountains"@en,
+        "Zagros"@fr ;
     skos:semanticRelation :208 .
 
 :233 a owl:NamedIndividual,
@@ -2137,7 +2200,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 233 ;
-    skos:prefLabel "caucasus"@en ;
+    skos:prefLabel "caucasus"@en,
+        "Caucase"@fr ;
     skos:semanticRelation :208 .
 
 :234 a owl:NamedIndividual,
@@ -2146,7 +2210,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 234 ;
-    skos:prefLabel "lesser caucasus"@en ;
+    skos:prefLabel "lesser caucasus"@en,
+        "Petit Caucase"@fr ;
     skos:semanticRelation :208 .
 
 :235 a owl:NamedIndividual,
@@ -2155,7 +2220,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 235 ;
-    skos:prefLabel "middle east"@en ;
+    skos:prefLabel "middle east"@en,
+        "Moyen Orient"@fr ;
     skos:semanticRelation :208 .
 
 :236 a owl:NamedIndividual,
@@ -2164,7 +2230,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :208 ;
     skos:inScheme :1 ;
     skos:notation 236 ;
-    skos:prefLabel "northern plateau"@en ;
+    skos:prefLabel "northern plateau"@en,
+        "plateau nord"@fr ;
     skos:semanticRelation :208 .
 
 :238 a owl:NamedIndividual,
@@ -2173,7 +2240,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 238 ;
-    skos:prefLabel "argentina"@en ;
+    skos:prefLabel "argentina"@en,
+        "Argentine"@fr ;
     skos:semanticRelation :237 .
 
 :239 a owl:NamedIndividual,
@@ -2182,7 +2250,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 239 ;
-    skos:prefLabel "atacama desert"@en ;
+    skos:prefLabel "atacama desert"@en,
+        "Désert d'Atacama"@fr ;
     skos:semanticRelation :237 .
 
 :24 a owl:NamedIndividual,
@@ -2201,7 +2270,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 240 ;
-    skos:prefLabel "central america"@en ;
+    skos:prefLabel "central america"@en,
+        "Amérique centrale"@fr ;
     skos:semanticRelation :237 .
 
 :241 a owl:NamedIndividual,
@@ -2210,7 +2280,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 241 ;
-    skos:prefLabel "central andes"@en ;
+    skos:prefLabel "central andes"@en,
+        "andes centrales"@fr ;
     skos:semanticRelation :237 .
 
 :242 a owl:NamedIndividual,
@@ -2219,7 +2290,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 242 ;
-    skos:prefLabel "chile"@en ;
+    skos:prefLabel "chile"@en,
+        "Chili"@fr ;
     skos:semanticRelation :237 .
 
 :243 a owl:NamedIndividual,
@@ -2228,7 +2300,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 243 ;
-    skos:prefLabel "mexico"@en ;
+    skos:prefLabel "mexico"@en,
+        "Mexique"@fr ;
     skos:semanticRelation :237 .
 
 :244 a owl:NamedIndividual,
@@ -2237,7 +2310,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 244 ;
-    skos:prefLabel "north america"@en ;
+    skos:prefLabel "north america"@en,
+        "Amérique du Nord"@fr ;
     skos:semanticRelation :237 .
 
 :245 a owl:NamedIndividual,
@@ -2246,7 +2320,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 245 ;
-    skos:prefLabel "northwestern patagonia"@en ;
+    skos:prefLabel "northwestern patagonia"@en,
+        "Patagonie du nord-ouest"@fr ;
     skos:semanticRelation :237 .
 
 :246 a owl:NamedIndividual,
@@ -2255,7 +2330,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 246 ;
-    skos:prefLabel "pampean region"@en ;
+    skos:prefLabel "pampean region"@en,
+        "région pampéenne"@fr ;
     skos:semanticRelation :237 .
 
 :247 a owl:NamedIndividual,
@@ -2264,7 +2340,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 247 ;
-    skos:prefLabel "panama"@en ;
+    skos:prefLabel "panama"@en,
+        "Panama"@fr ;
     skos:semanticRelation :237 .
 
 :248 a owl:NamedIndividual,
@@ -2273,7 +2350,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 248 ;
-    skos:prefLabel "sabana de bogota"@en ;
+    skos:prefLabel "sabana de bogota"@en,
+        "Sabana de Bogotá"@fr ;
     skos:semanticRelation :237 .
 
 :249 a owl:NamedIndividual,
@@ -2282,7 +2360,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 249 ;
-    skos:prefLabel "south america"@en ;
+    skos:prefLabel "south america"@en,
+        "Amérique du Sud"@fr ;
     skos:semanticRelation :237 .
 
 :25 a owl:NamedIndividual,
@@ -2301,7 +2380,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 250 ;
-    skos:prefLabel "southern atacama desert"@en ;
+    skos:prefLabel "southern atacama desert"@en,
+        "Désert d'Atacama au sud"@fr ;
     skos:semanticRelation :237 .
 
 :251 a owl:NamedIndividual,
@@ -2310,7 +2390,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 251 ;
-    skos:prefLabel "oaxaca"@en ;
+    skos:prefLabel "oaxaca"@en,
+        "Oaxaca"@fr ;
     skos:semanticRelation :237 .
 
 :252 a owl:NamedIndividual,
@@ -2319,7 +2400,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :237 ;
     skos:inScheme :1 ;
     skos:notation 252 ;
-    skos:prefLabel "sitio sierra"@en ;
+    skos:prefLabel "sitio sierra"@en,
+        "Sitio Sierra"@fr ;
     skos:semanticRelation :237 .
 
 :254 a owl:NamedIndividual,
@@ -2328,7 +2410,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :253 ;
     skos:inScheme :1 ;
     skos:notation 254 ;
-    skos:prefLabel "australia"@en ;
+    skos:prefLabel "australia"@en,
+        "Australie"@fr ;
     skos:semanticRelation :253 .
 
 :255 a owl:NamedIndividual,
@@ -2337,7 +2420,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :253 ;
     skos:inScheme :1 ;
     skos:notation 255 ;
-    skos:prefLabel "solomon islands"@en ;
+    skos:prefLabel "solomon islands"@en,
+        "îles Salomon"@fr ;
     skos:semanticRelation :253 .
 
 :26 a owl:NamedIndividual,
@@ -2376,7 +2460,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 288 ;
-    skos:prefLabel "archaic and classical periods"@en ;
+    skos:prefLabel "archaic and classical periods"@en,
+        "périodes archaïques et classiques"@fr ;
     skos:semanticRelation :287 .
 
 :289 a owl:NamedIndividual,
@@ -2385,7 +2470,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 289 ;
-    skos:prefLabel "archaic period"@en ;
+    skos:prefLabel "archaic period"@en,
+        "période archaïque (Mésoamérique)"@fr ;
     skos:semanticRelation :287 .
 
 :29 a owl:NamedIndividual,
@@ -2404,7 +2490,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 290 ;
-    skos:prefLabel "bronze age"@en ;
+    skos:prefLabel "bronze age"@en,
+        "âge du bronze"@fr ;
     skos:semanticRelation :287 .
 
 :291 a owl:NamedIndividual,
@@ -2413,7 +2500,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:broaderTransitive :287 ;
     skos:inScheme :286 ;
     skos:notation 291 ;
-    skos:prefLabel "chalcolithic"@en ;
+    skos:prefLabel "chalcolithic"@en,
+        "Chalcolithique"@fr ;
     skos:semanticRelation :287 .
 
 :292 a owl:NamedIndividual,
@@ -5784,7 +5872,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :256,
         :882 ;
     skos:notation 264 ;
-    skos:prefLabel "den"@en ;
+    skos:prefLabel "den"@en,
+        "tanière"@fr ;
     skos:semanticRelation :861 ;
     skos:topConceptOf :256 .
 
@@ -5795,7 +5884,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :256,
         :882 ;
     skos:notation 283 ;
-    skos:prefLabel "carnivore den"@en ;
+    skos:prefLabel "carnivore den"@en,
+        "repaire de carnivores"@fr ;
     skos:semanticRelation :861 ;
     skos:topConceptOf :256 .
 
@@ -5806,7 +5896,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :256,
         :882 ;
     skos:notation 285 ;
-    skos:prefLabel "hyena den"@en ;
+    skos:prefLabel "hyena den"@en,
+        "repaire d'hyènes"@fr ;
     skos:semanticRelation :861 ;
     skos:topConceptOf :256 .
 
@@ -8924,7 +9015,8 @@ skos:related a owl:ObjectProperty,
     skos:narrowerTransitive :254,
         :255 ;
     skos:notation 253 ;
-    skos:prefLabel "oceania"@en ;
+    skos:prefLabel "oceania"@en,
+        "Océanie"@fr ;
     skos:semanticRelation :254,
         :255 ;
     skos:topConceptOf :1 .
@@ -10140,7 +10232,8 @@ skos:ConceptScheme a owl:Class ;
         :251,
         :252 ;
     skos:notation 237 ;
-    skos:prefLabel "america"@en ;
+    skos:prefLabel "america"@en,
+        "Amérique"@fr ;
     skos:semanticRelation :238,
         :239,
         :240,
@@ -10434,7 +10527,8 @@ skos:ConceptScheme a owl:Class ;
         :284,
         :285 ;
     skos:notation 256 ;
-    skos:prefLabel "others"@en .
+    skos:prefLabel "others"@en,
+        "autres"@fr .
 
 :734 a owl:NamedIndividual,
         skos:ConceptScheme ;
@@ -10778,7 +10872,8 @@ skos:ConceptScheme a owl:Class ;
         :235,
         :236 ;
     skos:notation 208 ;
-    skos:prefLabel "asia"@en ;
+    skos:prefLabel "asia"@en,
+        "Asie"@fr ;
     skos:semanticRelation :209,
         :210,
         :211,
@@ -11034,7 +11129,8 @@ skos:ConceptScheme a owl:Class ;
         :341,
         :385 ;
     skos:notation 286 ;
-    skos:prefLabel "period"@en .
+    skos:prefLabel "period"@en,
+        "période"@fr .
 
 :494 a owl:NamedIndividual,
         skos:Concept ;
@@ -11871,7 +11967,8 @@ skos:ConceptScheme a owl:Class ;
         :339,
         :340 ;
     skos:notation 287 ;
-    skos:prefLabel "historical period"@en ;
+    skos:prefLabel "historical period"@en,
+        "période historique"@fr ;
     skos:semanticRelation :288,
         :289,
         :290,
