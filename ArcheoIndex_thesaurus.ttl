@@ -830,7 +830,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1000 ;
     skos:prefLabel "carnivore tooth marks"@en,
-        "marques de dents de carnivores"@fr ;
+        "marques de dents de carnivores"@fr,
+        "marcas de dientes de carnívoro"@es ;
     skos:semanticRelation :735 .
 
 :1002 a owl:NamedIndividual,
@@ -849,7 +850,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1003 ;
     skos:prefLabel "chewing"@en,
-        "mastication"@fr ;
+        "mastication"@fr,
+        "masticación"@es ;
     skos:semanticRelation :735 .
 
 :1004 a owl:NamedIndividual,
@@ -859,7 +861,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1004 ;
     skos:prefLabel "competition"@en,
-        "compétition"@fr ;
+        "compétition"@fr,
+        "competencia"@es ;
     skos:semanticRelation :847 .
 
 :1005 a owl:NamedIndividual,
@@ -869,7 +872,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1005 ;
     skos:prefLabel "competition among predators"@en,
-        "compétition entre prédateurs"@fr ;
+        "compétition entre prédateurs"@fr,
+        "competencia entre depredadores"@es ;
     skos:semanticRelation :847 .
 
 :1006 a owl:NamedIndividual,
@@ -879,7 +883,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1006 ;
     skos:prefLabel "coprolites"@en,
-        "coprolites"@fr ;
+        "coprolites"@fr,
+        "coprolitos"@es ;
     skos:semanticRelation :927 .
 
 :1007 a owl:NamedIndividual,
@@ -889,7 +894,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1007 ;
     skos:prefLabel "corrosion"@en,
-        "corrosion"@fr ;
+        "corrosion"@fr,
+        "corrosión"@es ;
     skos:semanticRelation :735 .
 
 :1008 a owl:NamedIndividual,
@@ -899,7 +905,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1008 ;
     skos:prefLabel "cut-marked bones"@en,
-        "os portant des traces de découpe"@fr ;
+        "os portant des traces de découpe"@fr,
+        "huesos marcados por cortes"@es ;
     skos:semanticRelation :735 .
 
 :1009 a owl:NamedIndividual,
@@ -909,7 +916,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1009 ;
     skos:prefLabel "cut mark morphology"@en,
-        "morphologie des traces de découpe"@fr ;
+        "morphologie des traces de découpe"@fr,
+        "morfología de la marca de corte"@es ;
     skos:semanticRelation :735 .
 
 :101 a owl:NamedIndividual,
@@ -930,7 +938,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1010 ;
     skos:prefLabel "cut marks"@en,
-        "traces de découpe"@fr ;
+        "traces de découpe"@fr,
+        "marcas de corte"@es ;
     skos:semanticRelation :735 .
 
 :1011 a owl:NamedIndividual,
@@ -940,7 +949,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1011 ;
     skos:prefLabel "cutmark"@en,
-        "trace de découpe"@fr ;
+        "trace de découpe"@fr,
+        "huella de corte"@es ;
     skos:semanticRelation :735 .
 
 :1012 a owl:NamedIndividual,
@@ -950,7 +960,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1012 ;
     skos:prefLabel "digested bones"@en,
-        "os digérés"@fr ;
+        "os digérés"@fr,
+        "huesos digeridos"@es ;
     skos:semanticRelation :735 .
 
 :1013 a owl:NamedIndividual,
@@ -960,7 +971,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1013 ;
     skos:prefLabel "diversity"@en,
-        "diversité"@fr ;
+        "diversité"@fr,
+        "diversidad"@es ;
     skos:semanticRelation :847 .
 
 :1014 a owl:NamedIndividual,
@@ -970,7 +982,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1014 ;
     skos:prefLabel "domestication"@en,
-        "domestication des animaux"@fr ;
+        "domestication des animaux"@fr,
+        "domesticación de animales"@es ;
     skos:semanticRelation :865 .
 
 :1015 a owl:NamedIndividual,
@@ -980,7 +993,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1015 ;
     skos:prefLabel "fossil accumulation"@en,
-        "accumulation de fossiles"@fr ;
+        "accumulation de fossiles"@fr,
+        "acumulación de fósiles"@es ;
     skos:semanticRelation :927 .
 
 :1016 a owl:NamedIndividual,
@@ -990,7 +1004,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1016 ;
     skos:prefLabel "fossil assemblage"@en,
-        "assemblage fossile"@fr ;
+        "assemblage fossile"@fr,
+        "conjunto fósil"@es ;
     skos:semanticRelation :927 .
 
 :1017 a owl:NamedIndividual,
@@ -1000,7 +1015,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1017 ;
     skos:prefLabel "fossil birds"@en,
-        "oiseaux fossiles"@fr ;
+        "oiseaux fossiles"@fr,
+        "aves fósiles"@es ;
     skos:semanticRelation :878 .
 
 :1018 a owl:NamedIndividual,
@@ -1010,7 +1026,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1018 ;
     skos:prefLabel "fossil vertebrates"@en,
-        "vertébrés fossiles"@fr ;
+        "vertébrés fossiles"@fr,
+        "vertebrados fósiles"@es ;
     skos:semanticRelation :878 .
 
 :102 a owl:NamedIndividual,
@@ -1031,7 +1048,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1020 ;
     skos:prefLabel "furrowing"@en,
-        "sillonnement"@fr ;
+        "sillonnement"@fr,
+        "surcado"@es ;
     skos:semanticRelation :735 .
 
 :1021 a owl:NamedIndividual,
@@ -1041,7 +1059,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1021 ;
     skos:prefLabel "groove"@en,
-        "rainure"@fr ;
+        "rainure"@fr,
+        "canaladura"@es ;
     skos:semanticRelation :735 .
 
 :1022 a owl:NamedIndividual,
@@ -1051,7 +1070,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1022 ;
     skos:prefLabel "hominid carnivore interactions"@en,
-        "interactions hominidés-carnivores"@fr ;
+        "interactions hominidés-carnivores"@fr,
+        "interacciones entre homínidos y carnívoros"@es ;
     skos:semanticRelation :847 .
 
 :1023 a owl:NamedIndividual,
@@ -1061,7 +1081,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1023 ;
     skos:prefLabel "human tooth marks"@en,
-        "marques de dents humaines"@fr ;
+        "marques de dents humaines"@fr,
+        "marcas de dientes humanos"@es ;
     skos:semanticRelation :735 .
 
 :1025 a owl:NamedIndividual,
@@ -1071,7 +1092,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1025 ;
     skos:prefLabel "husbandry"@en,
-        "élevage"@fr ;
+        "élevage"@fr,
+        "ganadería"@es ;
     skos:semanticRelation :865 .
 
 :1026 a owl:NamedIndividual,
@@ -1081,7 +1103,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1026 ;
     skos:prefLabel "husbandry implementation"@en,
-        "mise en œuvre de l'élevage"@fr ;
+        "mise en œuvre de l'élevage"@fr,
+        "implantación de la ganadería"@es ;
     skos:semanticRelation :865 .
 
 :1027 a owl:NamedIndividual,
@@ -1091,7 +1114,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1027 ;
     skos:prefLabel "husbandry practices"@en,
-        "pratiques d'élevage"@fr ;
+        "pratiques d'élevage"@fr,
+        "prácticas ganaderas"@es ;
     skos:semanticRelation :865 .
 
 :1028 a owl:NamedIndividual,
@@ -1110,7 +1134,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1029 ;
     skos:prefLabel "impact point"@en,
-        "point d'impact"@fr ;
+        "point d'impact"@fr,
+        "punto de impacto"@es ;
     skos:semanticRelation :735 .
 
 :103 a owl:NamedIndividual,
@@ -1131,7 +1156,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1030 ;
     skos:prefLabel "large game"@en,
-        "grand gibier"@fr ;
+        "grand gibier"@fr,
+        "caza mayor"@es ;
     skos:semanticRelation :874 .
 
 :1031 a owl:NamedIndividual,
@@ -1141,7 +1167,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1031 ;
     skos:prefLabel "large herbivores"@en,
-        "grands herbivores"@fr ;
+        "grands herbivores"@fr,
+        "grandes herbívoros"@es ;
     skos:semanticRelation :847 .
 
 :1032 a owl:NamedIndividual,
@@ -1151,7 +1178,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1032 ;
     skos:prefLabel "large mammals"@en,
-        "grands mammifères"@fr ;
+        "grands mammifères"@fr,
+        "grandes mamíferos"@es ;
     skos:semanticRelation :847 .
 
 :1033 a owl:NamedIndividual,
@@ -1161,7 +1189,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1033 ;
     skos:prefLabel "long bone breakage"@en,
-        "fracturation des os longs"@fr ;
+        "fracturation des os longs"@fr,
+        "fracturación de huesos largos"@es ;
     skos:semanticRelation :735 .
 
 :1034 a owl:NamedIndividual,
@@ -1171,7 +1200,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1034 ;
     skos:prefLabel "macro-mammals"@en,
-        "macromammifères"@fr ;
+        "macromammifères"@fr,
+        "macromamíferos"@es ;
     skos:semanticRelation :847 .
 
 :1035 a owl:NamedIndividual,
@@ -1181,7 +1211,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1035 ;
     skos:prefLabel "mass kill"@en,
-        "abattage de masse"@fr ;
+        "abattage de masse"@fr,
+        "matanza masiva"@es ;
     skos:semanticRelation :874 .
 
 :1036 a owl:NamedIndividual,
@@ -1191,7 +1222,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1036 ;
     skos:prefLabel "megafauna"@en,
-        "mégafaune"@fr ;
+        "mégafaune"@fr,
+        "megafauna"@es ;
     skos:semanticRelation :847 .
 
 :1037 a owl:NamedIndividual,
@@ -1219,7 +1251,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1039 ;
     skos:prefLabel "mn staining"@en,
-        "coloration au Mn"@fr ;
+        "coloration au Mn"@fr,
+        "tinción mn"@es ;
     skos:semanticRelation :735 .
 
 :104 a owl:NamedIndividual,
@@ -1240,7 +1273,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1040 ;
     skos:prefLabel "monospecific faunal assemblages"@en,
-        "assemblages fauniques monospécifiques"@fr ;
+        "assemblages fauniques monospécifiques"@fr,
+        "conjuntos faunísticos monoespecíficos"@es ;
     skos:semanticRelation :847 .
 
 :1041 a owl:NamedIndividual,
@@ -1250,7 +1284,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1041 ;
     skos:prefLabel "nocturnal raptors"@en,
-        "rapaces nocturnes"@fr ;
+        "rapaces nocturnes"@fr,
+        "rapaces nocturnas"@es ;
     skos:semanticRelation :927 .
 
 :1042 a owl:NamedIndividual,
@@ -1260,7 +1295,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1042 ;
     skos:prefLabel "non-ingested remains"@en,
-        "restes non ingérés"@fr ;
+        "restes non ingérés"@fr,
+        "restos no ingeridos"@es ;
     skos:semanticRelation :735 .
 
 :1043 a owl:NamedIndividual,
@@ -1270,7 +1306,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1043 ;
     skos:prefLabel "osteophagia"@en,
-        "ostéophagie"@fr ;
+        "ostéophagie"@fr,
+        "osteofagia"@es ;
     skos:semanticRelation :735 .
 
 :1044 a owl:NamedIndividual,
@@ -1280,7 +1317,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1044 ;
     skos:prefLabel "peeling"@en,
-        "desquamation"@fr ;
+        "desquamation"@fr,
+        "descamación"@es ;
     skos:semanticRelation :735 .
 
 :1045 a owl:NamedIndividual,
@@ -1290,7 +1328,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1045 ;
     skos:prefLabel "percussion mark"@en,
-        "marque de percussion"@fr ;
+        "marque de percussion"@fr,
+        "marca de percusión"@es ;
     skos:semanticRelation :735 .
 
 :1046 a owl:NamedIndividual,
@@ -1300,7 +1339,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1046 ;
     skos:prefLabel "pig diet"@en,
-        "régime alimentaire des porcs"@fr ;
+        "régime alimentaire des porcs"@fr,
+        "dieta del cerdo"@es ;
     skos:semanticRelation :865 .
 
 :1047 a owl:NamedIndividual,
@@ -1310,7 +1350,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1047 ;
     skos:prefLabel "pit"@en,
-        "fosse"@fr ;
+        "fosse"@fr,
+        "fosa"@es ;
     skos:semanticRelation :735 .
 
 :1048 a owl:NamedIndividual,
@@ -1320,7 +1361,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1048 ;
     skos:prefLabel "polished surfaces"@en,
-        "surfaces polies"@fr ;
+        "surfaces polies"@fr,
+        "superficies pulidas"@es ;
     skos:semanticRelation :735 .
 
 :1049 a owl:NamedIndividual,
@@ -1330,7 +1372,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1049 ;
     skos:prefLabel "puncture"@en,
-        "perforation"@fr ;
+        "perforation"@fr,
+        "perforación"@es ;
     skos:semanticRelation :735 .
 
 :105 a owl:NamedIndividual,
@@ -1351,7 +1394,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1050 ;
     skos:prefLabel "raptors"@en,
-        "rapaces"@fr ;
+        "rapaces"@fr,
+        "aves rapaces"@es ;
     skos:semanticRelation :927 .
 
 :1051 a owl:NamedIndividual,
@@ -1361,7 +1405,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1051 ;
     skos:prefLabel "ravaging"@en,
-        "ravages"@fr ;
+        "ravages"@fr,
+        "devastación"@es ;
     skos:semanticRelation :927 .
 
 :1052 a owl:NamedIndividual,
@@ -1371,7 +1416,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1052 ;
     skos:prefLabel "regurgitation pellets"@en,
-        "pelotes de régurgitation"@fr ;
+        "pelotes de régurgitation"@fr,
+        "egagrópilas"@es ;
     skos:semanticRelation :927 .
 
 :1053 a owl:NamedIndividual,
@@ -1381,7 +1427,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1053 ;
     skos:prefLabel "rubefaction"@en,
-        "rubéfaction"@fr ;
+        "rubéfaction"@fr,
+        "rubefacción"@es ;
     skos:semanticRelation :735 .
 
 :1054 a owl:NamedIndividual,
@@ -1391,7 +1438,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1054 ;
     skos:prefLabel "scat"@en,
-        "fèces"@fr ;
+        "fèces"@fr,
+        "heces"@es ;
     skos:semanticRelation :927 .
 
 :1055 a owl:NamedIndividual,
@@ -1401,7 +1449,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1055 ;
     skos:prefLabel "scooping out"@en,
-        "évidement"@fr ;
+        "évidement"@fr,
+        "vaciado"@es ;
     skos:semanticRelation :735 .
 
 :1056 a owl:NamedIndividual,
@@ -1411,7 +1460,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1056 ;
     skos:prefLabel "score"@en,
-        "strie"@fr ;
+        "strie"@fr,
+        "surco"@es ;
     skos:semanticRelation :735 .
 
 :1057 a owl:NamedIndividual,
@@ -1421,7 +1471,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1057 ;
     skos:prefLabel "scoring"@en,
-        "striation"@fr ;
+        "striation"@fr,
+        "estriado"@es ;
     skos:semanticRelation :735 .
 
 :1058 a owl:NamedIndividual,
@@ -1431,7 +1482,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1058 ;
     skos:prefLabel "seasonality"@en,
-        "saisonnalité"@fr ;
+        "saisonnalité"@fr,
+        "estacionalidad"@es ;
     skos:semanticRelation :847 .
 
 :1059 a owl:NamedIndividual,
@@ -1441,7 +1493,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1059 ;
     skos:prefLabel "shannon index"@en,
-        "indice de Shannon"@fr ;
+        "indice de Shannon"@fr,
+        "índice de shannon"@es ;
     skos:semanticRelation :847 .
 
 :106 a owl:NamedIndividual,
@@ -1462,7 +1515,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1060 ;
     skos:prefLabel "sharp-blunt trauma"@en,
-        "traumatisme par objet tranchant ou contondant"@fr ;
+        "traumatisme par objet tranchant ou contondant"@fr,
+        "traumatismo cortante-contundente"@es ;
     skos:semanticRelation :847 .
 
 :1061 a owl:NamedIndividual,
@@ -1472,7 +1526,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1061 ;
     skos:prefLabel "simpson diversity index"@en,
-        "indice de diversité de Simpson"@fr ;
+        "indice de diversité de Simpson"@fr,
+        "índice de diversidad de Simpson"@es ;
     skos:semanticRelation :847 .
 
 :1062 a owl:NamedIndividual,
@@ -1482,7 +1537,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1062 ;
     skos:prefLabel "small fauna"@en,
-        "petite faune"@fr ;
+        "petite faune"@fr,
+        "pequeña fauna"@es ;
     skos:semanticRelation :847 .
 
 :1063 a owl:NamedIndividual,
@@ -1492,7 +1548,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1063 ;
     skos:prefLabel "small game"@en,
-        "petit gibier"@fr ;
+        "petit gibier"@fr,
+        "caza menor"@es ;
     skos:semanticRelation :847 .
 
 :1064 a owl:NamedIndividual,
@@ -1502,7 +1559,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1064 ;
     skos:prefLabel "suid remains"@en,
-        "restes de suidés"@fr ;
+        "restes de suidés"@fr,
+        "restos de suidos"@es ;
     skos:semanticRelation :878 .
 
 :1065 a owl:NamedIndividual,
@@ -1512,7 +1570,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1065 ;
     skos:prefLabel "taphonomic signal"@en,
-        "signal taphonomique"@fr ;
+        "signal taphonomique"@fr,
+        "señal tafonómica"@es ;
     skos:semanticRelation :735 .
 
 :1066 a owl:NamedIndividual,
@@ -1522,7 +1581,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1066 ;
     skos:prefLabel "taphotype"@en,
-        "taphotype"@fr ;
+        "taphotype"@fr,
+        "tafotipo"@es ;
     skos:semanticRelation :735 .
 
 :1067 a owl:NamedIndividual,
@@ -1532,7 +1592,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1067 ;
     skos:prefLabel "tooth marks"@en,
-        "marques de dents"@fr ;
+        "marques de dents"@fr,
+        "marcas de dientes"@es ;
     skos:semanticRelation :735 .
 
 :1068 a owl:NamedIndividual,
@@ -1542,7 +1603,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1068 ;
     skos:prefLabel "toothmarks"@en,
-        "marques de dents"@fr ;
+        "marques de dents"@fr,
+        "marcas de dientes"@es ;
     skos:semanticRelation :735 .
 
 :1069 a owl:NamedIndividual,
@@ -1552,7 +1614,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1069 ;
     skos:prefLabel "trampling"@en,
-        "piétinement"@fr ;
+        "piétinement"@fr,
+        "pisoteo"@es ;
     skos:semanticRelation :735 .
 
 :107 a owl:NamedIndividual,
@@ -1573,7 +1636,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 1070 ;
     skos:prefLabel "tumbling"@en,
-        "roulage"@fr ;
+        "roulage"@fr,
+        "rodamiento"@es ;
     skos:semanticRelation :735 .
 
 :1071 a owl:NamedIndividual,
@@ -1583,7 +1647,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1071 ;
     skos:prefLabel "ungulate community"@en,
-        "communauté d'ongulés"@fr ;
+        "communauté d'ongulés"@fr,
+        "comunidad de ungulados"@es ;
     skos:semanticRelation :847 .
 
 :108 a owl:NamedIndividual,
@@ -6581,7 +6646,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 984 ;
     skos:prefLabel "accumulator"@en,
-        "accumulateur"@fr ;
+        "accumulateur"@fr,
+        "acumulador"@es ;
     skos:semanticRelation :927 .
 
 :985 a owl:NamedIndividual,
@@ -6591,7 +6657,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 985 ;
     skos:prefLabel "ancient livestock strategies"@en,
-        "stratégies d'élevage anciennes"@fr ;
+        "stratégies d'élevage anciennes"@fr,
+        "antiguas estrategias ganaderas"@es ;
     skos:semanticRelation :865 .
 
 :986 a owl:NamedIndividual,
@@ -6601,7 +6668,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 986 ;
     skos:prefLabel "anthropic"@en,
-        "anthropique"@fr ;
+        "anthropique"@fr,
+        "antrópico"@es ;
     skos:semanticRelation :927 .
 
 :988 a owl:NamedIndividual,
@@ -6611,7 +6679,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 988 ;
     skos:prefLabel "bone bed"@en,
-        "couche d'ossements"@fr ;
+        "couche d'ossements"@fr,
+        "lecho óseo"@es ;
     skos:semanticRelation :927 .
 
 :99 a owl:NamedIndividual,
@@ -6632,7 +6701,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 990 ;
     skos:prefLabel "bone marks"@en,
-        "marques osseuses"@fr ;
+        "marques osseuses"@fr,
+        "marcas de huesos"@es ;
     skos:semanticRelation :735 .
 
 :991 a owl:NamedIndividual,
@@ -6642,7 +6712,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 991 ;
     skos:prefLabel "breakage"@en,
-        "fracturation"@fr ;
+        "fracturation"@fr,
+        "fraccionamiento"@es ;
     skos:semanticRelation :735 .
 
 :992 a owl:NamedIndividual,
@@ -6652,7 +6723,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 992 ;
     skos:prefLabel "breakage patterns"@en,
-        "schémas de fracturation"@fr ;
+        "schémas de fracturation"@fr,
+        "patrones de rotura"@es ;
     skos:semanticRelation :735 .
 
 :993 a owl:NamedIndividual,
@@ -6662,7 +6734,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 993 ;
     skos:prefLabel "butchering process"@en,
-        "processus de boucherie"@fr ;
+        "processus de boucherie"@fr,
+        "proceso de descuartizamiento"@es ;
     skos:semanticRelation :861 .
 
 :994 a owl:NamedIndividual,
@@ -6672,7 +6745,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 994 ;
     skos:prefLabel "butchering site"@en,
-        "site de boucherie"@fr ;
+        "site de boucherie"@fr,
+        "yacimiento de descuartizamiento"@es ;
     skos:semanticRelation :861 .
 
 :995 a owl:NamedIndividual,
@@ -6682,7 +6756,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 995 ;
     skos:prefLabel "butchery"@en,
-        "boucherie"@fr ;
+        "boucherie"@fr,
+        "carnicería"@es ;
     skos:semanticRelation :735 .
 
 :996 a owl:NamedIndividual,
@@ -6692,7 +6767,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 996 ;
     skos:prefLabel "butchery marks"@en,
-        "traces de boucherie"@fr ;
+        "traces de boucherie"@fr,
+        "marcas de carnicería"@es ;
     skos:semanticRelation :735 .
 
 :997 a owl:NamedIndividual,
@@ -6702,7 +6778,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 997 ;
     skos:prefLabel "butchery site"@en,
-        "site de boucherie"@fr ;
+        "site de boucherie"@fr,
+        "yacimiento de carnicería"@es ;
     skos:semanticRelation :861 .
 
 :998 a owl:NamedIndividual,
@@ -6712,7 +6789,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 998 ;
     skos:prefLabel "caprine paleodiet"@en,
-        "paléodiète caprine"@fr ;
+        "paléodiète caprine"@fr,
+        "paleodieta caprina"@es ;
     skos:semanticRelation :865 .
 
 :999 a owl:NamedIndividual,
@@ -6722,7 +6800,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :882 ;
     skos:notation 999 ;
     skos:prefLabel "carnivore ravaging"@en,
-        "ravages de carnivores"@fr ;
+        "ravages de carnivores"@fr,
+        "acción de carnívoros"@es ;
     skos:semanticRelation :735 .
 
 skos:Collection a owl:Class ;
@@ -10250,7 +10329,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 973 ;
     skos:prefLabel "warfare"@en,
-        "guerre"@fr ;
+        "guerre"@fr,
+        "guerra"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10262,7 +10342,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 974 ;
     skos:prefLabel "war"@en,
-        "guerre"@fr ;
+        "guerre"@fr,
+        "guerra"@es ;
     skos:semanticRelation :1072,
         :939 .
 
@@ -10274,7 +10355,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 976 ;
     skos:prefLabel "death events"@en,
-        "circonstances du décès"@fr ;
+        "circonstances du décès"@fr,
+        "eventos de muerte"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10286,7 +10368,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 977 ;
     skos:prefLabel "intentional damage"@en,
-        "dommage intentionnel"@fr ;
+        "dommage intentionnel"@fr,
+        "daño intencional"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10298,7 +10381,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 978 ;
     skos:prefLabel "mortality events"@en,
-        "événements de mortalité"@fr ;
+        "événements de mortalité"@fr,
+        "eventos de mortalidad"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10310,7 +10394,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 979 ;
     skos:prefLabel "perimortem"@en,
-        "périmortem"@fr ;
+        "périmortem"@fr,
+        "perimortem"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10322,7 +10407,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 980 ;
     skos:prefLabel "pathology"@en,
-        "maladie"@fr ;
+        "maladie"@fr,
+        "patología"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10334,7 +10420,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 981 ;
     skos:prefLabel "illness"@en,
-        "maladie"@fr ;
+        "maladie"@fr,
+        "enfermedad"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10346,7 +10433,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 982 ;
     skos:prefLabel "fracture"@en,
-        "fracture"@fr ;
+        "fracture"@fr,
+        "fractura"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10358,7 +10446,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 983 ;
     skos:prefLabel "trepanation"@en,
-        "trépanation"@fr ;
+        "trépanation"@fr,
+        "trepanación"@es ;
     skos:semanticRelation :939,
         :975 .
 
@@ -10475,7 +10564,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :882 ;
     skos:notation 989 ;
     skos:prefLabel "bone integrity"@en,
-        "intégrité osseuse"@fr ;
+        "intégrité osseuse"@fr,
+        "integridad ósea"@es ;
     skos:semanticRelation :596,
         :597,
         :602 .
@@ -10996,7 +11086,8 @@ skos:mappingRelation a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1024 ;
     skos:prefLabel "hunter-gatherers"@en,
-        "chasseurs-cueilleurs"@fr ;
+        "chasseurs-cueilleurs"@fr,
+        "cazadores-recolectores"@es ;
     skos:semanticRelation :874 .
 
 :830 a owl:NamedIndividual,
@@ -11131,7 +11222,8 @@ skos:ConceptScheme a owl:Class ;
     skos:inScheme :836 ;
     skos:notation 1001 ;
     skos:prefLabel "cattle"@en,
-        "bovin"@fr ;
+        "bovin"@fr,
+        "ganado bovino"@es ;
     skos:semanticRelation :865 .
 
 :861 a owl:NamedIndividual,
@@ -11182,7 +11274,8 @@ skos:ConceptScheme a owl:Class ;
         :974 ;
     skos:notation 1072 ;
     skos:prefLabel "violence"@en,
-        "violence"@fr ;
+        "violence"@fr,
+        "violencia"@es ;
     skos:semanticRelation :939,
         :969,
         :970,
@@ -11315,7 +11408,8 @@ skos:ConceptScheme a owl:Class ;
         :983 ;
     skos:notation 975 ;
     skos:prefLabel "paleopathology"@en,
-        "pathologie"@fr ;
+        "pathologie"@fr,
+        "paleopatología"@es ;
     skos:semanticRelation :939,
         :975,
         :976,
@@ -11576,7 +11670,8 @@ skos:ConceptScheme a owl:Class ;
         :952 ;
     skos:notation 987 ;
     skos:prefLabel "anthropofagy"@en,
-        "anthropophagie"@fr ;
+        "anthropophagie"@fr,
+        "antropofagia"@es ;
     skos:semanticRelation :939,
         :941,
         :942,
@@ -11838,7 +11933,8 @@ skos:ConceptScheme a owl:Class ;
         :967 ;
     skos:notation 1019 ;
     skos:prefLabel "funeray behaviours"@en,
-        "comportements funéraires"@fr ;
+        "comportements funéraires"@fr,
+        "comportamientos funerarios"@es ;
     skos:semanticRelation :760,
         :939,
         :954,
