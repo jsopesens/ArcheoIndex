@@ -752,7 +752,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 100 ;
     skos:prefLabel "hungary"@en,
-        "Hongrie"@fr ;
+        "Hongrie"@fr,
+        "Hungría"@es ;
     skos:semanticRelation :87 .
 
 :1000 a owl:NamedIndividual,
@@ -851,7 +852,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 101 ;
     skos:prefLabel "italian peninsula"@en,
-        "péninsule italienne"@fr ;
+        "péninsule italienne"@fr,
+        "península italiana"@es ;
     skos:semanticRelation :87 .
 
 :1010 a owl:NamedIndividual,
@@ -951,7 +953,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 102 ;
     skos:prefLabel "italy"@en,
-        "Italie"@fr ;
+        "Italie"@fr,
+        "Italia"@es ;
     skos:semanticRelation :87 .
 
 :1020 a owl:NamedIndividual,
@@ -1050,7 +1053,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 103 ;
     skos:prefLabel "julian prealps"@en,
-        "préalpes juliennes"@fr ;
+        "préalpes juliennes"@fr,
+        "prealpes julianos"@es ;
     skos:semanticRelation :87 .
 
 :1030 a owl:NamedIndividual,
@@ -1158,7 +1162,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 104 ;
     skos:prefLabel "mediterranean europe"@en,
-        "Europe méditerranéenne"@fr ;
+        "Europe méditerranéenne"@fr,
+        "Europa mediterránea"@es ;
     skos:semanticRelation :87 .
 
 :1040 a owl:NamedIndividual,
@@ -1268,7 +1273,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 105 ;
     skos:prefLabel "meiendorf"@en,
-        "Meiendorf"@fr ;
+        "Meiendorf"@fr,
+        "meiendorf"@es ;
     skos:semanticRelation :87 .
 
 :1050 a owl:NamedIndividual,
@@ -1378,7 +1384,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 106 ;
     skos:prefLabel "meuse basin of belgium"@en,
-        "bassin belge de la Meuse"@fr ;
+        "bassin belge de la Meuse"@fr,
+        "Cuenca del Mosa de Bélgica"@es ;
     skos:semanticRelation :87 .
 
 :1060 a owl:NamedIndividual,
@@ -1488,7 +1495,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 107 ;
     skos:prefLabel "montenegro"@en,
-        "Monténégro"@fr ;
+        "Monténégro"@fr,
+        "Montenegro"@es ;
     skos:semanticRelation :87 .
 
 :1070 a owl:NamedIndividual,
@@ -1518,7 +1526,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 108 ;
     skos:prefLabel "montmaurin"@en,
-        "Montmaurin"@fr ;
+        "Montmaurin"@fr,
+        "Montmaurin"@es ;
     skos:semanticRelation :87 .
 
 :109 a owl:NamedIndividual,
@@ -1528,7 +1537,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 109 ;
     skos:prefLabel "northeastern italy"@en,
-        "nord-est de l'Italie"@fr ;
+        "nord-est de l'Italie"@fr,
+        "noreste de italia"@es ;
     skos:semanticRelation :87 .
 
 :11 a owl:NamedIndividual,
@@ -1549,7 +1559,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 110 ;
     skos:prefLabel "northwestern europe"@en,
-        "Europe du nord-ouest"@fr ;
+        "Europe du nord-ouest"@fr,
+        "noroeste de europa"@es ;
     skos:semanticRelation :87 .
 
 :111 a owl:NamedIndividual,
@@ -1559,7 +1570,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 111 ;
     skos:prefLabel "payre"@en,
-        "Payre"@fr ;
+        "Payre"@fr,
+        "Payre"@es ;
     skos:semanticRelation :87 .
 
 :112 a owl:NamedIndividual,
@@ -1569,7 +1581,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 112 ;
     skos:prefLabel "pyrenees"@en,
-        "Pyrénées"@fr ;
+        "Pyrénées"@fr,
+        "Pirineos"@es ;
     skos:semanticRelation :87 .
 
 :113 a owl:NamedIndividual,
@@ -1579,7 +1592,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 113 ;
     skos:prefLabel "rhne valley"@en,
-        "vallée du Rhône"@fr ;
+        "vallée du Rhône"@fr,
+        "valle del Ródano"@es ;
     skos:semanticRelation :87 .
 
 :114 a owl:NamedIndividual,
@@ -1589,7 +1603,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 114 ;
     skos:prefLabel "riparo fredian"@en,
-        "Riparo Fredian"@fr ;
+        "Riparo Fredian"@fr,
+        "Riparo Fredian"@es ;
     skos:semanticRelation :87 .
 
 :115 a owl:NamedIndividual,
@@ -1599,7 +1614,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 115 ;
     skos:prefLabel "sicily"@en,
-        "Sicile"@fr ;
+        "Sicile"@fr,
+        "Sicilia"@es ;
     skos:semanticRelation :87 .
 
 :116 a owl:NamedIndividual,
@@ -1609,7 +1625,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 116 ;
     skos:prefLabel "south of france"@en,
-        "sud de la France"@fr ;
+        "sud de la France"@fr,
+        "sur de francia"@es ;
     skos:semanticRelation :87 .
 
 :117 a owl:NamedIndividual,
@@ -1619,7 +1636,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 117 ;
     skos:prefLabel "southern belgium"@en,
-        "sud de la Belgique"@fr ;
+        "sud de la Belgique"@fr,
+        "sur de bélgica"@es ;
     skos:semanticRelation :87 .
 
 :118 a owl:NamedIndividual,
@@ -1629,7 +1647,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 118 ;
     skos:prefLabel "southern europe"@en,
-        "Europe du Sud"@fr ;
+        "Europe du Sud"@fr,
+        "sur de europa"@es ;
     skos:semanticRelation :87 .
 
 :119 a owl:NamedIndividual,
@@ -1639,7 +1658,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 119 ;
     skos:prefLabel "southern italy"@en,
-        "Italie méridionale"@fr ;
+        "Italie méridionale"@fr,
+        "sur de Italia"@es ;
     skos:semanticRelation :87 .
 
 :12 a owl:NamedIndividual,
@@ -1660,7 +1680,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 120 ;
     skos:prefLabel "southwestern france"@en,
-        "sud-ouest de la France"@fr ;
+        "sud-ouest de la France"@fr,
+        "suroeste de francia"@es ;
     skos:semanticRelation :87 .
 
 :121 a owl:NamedIndividual,
@@ -1670,7 +1691,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 121 ;
     skos:prefLabel "steinheim"@en,
-        "Steinheim"@fr ;
+        "Steinheim"@fr,
+        "steinheim"@es ;
     skos:semanticRelation :87 .
 
 :122 a owl:NamedIndividual,
@@ -1680,7 +1702,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 122 ;
     skos:prefLabel "swabian jura"@en,
-        "Jura souabe"@fr ;
+        "Jura souabe"@fr,
+        "Jura de Suabia"@es ;
     skos:semanticRelation :87 .
 
 :123 a owl:NamedIndividual,
@@ -1690,7 +1713,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 123 ;
     skos:prefLabel "southwestern europe"@en,
-        "Europe du sud-ouest"@fr ;
+        "Europe du sud-ouest"@fr,
+        "sudoeste de europa"@es ;
     skos:semanticRelation :87 .
 
 :124 a owl:NamedIndividual,
@@ -1700,7 +1724,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 124 ;
     skos:prefLabel "urals"@en,
-        "Oural"@fr ;
+        "Oural"@fr,
+        "Urales"@es ;
     skos:semanticRelation :87 .
 
 :125 a owl:NamedIndividual,
@@ -1710,7 +1735,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 125 ;
     skos:prefLabel "western alps"@en,
-        "Alpes occidentales"@fr ;
+        "Alpes occidentales"@fr,
+        "Alpes occidentales"@es ;
     skos:semanticRelation :87 .
 
 :126 a owl:NamedIndividual,
@@ -1720,7 +1746,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 126 ;
     skos:prefLabel "western europe"@en,
-        "Europe occidentale"@fr ;
+        "Europe occidentale"@fr,
+        "Europa occidental"@es ;
     skos:semanticRelation :87 .
 
 :127 a owl:NamedIndividual,
@@ -1730,7 +1757,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 127 ;
     skos:prefLabel "corsica"@en,
-        "Corse"@fr ;
+        "Corse"@fr,
+        "Córcega"@es ;
     skos:semanticRelation :87 .
 
 :128 a owl:NamedIndividual,
@@ -1740,7 +1768,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 128 ;
     skos:prefLabel "dinaric alps"@en,
-        "Alpes dinariques"@fr ;
+        "Alpes dinariques"@fr,
+        "Alpes Dináricos"@es ;
     skos:semanticRelation :87 .
 
 :129 a owl:NamedIndividual,
@@ -1750,7 +1779,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 129 ;
     skos:prefLabel "untermassfeld"@en,
-        "Untermassfeld"@fr ;
+        "Untermassfeld"@fr,
+        "Untermassfeld"@es ;
     skos:semanticRelation :87 .
 
 :13 a owl:NamedIndividual,
@@ -1771,7 +1801,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 130 ;
     skos:prefLabel "piedmont"@en,
-        "Piémont"@fr ;
+        "Piémont"@fr,
+        "piamonte"@es ;
     skos:semanticRelation :87 .
 
 :131 a owl:NamedIndividual,
@@ -1781,7 +1812,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 131 ;
     skos:prefLabel "france"@en,
-        "France"@fr ;
+        "France"@fr,
+        "Francia"@es ;
     skos:semanticRelation :87 .
 
 :132 a owl:NamedIndividual,
@@ -1791,7 +1823,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 132 ;
     skos:prefLabel "verberie"@en,
-        "Verberie"@fr ;
+        "Verberie"@fr,
+        "Verberie"@es ;
     skos:semanticRelation :87 .
 
 :133 a owl:NamedIndividual,
@@ -1801,7 +1834,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 133 ;
     skos:prefLabel "madonie mountain range"@en,
-        "massif des Madonies"@fr ;
+        "massif des Madonies"@fr,
+        "cordillera de las Madonías"@es ;
     skos:semanticRelation :87 .
 
 :134 a owl:NamedIndividual,
@@ -1811,7 +1845,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 134 ;
     skos:prefLabel "pyrenean mountain range"@en,
-        "massif pyrénéen"@fr ;
+        "massif pyrénéen"@fr,
+        "cordillera pirenaica"@es ;
     skos:semanticRelation :87 .
 
 :14 a owl:NamedIndividual,
@@ -1887,7 +1922,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 193 ;
     skos:prefLabel "east africa"@en,
-        "Afrique orientale"@fr ;
+        "Afrique orientale"@fr,
+        "Africa oriental"@es ;
     skos:semanticRelation :192 .
 
 :194 a owl:NamedIndividual,
@@ -1897,7 +1933,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 194 ;
     skos:prefLabel "east gona"@en,
-        "Gona Est"@fr ;
+        "Gona Est"@fr,
+        "Gona oriental"@es ;
     skos:semanticRelation :192 .
 
 :195 a owl:NamedIndividual,
@@ -6139,7 +6176,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 98 ;
     skos:prefLabel "fortuna basin"@en,
-        "bassin de Fortuna"@fr ;
+        "bassin de Fortuna"@fr,
+        "cuenca de Fortuna"@es ;
     skos:semanticRelation :87 .
 
 :984 a owl:NamedIndividual,
@@ -6189,7 +6227,8 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :1 ;
     skos:notation 99 ;
     skos:prefLabel "germany"@en,
-        "Allemagne"@fr ;
+        "Allemagne"@fr,
+        "Alemania"@es ;
     skos:semanticRelation :87 .
 
 :990 a owl:NamedIndividual,
@@ -6458,7 +6497,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 136 ;
     skos:prefLabel "andorra"@en,
-        "Andorre"@fr ;
+        "Andorre"@fr,
+        "Andorra"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6470,7 +6510,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 137 ;
     skos:prefLabel "balearic islands"@en,
-        "Îles Baléares"@fr ;
+        "Îles Baléares"@fr,
+        "Islas Baleares"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6482,7 +6523,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 138 ;
     skos:prefLabel "barcelona"@en,
-        "Barcelone"@fr ;
+        "Barcelone"@fr,
+        "Barcelona"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6494,7 +6536,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 139 ;
     skos:prefLabel "berici hills"@en,
-        "monts Berici"@fr ;
+        "monts Berici"@fr,
+        "colinas de berici"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6506,7 +6549,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 140 ;
     skos:prefLabel "betics"@en,
-        "Bétiques"@fr ;
+        "Bétiques"@fr,
+        "Béticas"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6518,7 +6562,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 141 ;
     skos:prefLabel "cantabrian region"@en,
-        "région cantabrique"@fr ;
+        "région cantabrique"@fr,
+        "región cantábrica"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6530,7 +6575,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 142 ;
     skos:prefLabel "capellades"@en,
-        "Capellades"@fr ;
+        "Capellades"@fr,
+        "Capellades"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6542,7 +6588,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 143 ;
     skos:prefLabel "catalonia"@en,
-        "Catalogne"@fr ;
+        "Catalogne"@fr,
+        "Cataluña"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6554,7 +6601,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 144 ;
     skos:prefLabel "cativera"@en,
-        "Cativera"@fr ;
+        "Cativera"@fr,
+        "cativera"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6566,7 +6614,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 145 ;
     skos:prefLabel "central iberian peninsula"@en,
-        "péninsule ibérique centrale"@fr ;
+        "péninsule ibérique centrale"@fr,
+        "península ibérica central"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6578,7 +6627,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 146 ;
     skos:prefLabel "central spain"@en,
-        "Espagne centrale"@fr ;
+        "Espagne centrale"@fr,
+        "centro de españa"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6590,7 +6640,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 147 ;
     skos:prefLabel "duero river basin"@en,
-        "bassin du Douro"@fr ;
+        "bassin du Douro"@fr,
+        "cuenca del río duero"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6602,7 +6653,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 148 ;
     skos:prefLabel "ebro basin"@en,
-        "bassin de l'Èbre"@fr ;
+        "bassin de l'Èbre"@fr,
+        "cuenca del ebro"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6614,7 +6666,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 149 ;
     skos:prefLabel "eivissa"@en,
-        "Eivissa"@fr ;
+        "Eivissa"@fr,
+        "Eivissa"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6626,7 +6679,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 150 ;
     skos:prefLabel "el salt"@en,
-        "El Salt"@fr ;
+        "El Salt"@fr,
+        "El Salt"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6638,7 +6692,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 151 ;
     skos:prefLabel "el sidron"@en,
-        "El Sidrón"@fr ;
+        "El Sidrón"@fr,
+        "el sidrón"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6650,7 +6705,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 152 ;
     skos:prefLabel "extremadura"@en,
-        "Estrémadure"@fr ;
+        "Estrémadure"@fr,
+        "Extremadura"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6662,7 +6718,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 153 ;
     skos:prefLabel "gibraltar"@en,
-        "Gibraltar"@fr ;
+        "Gibraltar"@fr,
+        "Gibraltar"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6674,7 +6731,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 154 ;
     skos:prefLabel "guadix-baza basin"@en,
-        "bassin de Guadix-Baza"@fr ;
+        "bassin de Guadix-Baza"@fr,
+        "cuenca guadix-baza"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6686,7 +6744,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 155 ;
     skos:prefLabel "iberian northwest"@en,
-        "nord-ouest ibérique"@fr ;
+        "nord-ouest ibérique"@fr,
+        "noroeste ibérico"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6698,7 +6757,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 156 ;
     skos:prefLabel "lake banyoles"@en,
-        "lac de Banyoles"@fr ;
+        "lac de Banyoles"@fr,
+        "lago de Banyoles"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6710,7 +6770,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 157 ;
     skos:prefLabel "mallorca"@en,
-        "Majorque"@fr ;
+        "Majorque"@fr,
+        "Mallorca"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6722,7 +6783,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 158 ;
     skos:prefLabel "mediterranean iberia"@en,
-        "Ibérie méditerranéenne"@fr ;
+        "Ibérie méditerranéenne"@fr,
+        "iberia mediterránea"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6734,7 +6796,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 159 ;
     skos:prefLabel "menorca"@en,
-        "Minorque"@fr ;
+        "Minorque"@fr,
+        "Menorca"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6746,7 +6809,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 160 ;
     skos:prefLabel "monte alen"@en,
-        "Monte Alén"@fr ;
+        "Monte Alén"@fr,
+        "monte alén"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6758,7 +6822,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 161 ;
     skos:prefLabel "nalon river"@en,
-        "Nalón"@fr ;
+        "Nalón"@fr,
+        "río nalón"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6770,7 +6835,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 162 ;
     skos:prefLabel "ne iberian peninsula"@en,
-        "nord-est de la péninsule Ibérique"@fr ;
+        "nord-est de la péninsule Ibérique"@fr,
+        "noreste de la península ibérica"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6782,7 +6848,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 163 ;
     skos:prefLabel "northwest iberia"@en,
-        "nord-ouest de la péninsule ibérique"@fr ;
+        "nord-ouest de la péninsule ibérique"@fr,
+        "noroeste iberia"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6794,7 +6861,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 164 ;
     skos:prefLabel "olot"@en,
-        "Olot"@fr ;
+        "Olot"@fr,
+        "Olot"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6806,7 +6874,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 165 ;
     skos:prefLabel "orce"@en,
-        "Orce"@fr ;
+        "Orce"@fr,
+        "Orce"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6818,7 +6887,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 166 ;
     skos:prefLabel "portugal"@en,
-        "Portugal"@fr ;
+        "Portugal"@fr,
+        "Portugal"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6830,7 +6900,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 167 ;
     skos:prefLabel "quibas"@en,
-        "quibas"@fr ;
+        "quibas"@fr,
+        "quibas"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6842,7 +6913,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 168 ;
     skos:prefLabel "se iberian peninsula"@en,
-        "sud-est de la péninsule Ibérique"@fr ;
+        "sud-est de la péninsule Ibérique"@fr,
+        "sureste de la península ibérica"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6854,7 +6926,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 169 ;
     skos:prefLabel "south of catalonia"@en,
-        "sud de la Catalogne"@fr ;
+        "sud de la Catalogne"@fr,
+        "sur de cataluña"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6866,7 +6939,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 170 ;
     skos:prefLabel "south-eastern pyrenees"@en,
-        "Pyrénées du sud-est"@fr ;
+        "Pyrénées du sud-est"@fr,
+        "Pirineos sudorientales"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6878,7 +6952,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 171 ;
     skos:prefLabel "southeastern france"@en,
-        "sud-est de la france"@fr ;
+        "sud-est de la france"@fr,
+        "sureste de francia"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6890,7 +6965,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 172 ;
     skos:prefLabel "southeastern pre-pyrenees"@en,
-        "pré-pyrénées du sud-est"@fr ;
+        "pré-pyrénées du sud-est"@fr,
+        "prepirineo sureste"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6902,7 +6978,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 173 ;
     skos:prefLabel "southern iberian range"@en,
-        "chaîne ibérique méridionale"@fr ;
+        "chaîne ibérique méridionale"@fr,
+        "sector meridional del sistema Ibérico"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6914,7 +6991,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 174 ;
     skos:prefLabel "southwestern iberia"@en,
-        "sud-ouest de la péninsule ibérique"@fr ;
+        "sud-ouest de la péninsule ibérique"@fr,
+        "suroeste de iberia"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6926,7 +7004,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 175 ;
     skos:prefLabel "spain"@en,
-        "Espagne"@fr ;
+        "Espagne"@fr,
+        "España"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6938,7 +7017,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 176 ;
     skos:prefLabel "tagus river"@en,
-        "Tage"@fr ;
+        "Tage"@fr,
+        "río tajo"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6950,7 +7030,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 177 ;
     skos:prefLabel "tagus valley"@en,
-        "vallée du Tage"@fr ;
+        "vallée du Tage"@fr,
+        "valle del tajo"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6962,7 +7043,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 178 ;
     skos:prefLabel "tarragona"@en,
-        "Tarragone"@fr ;
+        "Tarragone"@fr,
+        "Tarragona"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6974,7 +7056,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 179 ;
     skos:prefLabel "ter basin"@en,
-        "bassin du Ter"@fr ;
+        "bassin du Ter"@fr,
+        "cuenca del ter"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6986,7 +7069,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 180 ;
     skos:prefLabel "ullastret"@en,
-        "Ullastret"@fr ;
+        "Ullastret"@fr,
+        "Ullastret"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -6998,7 +7082,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 181 ;
     skos:prefLabel "valencian region"@en,
-        "région valencienne"@fr ;
+        "région valencienne"@fr,
+        "región valenciana"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7010,7 +7095,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 182 ;
     skos:prefLabel "vallparadis"@en,
-        "Vallparadis"@fr ;
+        "Vallparadis"@fr,
+        "vallparadís"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7022,7 +7108,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 183 ;
     skos:prefLabel "vallparadis estacio"@en,
-        "gare de Vallparadís"@fr ;
+        "gare de Vallparadís"@fr,
+        "estación de Vallparadís"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7034,7 +7121,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 184 ;
     skos:prefLabel "vallparadis section"@en,
-        "section Vallparadis"@fr ;
+        "section Vallparadis"@fr,
+        "sección de Vallparadís"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7046,7 +7134,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 185 ;
     skos:prefLabel "western iberia"@en,
-        "péninsule ibérique occidentale"@fr ;
+        "péninsule ibérique occidentale"@fr,
+        "iberia occidental"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7058,7 +7147,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 186 ;
     skos:prefLabel "western pyrenees"@en,
-        "Pyrénées occidentales"@fr ;
+        "Pyrénées occidentales"@fr,
+        "pirineos occidentales"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7070,7 +7160,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 187 ;
     skos:prefLabel "formentera"@en,
-        "Formentera"@fr ;
+        "Formentera"@fr,
+        "Formentera"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7082,7 +7173,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 188 ;
     skos:prefLabel "moli del salt"@en,
-        "Molí del Salt"@fr ;
+        "Molí del Salt"@fr,
+        "Molí del Salt"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7094,7 +7186,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 189 ;
     skos:prefLabel "empord plain"@en,
-        "plaine de l'Empordà"@fr ;
+        "plaine de l'Empordà"@fr,
+        "llanura del Empordà"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7106,7 +7199,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 190 ;
     skos:prefLabel "panadella chert"@en,
-        "silex de la Panadella"@fr ;
+        "silex de la Panadella"@fr,
+        "pedernal de panadella"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -7118,7 +7212,8 @@ skos:related a owl:ObjectProperty,
     skos:inScheme :1 ;
     skos:notation 191 ;
     skos:prefLabel "arago"@en,
-        "Arago"@fr ;
+        "Arago"@fr,
+        "Arago"@es ;
     skos:semanticRelation :135,
         :87 .
 
@@ -10928,7 +11023,8 @@ skos:ConceptScheme a owl:Class ;
         :207 ;
     skos:notation 192 ;
     skos:prefLabel "africa"@en,
-        "Afrique"@fr ;
+        "Afrique"@fr,
+        "África"@es ;
     skos:semanticRelation :193,
         :194,
         :195,
@@ -13081,7 +13177,8 @@ skos:ConceptScheme a owl:Class ;
         :191 ;
     skos:notation 135 ;
     skos:prefLabel "iberian peninsula"@en,
-        "péninsule ibérique"@fr ;
+        "péninsule ibérique"@fr,
+        "Península ibérica"@es ;
     skos:semanticRelation :136,
         :137,
         :138,
