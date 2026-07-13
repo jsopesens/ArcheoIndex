@@ -20,520 +20,455 @@
     skos:notation 257 ;
     skos:prefLabel "african tropical forest"@en,
         "forêt tropicale africaine"@fr,
-        "bosque tropical africano"@es ;
-    skos:topConceptOf :256 .
+        "bosque tropical africano"@es .
 
 :258 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 258 ;
     skos:prefLabel "archaeo-palaeontological site"@en,
         "site archéo-paléontologique"@fr,
-        "yacimiento arqueopaleontológico"@es ;
-    skos:topConceptOf :256 .
+        "yacimiento arqueopaleontológico"@es .
 
 :259 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 259 ;
     skos:prefLabel "archaeological site"@en,
         "site archéologique"@fr,
-        "yacimiento arqueológico"@es ;
-    skos:topConceptOf :256 .
+        "yacimiento arqueológico"@es .
 
 :260 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 260 ;
     skos:prefLabel "biotic regions"@en,
         "régions biotiques"@fr,
-        "regiones bióticas"@es ;
-    skos:topConceptOf :256 .
+        "regiones bióticas"@es .
 
 :261 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 261 ;
     skos:prefLabel "bison bone bed"@en,
         "lit en os de bison"@fr,
-        "lecho de huesos de bisonte"@es ;
-    skos:topConceptOf :256 .
+        "lecho de huesos de bisonte"@es .
 
 :262 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 262 ;
     skos:prefLabel "boreholes"@en,
         "forages"@fr,
-        "sondeos"@es ;
-    skos:topConceptOf :256 .
+        "sondeos"@es .
 
 :263 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 263 ;
     skos:prefLabel "catalan volcanic zone"@en,
         "zone volcanique catalane"@fr,
-        "zona volcánica catalana"@es ;
-    skos:topConceptOf :256 .
+        "zona volcánica catalana"@es .
 
 :265 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 265 ;
     skos:prefLabel "excavation"@en,
         "fouille"@fr,
-        "excavación"@es ;
-    skos:topConceptOf :256 .
+        "excavación"@es .
 
 :266 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 266 ;
     skos:prefLabel "grassland"@en,
         "prairie"@fr,
-        "pradera"@es ;
-    skos:topConceptOf :256 .
+        "pradera"@es .
 
 :267 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 267 ;
     skos:prefLabel "home base"@en,
         "camp de base"@fr,
-        "campamento base"@es ;
-    skos:topConceptOf :256 .
+        "campamento base"@es .
 
 :268 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 268 ;
     skos:prefLabel "island Southeast Asia"@en,
         "Asie du Sud-Est insulaire"@fr,
-        "Sudeste asiático insular"@es ;
-    skos:topConceptOf :256 .
+        "Sudeste asiático insular"@es .
 
 :269 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 269 ;
     skos:prefLabel "kill site"@en,
         "site d'abattage"@fr,
-        "lugar de matanza"@es ;
-    skos:topConceptOf :256 .
+        "lugar de matanza"@es .
 
 :270 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 270 ;
     skos:prefLabel "open-air camp"@en,
         "campement de plein air"@fr,
-        "campamento al aire libre"@es ;
-    skos:topConceptOf :256 .
+        "campamento al aire libre"@es .
 
 :271 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 271 ;
     skos:prefLabel "open-air sites"@en,
         "sites de plein air"@fr,
-        "yacimientos al aire libre"@es ;
-    skos:topConceptOf :256 .
+        "yacimientos al aire libre"@es .
 
 :272 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 272 ;
     skos:prefLabel "palaeontological site"@en,
         "site paléontologique"@fr,
-        "yacimiento paleontológico"@es ;
-    skos:topConceptOf :256 .
+        "yacimiento paleontológico"@es .
 
 :274 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 274 ;
     skos:prefLabel "pleistocene heritage site"@en,
         "site du patrimoine du pléistocène"@fr,
-        "yacimiento patrimonial del pleistoceno"@es ;
-    skos:topConceptOf :256 .
+        "yacimiento patrimonial del pleistoceno"@es .
 
 :275 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 275 ;
     skos:prefLabel "residential site"@en,
         "site d'habitat"@fr,
-        "yacimiento de hábitat"@es ;
-    skos:topConceptOf :256 .
+        "yacimiento de hábitat"@es .
 
 :276 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 276 ;
     skos:prefLabel "sanctuary"@en,
         "sanctuaire"@fr,
-        "santuario"@es ;
-    skos:topConceptOf :256 .
+        "santuario"@es .
 
 :277 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 277 ;
     skos:prefLabel "sepulcros de fosa"@en,
         "sépulcres en fosse"@fr,
-        "sepulcros de fosa"@es ;
-    skos:topConceptOf :256 .
+        "sepulcros de fosa"@es .
 
 :278 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 278 ;
     skos:prefLabel "sheepfold cave"@en,
         "grotte-bergerie"@fr,
-        "cueva-redil"@es ;
-    skos:topConceptOf :256 .
+        "cueva-redil"@es .
 
 :279 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 279 ;
     skos:prefLabel "shelter"@en,
         "abri"@fr,
-        "refugio"@es ;
-    skos:topConceptOf :256 .
+        "refugio"@es .
 
 :280 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 280 ;
     skos:prefLabel "semi-arid north"@en,
         "nord semi-aride"@fr,
-        "norte semiárido"@es ;
-    skos:topConceptOf :256 .
+        "norte semiárido"@es .
 
 :281 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 281 ;
     skos:prefLabel "hunting camp"@en,
         "campement de chasse"@fr,
-        "campamento de caza"@es ;
-    skos:topConceptOf :256 .
+        "campamento de caza"@es .
 
 :282 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 282 ;
     skos:prefLabel "prehistoric settlements"@en,
         "habitats préhistoriques"@fr,
-        "asentamientos prehistóricos"@es ;
-    skos:topConceptOf :256 .
+        "asentamientos prehistóricos"@es .
 
 :284 a skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 284 ;
     skos:prefLabel "neotropics"@en,
         "néotropiques"@fr,
-        "neotrópicos"@es ;
-    skos:topConceptOf :256 .
+        "neotrópicos"@es .
 
 :721 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 721 ;
     skos:prefLabel "darwinism"@en,
         "darwinisme"@fr,
-        "darwinismo"@es ;
-    skos:topConceptOf :697 .
+        "darwinismo"@es .
 
 :722 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 722 ;
     skos:prefLabel "dispersal"@en,
         "dispersion"@fr,
-        "dispersión"@es ;
-    skos:topConceptOf :697 .
+        "dispersión"@es .
 
 :723 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 723 ;
     skos:prefLabel "early modern humans"@en,
         "les premiers humains modernes"@fr,
-        "primeros humanos modernos"@es ;
-    skos:topConceptOf :697 .
+        "primeros humanos modernos"@es .
 
 :724 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 724 ;
     skos:prefLabel "evolution"@en,
         "évolution"@fr,
-        "evolución"@es ;
-    skos:topConceptOf :697 .
+        "evolución"@es .
 
 :725 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 725 ;
     skos:prefLabel "extinction"@en,
         "extinction"@fr,
-        "extinción"@es ;
-    skos:topConceptOf :697 .
+        "extinción"@es .
 
 :726 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 726 ;
     skos:prefLabel "evolutionary constraint"@en,
         "contrainte évolutive"@fr,
-        "restricción evolutiva"@es ;
-    skos:topConceptOf :697 .
+        "restricción evolutiva"@es .
 
 :727 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 727 ;
     skos:prefLabel "evolutionary scenario"@en,
         "scénario évolutif"@fr,
-        "escenario evolutivo"@es ;
-    skos:topConceptOf :697 .
+        "escenario evolutivo"@es .
 
 :728 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 728 ;
     skos:prefLabel "evolutionary trends"@en,
         "tendances évolutives"@fr,
-        "tendencias evolutivas"@es ;
-    skos:topConceptOf :697 .
+        "tendencias evolutivas"@es .
 
 :729 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 729 ;
     skos:prefLabel "extinction event"@en,
         "événement d'extinction"@fr,
-        "evento de extinción"@es ;
-    skos:topConceptOf :697 .
+        "evento de extinción"@es .
 
 :730 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 730 ;
     skos:prefLabel "fossil record"@en,
         "registre fossile"@fr,
-        "registro fósil"@es ;
-    skos:topConceptOf :697 .
+        "registro fósil"@es .
 
 :731 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 731 ;
     skos:prefLabel "intraspecific variation"@en,
         "variation intraspécifique"@fr,
-        "variación intraespecífica"@es ;
-    skos:topConceptOf :697 .
+        "variación intraespecífica"@es .
 
 :732 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 732 ;
     skos:prefLabel "phylogeny"@en,
         "phylogénie"@fr,
-        "filogenia"@es ;
-    skos:topConceptOf :697 .
+        "filogenia"@es .
 
 :733 a skos:Concept ;
     skos:inScheme :697 ;
     skos:notation 733 ;
     skos:prefLabel "new species"@en,
         "nouvelle espèce"@fr,
-        "nueva especie"@es ;
-    skos:topConceptOf :697 .
+        "nueva especie"@es .
 
 :736 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 736 ;
     skos:prefLabel "bioapatite"@en,
         "bioapatite"@fr,
-        "bioapatita"@es ;
-    skos:topConceptOf :734 .
+        "bioapatita"@es .
 
 :737 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 737 ;
     skos:prefLabel "body mass"@en,
         "masse corporelle"@fr,
-        "masa corporal"@es ;
-    skos:topConceptOf :734 .
+        "masa corporal"@es .
 
 :738 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 738 ;
     skos:prefLabel "body size"@en,
         "taille du corps"@fr,
-        "tamaño del cuerpo"@es ;
-    skos:topConceptOf :734 .
+        "tamaño del cuerpo"@es .
 
 :741 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 741 ;
     skos:prefLabel "body shape"@en,
         "forme du corps"@fr,
-        "forma del cuerpo"@es ;
-    skos:topConceptOf :734 .
+        "forma del cuerpo"@es .
 
 :745 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 745 ;
     skos:prefLabel "bone lesions"@en,
         "lésions osseuses"@fr,
-        "lesiones óseas"@es ;
-    skos:topConceptOf :734 .
+        "lesiones óseas"@es .
 
 :746 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 746 ;
     skos:prefLabel "chemical alteration"@en,
         "altération chimique"@fr,
-        "alteración química"@es ;
-    skos:topConceptOf :734 .
+        "alteración química"@es .
 
 :747 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 747 ;
     skos:prefLabel "chemical weathering"@en,
         "altération chimique"@fr,
-        "meteorización química"@es ;
-    skos:topConceptOf :734 .
+        "meteorización química"@es .
 
 :748 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 748 ;
     skos:prefLabel "hamann-todd collection"@en,
         "collection hamann-todd"@fr,
-        "colección hamann-todd"@es ;
-    skos:topConceptOf :734 .
+        "colección hamann-todd"@es .
 
 :749 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 749 ;
     skos:prefLabel "individual number"@en,
         "nombre d'individus"@fr,
-        "número de individuos"@es ;
-    skos:topConceptOf :734 .
+        "número de individuos"@es .
 
 :750 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 750 ;
     skos:prefLabel "insertion areas"@en,
         "zones d'insertion"@fr,
-        "áreas de inserción"@es ;
-    skos:topConceptOf :734 .
+        "áreas de inserción"@es .
 
 :751 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 751 ;
     skos:prefLabel "mechanical alteration"@en,
         "altération mécanique"@fr,
-        "alteración mecánica"@es ;
-    skos:topConceptOf :734 .
+        "alteración mecánica"@es .
 
 :752 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 752 ;
     skos:prefLabel "muscle architecture"@en,
         "architecture musculaire"@fr,
-        "arquitectura muscular"@es ;
-    skos:topConceptOf :734 .
+        "arquitectura muscular"@es .
 
 :753 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 753 ;
     skos:prefLabel "musculoskeletal stress markers"@en,
         "marqueurs de stress musculo-squelettique"@fr,
-        "marcadores de estrés musculoesquelético"@es ;
-    skos:topConceptOf :734 .
+        "marcadores de estrés musculoesquelético"@es .
 
 :757 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 757 ;
     skos:prefLabel "qualitative anatomical identification"@en,
         "identification anatomique qualitative"@fr,
-        "identificación anatómica cualitativa"@es ;
-    skos:topConceptOf :734 .
+        "identificación anatómica cualitativa"@es .
 
 :758 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 758 ;
     skos:prefLabel "relationship between muscles and bones"@en,
         "relation entre les muscles et les os"@fr,
-        "relación entre músculos y huesos"@es ;
-    skos:topConceptOf :734 .
+        "relación entre músculos y huesos"@es .
 
 :759 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 759 ;
     skos:prefLabel "ritual practices"@en,
         "pratiques rituelles"@fr,
-        "prácticas rituales"@es ;
-    skos:topConceptOf :734 .
+        "prácticas rituales"@es .
 
 :761 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 761 ;
     skos:prefLabel "sex-based division of labor"@en,
         "division du travail selon le sexe"@fr,
-        "división del trabajo basada en el sexo"@es ;
-    skos:topConceptOf :734 .
+        "división del trabajo basada en el sexo"@es .
 
 :762 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 762 ;
     skos:prefLabel "stature"@en,
         "stature"@fr,
-        "estatura"@es ;
-    skos:topConceptOf :734 .
+        "estatura"@es .
 
 :763 a skos:Concept ;
     skos:inScheme :734 ;
     skos:notation 763 ;
     skos:prefLabel "stress"@en,
         "stress"@fr,
-        "estrés"@es ;
-    skos:topConceptOf :734 .
+        "estrés"@es .
 
 :837 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 837 ;
     skos:prefLabel "garden hunting"@en,
         "chasse dans les jardins"@fr,
-        "caza en huertos"@es ;
-    skos:topConceptOf :836 .
+        "caza en huertos"@es .
 
 :838 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 838 ;
     skos:prefLabel "garden hunting-wildlife management"@en,
         "chasse dans les jardins et gestion de la faune"@fr,
-        "caza en huertos y gestión de fauna silvestre"@es ;
-    skos:topConceptOf :836 .
+        "caza en huertos y gestión de fauna silvestre"@es .
 
 :839 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 839 ;
     skos:prefLabel "animal exploitation"@en,
         "exploitation animale"@fr,
-        "explotación animal"@es ;
-    skos:topConceptOf :836 .
+        "explotación animal"@es .
 
 :840 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 840 ;
     skos:prefLabel "anatomical profiles"@en,
         "profils anatomiques"@fr,
-        "perfiles anatómicos"@es ;
-    skos:topConceptOf :836 .
+        "perfiles anatómicos"@es .
 
 :841 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 841 ;
     skos:prefLabel "skeletal assemblage"@en,
         "assemblage osseux"@fr,
-        "conjunto esquelético"@es ;
-    skos:topConceptOf :836 .
+        "conjunto esquelético"@es .
 
 :842 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 842 ;
     skos:prefLabel "carnivores"@en,
         "carnivores"@fr,
-        "carnívoros"@es ;
-    skos:topConceptOf :836 .
+        "carnívoros"@es .
 
 :843 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 843 ;
     skos:prefLabel "mammalian carnivores"@en,
         "mammifères carnivores"@fr,
-        "mamíferos carnívoros"@es ;
-    skos:topConceptOf :836 .
+        "mamíferos carnívoros"@es .
 
 :844 a skos:Concept ;
     skos:inScheme :836 ;
     skos:notation 844 ;
     skos:prefLabel "herbivore"@en,
         "herbivore"@fr,
-        "herbívoro"@es ;
-    skos:topConceptOf :836 .
+        "herbívoro"@es .
 
 :273 a skos:Concept ;
     skos:inScheme :256,
@@ -541,9 +476,7 @@
     skos:notation 273 ;
     skos:prefLabel "paleoanthropological sites"@en,
         "sites paléoanthropologiques"@fr,
-        "yacimientos paleoantropológicos"@es ;
-    skos:topConceptOf :256,
-        :697 .
+        "yacimientos paleoantropológicos"@es .
 
 :754 a skos:Concept ;
     skos:inScheme :734,
@@ -551,9 +484,7 @@
     skos:notation 754 ;
     skos:prefLabel "osteoarcheological remains"@en,
         "vestiges ostéoarchéologiques"@fr,
-        "restos osteoarqueológicos"@es ;
-    skos:topConceptOf :734,
-        :836 .
+        "restos osteoarqueológicos"@es .
 
 :10 a skos:Concept ;
     skos:broader :2 ;
@@ -4697,8 +4628,7 @@
     skos:notation 874 ;
     skos:prefLabel "hunting and foraging"@en,
         "chasse et collecte"@fr,
-        "caza y recolección"@es ;
-    skos:topConceptOf :836 .
+        "caza y recolección"@es .
 
 :88 a skos:Concept ;
     skos:broader :87 ;
@@ -4923,8 +4853,7 @@
     skos:notation 264 ;
     skos:prefLabel "den"@en,
         "tanière"@fr,
-        "madriguera"@es ;
-    skos:topConceptOf :256 .
+        "madriguera"@es .
 
 :283 a skos:Concept ;
     skos:broader :861 ;
@@ -4933,8 +4862,7 @@
     skos:notation 283 ;
     skos:prefLabel "carnivore den"@en,
         "repaire de carnivores"@fr,
-        "cubil de carnívoros"@es ;
-    skos:topConceptOf :256 .
+        "cubil de carnívoros"@es .
 
 :285 a skos:Concept ;
     skos:broader :861 ;
@@ -4943,8 +4871,7 @@
     skos:notation 285 ;
     skos:prefLabel "hyena den"@en,
         "repaire d'hyènes"@fr,
-        "cubil de hienas"@es ;
-    skos:topConceptOf :256 .
+        "cubil de hienas"@es .
 
 :739 a skos:Concept ;
     skos:broader :735 ;
@@ -4953,8 +4880,7 @@
     skos:notation 739 ;
     skos:prefLabel "bone modifications"@en,
         "modifications osseuses"@fr,
-        "modificaciones óseas"@es ;
-    skos:topConceptOf :734 .
+        "modificaciones óseas"@es .
 
 :740 a skos:Concept ;
     skos:broader :926 ;
@@ -4963,8 +4889,7 @@
     skos:notation 740 ;
     skos:prefLabel "bone refits"@en,
         "remontages osseux"@fr,
-        "remontajes óseos"@es ;
-    skos:topConceptOf :734 .
+        "remontajes óseos"@es .
 
 :742 a skos:Concept ;
     skos:broader :735 ;
@@ -4973,8 +4898,7 @@
     skos:notation 742 ;
     skos:prefLabel "bone alteration"@en,
         "altération osseuse"@fr,
-        "alteración ósea"@es ;
-    skos:topConceptOf :734 .
+        "alteración ósea"@es .
 
 :743 a skos:Concept ;
     skos:broader :735 ;
@@ -4983,8 +4907,7 @@
     skos:notation 743 ;
     skos:prefLabel "bone breakage"@en,
         "fracture osseuse"@fr,
-        "rotura de huesos"@es ;
-    skos:topConceptOf :734 .
+        "rotura de huesos"@es .
 
 :813 a skos:Concept ;
     skos:broader :806 ;
@@ -5001,8 +4924,7 @@
     skos:notation 926 ;
     skos:prefLabel "spatial taphonomy"@en,
         "taphonomie spatiale"@fr,
-        "tafonomía espacial"@es ;
-    skos:topConceptOf :882 .
+        "tafonomía espacial"@es .
 
 :136 a skos:Concept ;
     skos:broader :135 ;
@@ -7161,8 +7083,7 @@
     skos:notation 760 ;
     skos:prefLabel "ritualization of skulls"@en,
         "ritualisation des crânes"@fr,
-        "ritualización de cráneos"@es ;
-    skos:topConceptOf :734 .
+        "ritualización de cráneos"@es .
 
 :794 a skos:Concept ;
     skos:broader :792,
@@ -7180,8 +7101,7 @@
     skos:notation 253 ;
     skos:prefLabel "Oceania"@en,
         "Océanie"@fr,
-        "Oceanía"@es ;
-    skos:topConceptOf :1 .
+        "Oceanía"@es .
 
 :777 a skos:Concept ;
     skos:broader :775 ;
@@ -7452,8 +7372,7 @@
     skos:notation 744 ;
     skos:prefLabel "bone density"@en,
         "densité osseuse"@fr,
-        "densidad ósea"@es ;
-    skos:topConceptOf :734 .
+        "densidad ósea"@es .
 
 :755 a skos:Concept ;
     skos:broader :602 ;
@@ -7462,8 +7381,7 @@
     skos:notation 755 ;
     skos:prefLabel "post-depositional processes"@en,
         "processus postdépositionnels"@fr,
-        "procesos postdeposicionales"@es ;
-    skos:topConceptOf :734 .
+        "procesos postdeposicionales"@es .
 
 :756 a skos:Concept ;
     skos:broader :602 ;
@@ -7472,8 +7390,7 @@
     skos:notation 756 ;
     skos:prefLabel "post-depositional surface modifications"@en,
         "modifications de surface postdépositionnelles"@fr,
-        "modificaciones superficiales postdeposicionales"@es ;
-    skos:topConceptOf :734 .
+        "modificaciones superficiales postdeposicionales"@es .
 
 :776 a skos:Concept ;
     skos:broader :775 ;
@@ -7500,8 +7417,7 @@
     skos:notation 865 ;
     skos:prefLabel "sheparding and farming"@en,
         "pastoralisme et agriculture"@fr,
-        "pastoreo y agricultura"@es ;
-    skos:topConceptOf :836 .
+        "pastoreo y agricultura"@es .
 
 :1024 a skos:Concept ;
     skos:broader :1024 ;
@@ -7519,8 +7435,7 @@
     skos:notation 830 ;
     skos:prefLabel "land use and human impact"@en,
         "occupation du sol et impact anthropique"@fr,
-        "uso del suelo e impacto humano"@es ;
-    skos:topConceptOf :764 .
+        "uso del suelo e impacto humano"@es .
 
 :878 a skos:Concept ;
     skos:inScheme :836 ;
@@ -7530,8 +7445,7 @@
     skos:notation 878 ;
     skos:prefLabel "taxonomy"@en,
         "taxonomie"@fr,
-        "taxonomía"@es ;
-    skos:topConceptOf :836 .
+        "taxonomía"@es .
 
 :773 a skos:Concept ;
     skos:broader :765 ;
@@ -7570,8 +7484,7 @@
     skos:notation 602 ;
     skos:prefLabel "diagenesis"@en,
         "diagenèse"@fr,
-        "diagénesis"@es ;
-    skos:topConceptOf :882 .
+        "diagénesis"@es .
 
 :1001 a skos:Concept ;
     skos:broader :1001 ;
@@ -7593,9 +7506,7 @@
     skos:notation 861 ;
     skos:prefLabel "functionality"@en,
         "fonctionnalité"@fr,
-        "funcionalidad"@es ;
-    skos:topConceptOf :836,
-        :882 .
+        "funcionalidad"@es .
 
 :1072 a skos:Concept ;
     skos:broader :939 ;
@@ -7689,8 +7600,7 @@
     skos:notation 780 ;
     skos:prefLabel "applications"@en,
         "applications"@fr,
-        "aplicaciones"@es ;
-    skos:topConceptOf :764 .
+        "aplicaciones"@es .
 
 :927 a skos:Concept ;
     skos:inScheme :882 ;
@@ -7708,8 +7618,7 @@
     skos:notation 927 ;
     skos:prefLabel "taphonomic agent"@en,
         "agent taphonomique"@fr,
-        "agente tafonómico"@es ;
-    skos:topConceptOf :882 .
+        "agente tafonómico"@es .
 
 :533 a skos:Concept ;
     skos:broader :493 ;
@@ -7747,8 +7656,7 @@
     skos:notation 385 ;
     skos:prefLabel "cultural period"@en,
         "période culturelle"@fr,
-        "periodo cultural"@es ;
-    skos:topConceptOf :286 .
+        "periodo cultural"@es .
 
 :834 a skos:Concept ;
     skos:inScheme :764 ;
@@ -7767,8 +7675,7 @@
     skos:notation 834 ;
     skos:prefLabel "climate periods"@en,
         "périodes climatiques"@fr,
-        "periodos climáticos"@es ;
-    skos:topConceptOf :764 .
+        "periodos climáticos"@es .
 
 :987 a skos:Concept ;
     skos:broader :939 ;
@@ -7804,8 +7711,7 @@
     skos:notation 765 ;
     skos:prefLabel "disciplines"@en,
         "disciplines"@fr,
-        "disciplinas"@es ;
-    skos:topConceptOf :764 .
+        "disciplinas"@es .
 
 :192 a skos:Concept ;
     skos:inScheme :1 ;
@@ -7827,8 +7733,7 @@
     skos:notation 192 ;
     skos:prefLabel "Africa"@en,
         "Afrique"@fr,
-        "África"@es ;
-    skos:topConceptOf :1 .
+        "África"@es .
 
 :237 a skos:Concept ;
     skos:inScheme :1 ;
@@ -7850,8 +7755,7 @@
     skos:notation 237 ;
     skos:prefLabel "America"@en,
         "Amérique"@fr,
-        "América"@es ;
-    skos:topConceptOf :1 .
+        "América"@es .
 
 :457 a skos:Concept ;
     skos:inScheme :401 ;
@@ -7873,8 +7777,7 @@
     skos:notation 457 ;
     skos:prefLabel "use marks and functionality"@en,
         "traces d'utilisation et fonction"@fr,
-        "huellas de uso y funcionalidad"@es ;
-    skos:topConceptOf :401 .
+        "huellas de uso y funcionalidad"@es .
 
 :1019 a skos:Concept ;
     skos:broader :939 ;
@@ -7921,9 +7824,7 @@
     skos:notation 847 ;
     skos:prefLabel "ecology"@en,
         "écologie"@fr,
-        "ecología"@es ;
-    skos:topConceptOf :836,
-        :882 .
+        "ecología"@es .
 
 :697 a skos:ConceptScheme ;
     skos:hasTopConcept :273,
@@ -7969,8 +7870,7 @@
     skos:notation 473 ;
     skos:prefLabel "lithic study"@en,
         "étude lithique"@fr,
-        "estudio lítico"@es ;
-    skos:topConceptOf :401 .
+        "estudio lítico"@es .
 
 :256 a skos:ConceptScheme ;
     skos:hasTopConcept :257,
@@ -8090,8 +7990,7 @@
     skos:notation 698 ;
     skos:prefLabel "human evolution"@en,
         "évolution humaine"@fr,
-        "evolución humana"@es ;
-    skos:topConceptOf :697 .
+        "evolución humana"@es .
 
 :792 a skos:Concept ;
     skos:inScheme :764 ;
@@ -8121,8 +8020,7 @@
     skos:notation 792 ;
     skos:prefLabel "object of study"@en,
         "objet d'étude"@fr,
-        "objeto de estudio"@es ;
-    skos:topConceptOf :764 .
+        "objeto de estudio"@es .
 
 :806 a skos:Concept ;
     skos:inScheme :764 ;
@@ -8153,8 +8051,7 @@
     skos:notation 806 ;
     skos:prefLabel "burn and combustion"@en,
         "brûlage et combustion"@fr,
-        "quemado y combustión"@es ;
-    skos:topConceptOf :764 .
+        "quemado y combustión"@es .
 
 :208 a skos:Concept ;
     skos:inScheme :1 ;
@@ -8189,8 +8086,7 @@
     skos:notation 208 ;
     skos:prefLabel "Asia"@en,
         "Asie"@fr,
-        "Asia"@es ;
-    skos:topConceptOf :1 .
+        "Asia"@es .
 
 :401 a skos:ConceptScheme ;
     skos:hasTopConcept :402,
@@ -8248,8 +8144,7 @@
     skos:notation 939 ;
     skos:prefLabel "forensic taphonomy"@en,
         "taphonomie médico-légale"@fr,
-        "tafonomía forense"@es ;
-    skos:topConceptOf :882 .
+        "tafonomía forense"@es .
 
 :764 a skos:ConceptScheme ;
     skos:hasTopConcept :765,
@@ -8379,8 +8274,7 @@
     skos:notation 341 ;
     skos:prefLabel "geological period"@en,
         "période géologique"@fr,
-        "período geológico"@es ;
-    skos:topConceptOf :286 .
+        "período geológico"@es .
 
 :735 a skos:Concept ;
     skos:inScheme :734,
@@ -8434,10 +8328,7 @@
     skos:notation 735 ;
     skos:prefLabel "bone surface modifications"@en,
         "modifications de la surface osseuse"@fr,
-        "modificaciones de la superficie ósea"@es ;
-    skos:topConceptOf :734,
-        :836,
-        :882 .
+        "modificaciones de la superficie ósea"@es .
 
 :597 a skos:Concept ;
     skos:broader :596 ;
@@ -8607,8 +8498,7 @@
     skos:notation 287 ;
     skos:prefLabel "historical period"@en,
         "période historique"@fr,
-        "período histórico"@es ;
-    skos:topConceptOf :286 .
+        "período histórico"@es .
 
 :402 a skos:Concept ;
     skos:inScheme :401 ;
@@ -8669,8 +8559,7 @@
     skos:notation 402 ;
     skos:prefLabel "lithic technology"@en,
         "technologie lithique"@fr,
-        "tecnología lítica"@es ;
-    skos:topConceptOf :401 .
+        "tecnología lítica"@es .
 
 :135 a skos:Concept ;
     skos:broader :87 ;
@@ -8752,8 +8641,7 @@
     skos:notation 493 ;
     skos:prefLabel "chronology"@en,
         "chronologie"@fr,
-        "cronología"@es ;
-    skos:topConceptOf :492 .
+        "cronología"@es .
 
 :596 a skos:Concept ;
     skos:inScheme :492 ;
@@ -8765,8 +8653,7 @@
     skos:notation 596 ;
     skos:prefLabel "geological approach"@en,
         "approche géologique"@fr,
-        "enfoque geológico"@es ;
-    skos:topConceptOf :492 .
+        "enfoque geológico"@es .
 
 :2 a skos:Concept ;
     skos:inScheme :1 ;
@@ -8857,8 +8744,7 @@
     skos:notation 2 ;
     skos:prefLabel "Excavation Site"@en,
         "Site"@fr,
-        "Yacimiento"@es ;
-    skos:topConceptOf :1 .
+        "Yacimiento"@es .
 
 :87 a skos:Concept ;
     skos:inScheme :1 ;
@@ -8913,8 +8799,7 @@
     skos:notation 87 ;
     skos:prefLabel "Europe"@en,
         "Europe"@fr,
-        "Europa"@es ;
-    skos:topConceptOf :1 .
+        "Europa"@es .
 
 :1 a skos:ConceptScheme ;
     skos:hasTopConcept :192,

@@ -139,16 +139,16 @@
         {% endif %}
 
         <!-- Hierarchy -->
-        {% if 'broader' in keyword_data or 'narrower' in keyword_data or 'hasTopConcept' in keyword_data or 'topConceptOf' in keyword_data %}
+        {% if 'broader' in keyword_data or 'narrower' in keyword_data or 'hasTopConcept' in keyword_data or 'inScheme' in keyword_data %}
         <section class="kw-section" aria-labelledby="hier-heading">
             <h2 id="hier-heading" class="kw-section-title">Hierarchy</h2>
             <div class="relation-groups">
 
-                {% if 'topConceptOf' in keyword_data %}
+                {% if 'inScheme' in keyword_data %}
                 <div class="relation-group">
-                    <span class="relation-label">Top concept of</span>
+                    <span class="relation-label">In Scheme</span>
                     <ul class="relation-list">
-                        {% for element in keyword_data.topConceptOf %}
+                        {% for element in keyword_data.inScheme %}
                         <li><a href="{% url 'single_keyword' element.uri %}">{{ element.prefLabel|title }}</a></li>
                         {% endfor %}
                     </ul>
