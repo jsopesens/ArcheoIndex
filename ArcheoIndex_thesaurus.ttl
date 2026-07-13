@@ -220,9 +220,9 @@ skos:scopeNote a owl:AnnotationProperty ;
         skos:Concept ;
     skos:inScheme :256 ;
     skos:notation 268 ;
-    skos:prefLabel "island southeast asia"@en,
-        "asie du sud-est insulaire"@fr,
-        "sudeste asiático insular"@es ;
+    skos:prefLabel "island Southeast Asia"@en,
+        "Asie du Sud-Est insulaire"@fr,
+        "Sudeste asiático insular"@es ;
     skos:topConceptOf :256 .
 
 :269 a owl:NamedIndividual,
@@ -1103,7 +1103,7 @@ skos:inScheme a owl:ObjectProperty ;
     skos:inScheme :836 ;
     skos:notation 1026 ;
     skos:prefLabel "husbandry implementation"@en,
-        "MISe en œuvre de l'élevage"@fr,
+        "mise en œuvre de l'élevage"@fr,
         "implantación de la ganadería"@es ;
     skos:semanticRelation :865 .
 
@@ -7914,7 +7914,7 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 511 ;
-    skos:prefLabel "MIS 13MIS 7"@en,
+    skos:prefLabel "MIS 13-MIS 7"@en,
         "MIS 13-MIS 7"@fr,
         "MIS 13-MIS 7"@es ;
     skos:semanticRelation :493,
@@ -8005,7 +8005,7 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 518 ;
-    skos:prefLabel "MIS3"@en,
+    skos:prefLabel "MIS 3"@en,
         "MIS 3"@fr,
         "MIS 3"@es ;
     skos:semanticRelation :493,
@@ -8161,7 +8161,7 @@ skos:related a owl:ObjectProperty,
         :494 ;
     skos:inScheme :492 ;
     skos:notation 530 ;
-    skos:prefLabel "esr_u-series"@en,
+    skos:prefLabel "ESR_u-series"@en,
         "datation ESR/séries de l'uranium"@fr,
         "datación ESR/series de uranio"@es ;
     skos:semanticRelation :493,
