@@ -60,9 +60,8 @@ class Thesaurus():
             else:
                 data[predicate].append(object)
 
-        relational_predicates = ['broader', 'narrower', 'broaderTransitive',
-                                 'hasTopConcept', 'topConceptOf',
-                                 'inScheme', 'related', 'semanticRelation']
+        relational_predicates = ['broader', 'narrower', 'hasTopConcept', 
+                                 'topConceptOf', 'inScheme', 'related']
 
         descriptive_predicates = ['definition', 'prefLabel',
                                   'altLabel', 'hiddenLabel']

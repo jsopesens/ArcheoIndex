@@ -56,7 +56,7 @@ def single_keyword(request, keyword: str):
     keyword_data = thesaurus.get_keyword_data(keyword)
 
     relational_predicates = ['broader', 'narrower', 'hasTopConcept',
-                            'topConceptOf','inScheme', 'related', 'semanticRelation']
+                            'topConceptOf','inScheme', 'related']
 
     for element_key in relational_predicates:
         if element_key in keyword_data:
