@@ -1,170 +1,224 @@
 {% extends "./layout.html" %}
-
 {% load static %}
 
-{% block page_title %}
-    ArcheoIndex | {{keyword_data.title }}
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'keywords/single_keyword.css' %}">
 {% endblock %}
 
+{% block page_title %}{{ keyword_data.title|title }} — ArcheoIndex{% endblock %}
 
-{% block css_files %}
-    <link rel="stylesheet" href="{% static 'single_keyword.css' %}">
+{% block meta_description %}{{ meta_description }}{% endblock %}
+
+{% block canonical_url %}{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}{% endblock %}
+
+{% block og_title %}{{ keyword_data.title|title }} — ArcheoIndex{% endblock %}
+{% block og_description %}{{ meta_description }}{% endblock %}
+{% block og_url %}{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}{% endblock %}
+
+{% block twitter_title %}{{ keyword_data.title|title }} — ArcheoIndex{% endblock %}
+{% block twitter_description %}{{ meta_description }}{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "{{ keyword_data.title|title|escapejs }}",
+    "description": "{{ meta_description|escapejs }}",
+    "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "ArcheoIndex Archaeological Thesaurus",
+        "url": "{{ request.scheme }}://{{ request.get_host }}/"
+    },
+    "url": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ request.scheme }}://{{ request.get_host }}/"}
+        {% if 'broader' in keyword_data %}
+            {% for b in keyword_data.broader %},{"@type": "ListItem", "position": {{ forloop.counter|add:1 }}, "name": "{{ b.prefLabel|title|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' b.uri %}"}{% endfor %}
+            ,{"@type": "ListItem", "position": {{ keyword_data.broader|length|add:2 }}, "name": "{{ keyword_data.title|title|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}"}
+        {% elif 'inScheme' in keyword_data %}
+            {% for s in keyword_data.inScheme %},{"@type": "ListItem", "position": {{ forloop.counter|add:1 }}, "name": "{{ s.prefLabel|title|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' s.uri %}"}{% endfor %}
+            ,{"@type": "ListItem", "position": {{ keyword_data.inScheme|length|add:2 }}, "name": "{{ keyword_data.title|title|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}"}
+        {% else %}
+            ,{"@type": "ListItem", "position": 2, "name": "{{ keyword_data.title|title|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'single_keyword' keyword %}"}
+        {% endif %}
+    ]
+}
+</script>
 {% endblock %}
 
 {% block content %}
-    <h1>{{keyword_data.title}}</h1>
-    <div id="content">
-        <div id="labels">
-            <hr>
-            <h2>
-                Notation:
-            </h2>
-            <ul>
-                <h3>
-                    <li>
-                        {{keyword_data.notation}}
-                    </li>
-                </h3>
-            </ul>
+<article class="keyword-page">
 
-            {% if 'inScheme' in keyword_data %}
-                <hr>
-                <h2>
-                    InScheme:
-                </h2>
-                <ul>
-                    {% for scheme in keyword_data.inScheme %}
-                        <h3><li><a href="{% url 'single_keyword' scheme.uri %}">{{scheme.prefLabel|title}}</a></li></h3>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-            {% if 'hasTopConcept' in keyword_data %}
-                <hr>
-                <h2>hasTopConcept:</h2>
-                <ul>
-                    {% for term in keyword_data.hasTopConcept %}
-                        <li><a href="{% url 'single_keyword' term.uri %}">{{term.prefLabel|title}}</a></li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-            {% if 'narrower' in keyword_data %}
-                <hr> 
-                <h2>
-                    Narrower:
-                </h2>
-                <ul>
-                    {% for narrower in keyword_data.narrower %}
-                        <li><a href="{% url 'single_keyword' narrower.uri %}">{{ narrower.prefLabel|title }}</a></li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+            <li><a href="/">Home</a></li>
             {% if 'broader' in keyword_data %}
-                <hr>
-                <h2>
-                    Broader:
-                </h2>
-                <ul>
-                    {% for broader in keyword_data.broader%}
-                        <h3>
-                            <li>
-                                <a href="{% url 'single_keyword' broader.uri %}">{{ broader.prefLabel|title }}</a>
-                            </li>
-                        </h3>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-            {% if 'topConceptOf' in keyword_data %}
-                <hr>
-                <h2>
-                    topConceptOf:
-                </h2>
-                <ul>
-                    {% for element in keyword_data.topConceptOf%}
-                        <h3>
-                            <li>
-                                <a href="{% url 'single_keyword' element.uri %}">{{ element.prefLabel|title }}</a>
-                            </li>
-                        </h3>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-            {% if 'prefLabel' in keyword_data %}
-                <hr>
-                <h2>
-                    prefLabel: 
-                </h2>
-                <ul>
-                    {% for element in keyword_data.prefLabel %}
-                        <h3>
-                            <li>
-                                {{ element.lang }}: {{ element.value|title }}
-                            </li>
-                        </h3>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-            {% if 'hiddenLabel' in keyword_data %}
-                <hr>
-                <h2>Non advised:</h2>
-                <ul>
-                {% for element in keyword_data.hiddenLabel %}
-                    <h3>
-                        <li>
-                            {{ element.lang }}: {{ element.value|title }}
-                        </li>
-                    </h3>
+                {% for b in keyword_data.broader %}
+                    <li><a href="{% url 'single_keyword' b.uri %}">{{ b.prefLabel|title }}</a></li>
                 {% endfor %}
-                </ul>
+            {% elif 'inScheme' in keyword_data %}
+                {% for s in keyword_data.inScheme %}
+                    <li><a href="{% url 'single_keyword' s.uri %}">{{ s.prefLabel|title }}</a></li>
+                {% endfor %}
             {% endif %}
+            <li aria-current="page">{{ keyword_data.title|title }}</li>
+        </ol>
+    </nav>
 
-            {% if 'related' in keyword_data %}
-            <hr>
-            <h2>Related to:</h2>
-            <ul>
-            {% for element in keyword_data.related %}
-                <h3>
-                    <li>
-                        <a href="{% url 'single_keyword' element.uri %}">{{element.prefLabel}}</a>
-                    </li>
-                </h3>
-            {% endfor %}
-            </ul>
-        {% endif %}
+    <!-- Page header -->
+    <div class="keyword-page-header">
+        <div class="keyword-title-row">
+            <h1>{{ keyword_data.title|title }}</h1>
+            {% if keyword_data.notation %}
+                <span class="notation-badge">#{{ keyword_data.notation }}</span>
+            {% endif %}
         </div>
 
-        {% if 'definition' in keyword_data %}
-            <div id="definition">
-                <h2>
-                    Definition:
-                </h2>
-                <ul>
-                {% for definition in keyword_data.definition %}
-                    <h2>
-                        <li>
-                            <strong>{{definition.lang}}</strong>: {{definition.value}}
-                        </li>    
-                    </h2>
-                {% endfor %}
-                </ul>
-            </div>
+        {% if 'inScheme' in keyword_data %}
+        <div class="keyword-scheme">
+            {% for scheme in keyword_data.inScheme %}
+                <a href="{% url 'single_keyword' scheme.uri %}" class="scheme-pill">{{ scheme.prefLabel|title }}</a>
+            {% endfor %}
+        </div>
         {% endif %}
     </div>
 
-    {% comment %}
-    <hr>
-    <hr>
-    <div id="developement">
-        <h5>Developement Mode</h5>
-        {% for key, value in keyword_data.items %}
-            <p><b>{{key}}</b>:{{value}}</p>
-            <br>
-        {% endfor %}
+    <div class="keyword-body">
+
+        <!-- Definition -->
+        {% if 'definition' in keyword_data %}
+        <section class="kw-section" aria-labelledby="def-heading">
+            <h2 id="def-heading" class="kw-section-title">Definition</h2>
+            <div class="definition-cards">
+                {% for definition in keyword_data.definition %}
+                <div class="definition-card">
+                    <span class="lang-tag">{{ definition.lang }}</span>
+                    <p>{{ definition.value }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Preferred Labels -->
+        {% if 'prefLabel' in keyword_data %}
+        <section class="kw-section" aria-labelledby="label-heading">
+            <h2 id="label-heading" class="kw-section-title">Labels</h2>
+            <ul class="label-list">
+                {% for element in keyword_data.prefLabel %}
+                <li class="label-item">
+                    <span class="lang-tag">{{ element.lang }}</span>
+                    <span class="label-value">{{ element.value|title }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- Alternative Labels -->
+        {% if 'altLabel' in keyword_data %}
+        <section class="kw-section" aria-labelledby="alt-heading">
+            <h2 id="alt-heading" class="kw-section-title">Alternative Names</h2>
+            <ul class="label-list">
+                {% for element in keyword_data.altLabel %}
+                <li class="label-item">
+                    <span class="lang-tag">{{ element.lang }}</span>
+                    <span class="label-value">{{ element.value|title }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- Hierarchy -->
+        {% if 'broader' in keyword_data or 'narrower' in keyword_data or 'hasTopConcept' in keyword_data or 'topConceptOf' in keyword_data %}
+        <section class="kw-section" aria-labelledby="hier-heading">
+            <h2 id="hier-heading" class="kw-section-title">Hierarchy</h2>
+            <div class="relation-groups">
+
+                {% if 'topConceptOf' in keyword_data %}
+                <div class="relation-group">
+                    <span class="relation-label">Top concept of</span>
+                    <ul class="relation-list">
+                        {% for element in keyword_data.topConceptOf %}
+                        <li><a href="{% url 'single_keyword' element.uri %}">{{ element.prefLabel|title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if 'broader' in keyword_data %}
+                <div class="relation-group">
+                    <span class="relation-label">Broader</span>
+                    <ul class="relation-list">
+                        {% for broader in keyword_data.broader %}
+                        <li><a href="{% url 'single_keyword' broader.uri %}">{{ broader.prefLabel|title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if 'hasTopConcept' in keyword_data %}
+                <div class="relation-group">
+                    <span class="relation-label">Top concepts</span>
+                    <ul class="relation-list">
+                        {% for term in keyword_data.hasTopConcept %}
+                        <li><a href="{% url 'single_keyword' term.uri %}">{{ term.prefLabel|title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if 'narrower' in keyword_data %}
+                <div class="relation-group">
+                    <span class="relation-label">Narrower</span>
+                    <ul class="relation-list chip-list">
+                        {% for narrower in keyword_data.narrower %}
+                        <li><a href="{% url 'single_keyword' narrower.uri %}" class="chip">{{ narrower.prefLabel|title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Related Terms -->
+        {% if 'related' in keyword_data %}
+        <section class="kw-section" aria-labelledby="related-heading">
+            <h2 id="related-heading" class="kw-section-title">Related Terms</h2>
+            <ul class="relation-list chip-list">
+                {% for element in keyword_data.related %}
+                <li><a href="{% url 'single_keyword' element.uri %}" class="chip">{{ element.prefLabel|title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- Non-Advised Labels -->
+        {% if 'hiddenLabel' in keyword_data %}
+        <section class="kw-section" aria-labelledby="hidden-heading">
+            <h2 id="hidden-heading" class="kw-section-title">Non-Advised Labels</h2>
+            <ul class="label-list">
+                {% for element in keyword_data.hiddenLabel %}
+                <li class="label-item">
+                    <span class="lang-tag">{{ element.lang }}</span>
+                    <span class="label-value label-value--muted">{{ element.value|title }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
     </div>
-    {% endcomment %}
+</article>
 {% endblock %}

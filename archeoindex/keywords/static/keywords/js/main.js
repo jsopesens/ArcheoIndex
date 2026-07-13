@@ -1,63 +1,73 @@
-var searchInput = document.getElementById('searchQueryInput')
-var endpoint    = '/getMatchKeywords/'
+const searchInput = document.getElementById('searchQueryInput')
+const dropdown    = document.getElementById('navBarContainer')
+const suggestions = document.getElementById('keywords_list')
+const endpoint    = '/getMatchKeywords/'
 
-searchInput.addEventListener('input', function () {
-    showMatchKeywords(searchInput.value);
+let debounceTimer = null
+
+// Prevent form submit (Enter key) from reloading the page
+searchInput.closest('form').addEventListener('submit', e => e.preventDefault())
+
+// Search as user types, debounced to avoid hammering the server
+searchInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer)
+    debounceTimer = setTimeout(() => search(searchInput.value), 220)
 })
 
-// SEARCHBAR -> CLICK ON LI ELEMENT MAKE REDIRECT TO KEYWORD PAGE
+// Re-show existing results when the user refocuses the input
+searchInput.addEventListener('focusin', () => {
+    if (suggestions.childElementCount > 0) showDropdown()
+})
 
-var keyword_list = document.getElementById('keywords_list')
-keyword_list.addEventListener('click', e =>
-    e.target.children[0].click()
-)
-
-// SEARCHBAR -> ON CLICK OUT, HIDE SUGGESTION LIST
+// Hide dropdown on blur (delay to allow a click on a suggestion to fire first)
 searchInput.addEventListener('focusout', () => {
-    // Make it wait in order to redirect instead of simply hide element
-    setTimeout(()=>{
-        keyword_list.style.display = 'none';
-    }, 200)
+    setTimeout(hideDropdown, 200)
 })
 
-searchInput.addEventListener('focusin', () => 
-    keyword_list.style.display = 'block'
-)
+// Navigate when a suggestion is clicked
+dropdown.addEventListener('click', e => {
+    const li = e.target.closest('li.keyword_suggestion')
+    if (li) {
+        const a = li.querySelector('a')
+        if (a) window.location.href = a.href
+    }
+})
 
-function showMatchKeywords(searchText) {
-    let keywordsList = document.getElementById('keywords_list')
-    let keywordsContainer = document.getElementById('navBarContainer')
-    // GET MODE
-    // search input with only whitespaces generates errors on the HTTP request
-    if (searchText.trim() != '') {
-        fetch(endpoint + searchText)
-            .then(keywordsList.innerHTML = '')
-            .then(response => response.json())
-            // .then(response => console.log(response))
-            .then(data => convertToListElements(data.keywords))
-    } else
-        keywordsContainer.style.display = 'none'
+function search(text) {
+    if (!text.trim()) {
+        hideDropdown()
+        return
+    }
+
+    fetch(endpoint + text.trim())
+        .then(response => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`)
+            return response.json()
+        })
+        .then(data => renderSuggestions(data.keywords))
+        .catch(err => console.error('Search error:', err))
 }
 
-function convertToListElements(data) {
-    data.forEach(element => {
+function renderSuggestions(keywords) {
+    suggestions.innerHTML = ''
+
+    if (!keywords || keywords.length === 0) {
+        hideDropdown()
+        return
+    }
+
+    keywords.forEach(keyword => {
         const li = document.createElement('li')
-        const a = document.createElement('a')
+        const a  = document.createElement('a')
         li.classList.add('keyword_suggestion')
-        a.href = element.uri
-        a.innerHTML = element.label
+        a.href      = '/' + keyword.uri + '/'
+        a.textContent = keyword.label
         li.appendChild(a)
-        document.getElementById('keywords_list').appendChild(li)
-    });
-    showSuggestions()
+        suggestions.appendChild(li)
+    })
+
+    showDropdown()
 }
 
-function showSuggestions() {
-    const keywordDOM = document.getElementById('navBarContainer')
-    const keywordsList = document.getElementById('keywords_list')
-
-    keywordDOM.style.display =
-        (keywordsList.childElementCount === 0 || searchInput.value == '') ?
-            'none' :
-            'block'
-}
+function showDropdown() { dropdown.style.display = 'block' }
+function hideDropdown()  { dropdown.style.display = 'none'  }

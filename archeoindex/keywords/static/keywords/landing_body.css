@@ -1,65 +1,158 @@
-#fullListKeywords{
-    list-style: none;
-    width: 90%;
-    margin: 2rem auto;
-    max-width: 30rem;
-    border-radius: 12px;
-    background-color: #ebebeb;
-    padding: 0;
+/* ── Hero ─────────────────────────────────────────── */
+
+.landing-hero {
+    padding: 5rem 2rem 3.5rem;
+    text-align: center;
 }
 
-#fullListKeywords .keyword{
+.landing-hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    line-height: 1.15;
+    margin-bottom: 1.125rem;
+}
+
+.landing-hero h1 em {
+    font-style: normal;
+    color: var(--accent);
+}
+
+.landing-hero p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+/* ── List section ─────────────────────────────────── */
+
+.landing-list-section {
+    max-width: 44rem;
+    margin: 0 auto 5rem;
+    padding: 0 1.5rem;
+}
+
+.section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 0.875rem;
+    padding-left: 0.25rem;
+}
+
+/* ── Keyword list ─────────────────────────────────── */
+
+#fullListKeywords {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+#fullListKeywords .keyword {
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
-    font-size: 1.2rem;
-    padding: 1rem 1rem;
-    border-bottom: 1px solid #ccc;
-    /* 
-    si queremos eliminar el espacio blanco 
-    en los laterales al pasar el cursor
-    por encima, debemos eliminar el siguiente
-    valor
-    */
-    /* margin: 0 1rem; */
+    border-bottom: 1px solid var(--border);
+    transition: background var(--transition);
 }
 
-.keyword ul{
-    padding: 0 1rem
+#fullListKeywords .keyword:last-of-type {
+    border-bottom: none;
 }
 
-.keyword:last-of-type{
-    border: 0 !important;
+#fullListKeywords .keyword:hover {
+    background: var(--surface-hover);
 }
 
-.keyword a{
+.keyword-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875rem 1.25rem;
+    gap: 0.75rem;
+}
+
+.keyword-header a {
+    font-size: 0.9625rem;
+    font-weight: 500;
+    color: var(--text);
     text-decoration: none;
-    color: #0c301a;
+    flex: 1;
+    transition: color var(--transition);
 }
 
-.keyword:hover, .keyword:hover>a{
-    background-color: #3d3d3d;
-    color:#a2bc2a;
+#fullListKeywords .keyword:hover .keyword-header a {
+    color: var(--accent);
 }
 
-.keyword:hover>ul{
-    background-color: #ebebeb;
-    color: initial;
+.expand-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;   /* 44px — WCAG 2.5.5 */
+    height: 2.75rem;
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--text-dim);
+    transition: color var(--transition);
+    border-radius: var(--radius-sm);
 }
 
-ul li{
-    list-style: none;
-    margin: 0;
-}
-
-path{
+.expand-btn svg {
+    transition: transform 0.25s ease;
     pointer-events: none;
 }
 
-svg:hover path{
-    d: path('m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z');
-    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+/* Hover on a closed row: rotate arrow down to hint expansion */
+#fullListKeywords .keyword:not(.is-open):hover > .keyword-header .expand-btn,
+.expand-btn:hover {
+    color: var(--accent);
 }
 
-li.keyword a:hover{
-    font-weight: bold;
-    text-transform: uppercase;
+#fullListKeywords .keyword:not(.is-open):hover > .keyword-header .expand-btn svg {
+    transform: rotate(90deg);
+}
+
+/* Open state: arrow stays pointing down */
+#fullListKeywords .keyword.is-open > .keyword-header .expand-btn svg {
+    transform: rotate(90deg);
+}
+
+/* Open + hover: keep arrow down */
+#fullListKeywords .keyword.is-open:hover > .keyword-header .expand-btn {
+    color: var(--accent);
+}
+
+/* ── Nested children ──────────────────────────────── */
+
+.keyword > ul {
+    border-top: 1px solid var(--border);
+    background: var(--surface-2);
+}
+
+.keyword > ul .keyword {
+    padding-left: 1.5rem;
+    background: transparent;
+    border-bottom: 1px solid var(--border);
+}
+
+.keyword > ul .keyword:last-of-type {
+    border-bottom: none;
+}
+
+.keyword > ul .keyword:hover {
+    background: var(--surface-hover);
+}
+
+path {
+    pointer-events: none;
 }
