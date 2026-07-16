@@ -1,11 +1,11 @@
 from rdflib import SKOS, RDF, Graph, URIRef, Literal
-
+from django.conf import settings
 
 class Thesaurus():
     def __init__(self):
         self.g = Graph()
-        self.g.parse('ArcheoIndex_thesaurus.ttl')
-        self.uri = URIRef('http://archeoindex.org#')
+        self.g.parse(settings.THESAURUS_PATH)
+        self.uri = URIRef(settings.THESAURUS_URI)
 
     def get_ConceptSchemes(self) -> list:
         return self.g.subjects(RDF.type, SKOS.ConceptScheme)
@@ -45,9 +45,6 @@ class Thesaurus():
     def check_subject_predicate(self, subject: URIRef, predicate) -> bool:
         return (subject, predicate, None) in self.g
 
-    def keyword_exists(self, subject: str) -> bool:
-        return (URIRef(self.uri+subject), None, None) in self.g
-
     def get_keyword_data(self, subject: str):
         triples = self.g.triples(
             triple=(URIRef(self.uri + subject), None, None))
@@ -61,9 +58,7 @@ class Thesaurus():
                 data[predicate].append(object)
 
         relational_predicates = ['broader', 'narrower', 'hasTopConcept', 'inScheme', 'related']
-
-        descriptive_predicates = ['definition', 'prefLabel',
-                                  'altLabel', 'hiddenLabel']
+        descriptive_predicates = ['definition', 'prefLabel', 'altLabel', 'hiddenLabel']
 
         for key, values in data.items():
             if key in relational_predicates:
@@ -152,4 +147,3 @@ class Thesaurus():
         data = self.get_keyword_data(keyword_name)
         data['keyword'] = keyword_name
         return data
-        

@@ -93,7 +93,7 @@ pip install django rdflib
 
 ## Running the Application
 
-Because the thesaurus parser (`keywords/thesaurus.py`) loads the SKOS RDF data from `ArcheoIndex_thesaurus.ttl` using a relative path from the current working directory, you **must run the server from the root directory**:
+The default configuration loads `ArcheoIndex_thesaurus.ttl` through `THESAURUS_PATH` in `archeoindex/settings.py`:
 
 ```bash
 python archeoindex/manage.py runserver
@@ -101,6 +101,25 @@ python archeoindex/manage.py runserver
 
 Once the server is running, access the web interface in your browser at:
 👉 **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
+
+---
+
+## Tests
+
+The test suite uses a small, self-contained SKOS fixture instead of the production thesaurus:
+
+- `thesaurus_test.ttl` contains the test concepts (currently 19), with the base URI `http://test_thesaurus.org#`.
+- `archeoindex/settings_test.py` inherits the normal Django settings and replaces `THESAURUS_PATH` and `THESAURUS_URI` with `TEST_THESAURUS_PATH` and `TEST_THESAURUS_URI`.
+- `keywords/tests.py` contains unit tests for `Concept` and the RDF graph access helpers.
+
+Run the suite from the Django project directory:
+
+```powershell
+cd archeoindex
+python manage.py test --settings=archeoindex.settings_test
+```
+
+When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.
 
 ---
 

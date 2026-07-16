@@ -1,0 +1,179 @@
+@prefix : <http://test_thesaurus.org#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://test_thesaurus.org> a owl:Ontology ;
+    dcterms:contributor "Javier Sopesens";
+    dcterms:creator "Javier Sopesens";
+    dcterms:description "A thesaurus to prove and make unit test with classes 'Thesaurus' and 'Concept'."@en ;
+    dcterms:title "test mock up thesaurus"@en .
+
+:1 a skos:ConceptScheme ;
+    skos:hasTopConcept :11,
+        :12,
+        :13 ;
+    skos:notation 1 ;
+    skos:prefLabel "lithic"@en,
+        "lithique"@fr,
+        "lítico"@es .
+
+:11 a skos:Concept ;
+    skos:inScheme :1 ;
+    skos:narrower :111,
+        :112,
+        :113,
+        :114,
+        :115;
+    skos:notation 11 ;
+    skos:prefLabel "lithic technology"@en,
+        "technologie lithique"@fr,
+        "tecnología lítica"@es .
+
+
+:12 a skos:Concept ;
+    skos:inScheme :1 ;
+    skos:narrower :121,
+        :122,
+        :123,
+        :124,
+        :125;
+    skos:notation 12 ;
+    skos:prefLabel "use marks and functionality"@en,
+        "traces d'utilisation et fonction"@fr,
+        "huellas de uso y funcionalidad"@es .
+
+:13 a skos:Concept ;
+    skos:inScheme :1 ;
+    skos:narrower :131,
+        :132,
+        :133,
+        :134,
+        :135;
+    skos:notation 13 ;
+    skos:prefLabel "lithic study"@en,
+        "étude lithique"@fr,
+        "estudio lítico"@es .
+
+:111 a skos:Concept ;
+    skos:broader :11 ;
+    skos:inScheme :1 ;
+    skos:notation 111 ;
+    skos:prefLabel "bone tools"@en,
+        "outils en os"@fr,
+        "herramientas de hueso"@es .
+
+:112 a skos:Concept ;
+    skos:broader :11 ;
+    skos:inScheme :1 ;
+    skos:notation 112 ;
+    skos:prefLabel "heavy-duty tool"@en,
+        "outil lourd"@fr,
+        "útil pesado"@es .
+
+:113 a skos:Concept ;
+    skos:broader :11 ;
+    skos:inScheme :1 ;
+    skos:notation 113 ;
+    skos:prefLabel "heavy-duty scraper"@en,
+        "racloir lourd"@fr,
+        "raspador pesado"@es .
+
+:114 a skos:Concept ;
+    skos:broader :11 ;
+    skos:inScheme :1 ;
+    skos:notation 114 ;
+    skos:prefLabel "human bone tool"@en,
+        "outil en os humain"@fr,
+        "herramienta de hueso humano"@es .
+
+:115 a skos:Concept ;
+    skos:broader :11 ;
+    skos:inScheme :1 ;
+    skos:notation 115 ;
+    skos:prefLabel "informal tools"@en,
+        "outils informels"@fr,
+        "herramientas informales"@es .
+
+:121 a skos:Concept ;
+    skos:broader :12 ;
+    skos:inScheme :1 ;
+    skos:notation 121 ;
+    skos:prefLabel "blade knapping"@en,
+        "taille de lames"@fr,
+        "talla laminar"@es .
+
+:122 a skos:Concept ;
+    skos:broader :12 ;
+    skos:inScheme :1 ;
+    skos:notation 122 ;
+    skos:prefLabel "core reduction"@en,
+        "débitage du nucléus"@fr,
+        "reducción del núcleo"@es .
+
+:123 a skos:Concept ;
+    skos:broader :12 ;
+    skos:inScheme :1 ;
+    skos:notation 123 ;
+    skos:prefLabel "percussion marks"@en,
+        "traces de percussion"@fr,
+        "marcas de percusión"@es .
+
+:124 a skos:Concept ;
+    skos:broader :12 ;
+    skos:inScheme :1 ;
+    skos:notation 124 ;
+    skos:prefLabel "lithic use-wear analysis"@en,
+        "tracéologie lithique"@fr,
+        "traceología lítica"@es .
+
+:125 a skos:Concept ;
+    skos:broader :12 ;
+    skos:inScheme :1 ;
+    skos:notation 125 ;
+    skos:prefLabel "fracture planes"@en,
+        "plans de fracture"@fr,
+        "planos de fractura"@es .
+
+:131 a skos:Concept ;
+    skos:broader :13 ;
+    skos:inScheme :1 ;
+    skos:notation 131 ;
+    skos:prefLabel "fracture pattern"@en,
+        "schéma de fracturation"@fr,
+        "patrón de fractura"@es .
+
+:132 a skos:Concept ;
+    skos:broader :13 ;
+    skos:inScheme :1 ;
+    skos:notation 132 ;
+    skos:prefLabel "flaking sequence"@en,
+        "séquence de débitage"@fr,
+        "secuencia de lascado"@es .
+
+:133 a skos:Concept ;
+    skos:broader :13 ;
+    skos:inScheme :1 ;
+    skos:notation 133 ;
+    skos:prefLabel "knapping methods"@en,
+        "méthodes de taille"@fr,
+        "métodos de talla"@es .
+
+:134 a skos:Concept ;
+    skos:broader :13 ;
+    skos:inScheme :1 ;
+    skos:notation 134 ;
+    skos:prefLabel "knapping sequence"@en,
+        "séquence de taille"@fr,
+        "secuencia de talla"@es .
+
+:135 a skos:Concept ;
+    skos:broader :13 ;
+    skos:inScheme :1 ;
+    skos:notation 135 ;
+    skos:prefLabel "knapping skill"@en,
+        "compétence de taille"@fr,
+        "habilidad de talla"@es .

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import Http404, HttpResponse, JsonResponse
 
 from .thesaurus import Thesaurus
+from .concept import Concept
 
 thesaurus = Thesaurus()
 
@@ -48,10 +49,12 @@ def browse(request):
     })
 
 def single_keyword(request, keyword: str):
+    concept = Concept(thesaurus.g, keyword)
+    
     # check keyword exists
-    if not thesaurus.keyword_exists(keyword):
+    if not concept.exists():
         raise Http404("Keyword does not exist")
-
+    
     # return every piece of information associated
     keyword_data = thesaurus.get_keyword_data(keyword)
 
