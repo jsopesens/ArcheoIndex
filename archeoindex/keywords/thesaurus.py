@@ -19,20 +19,6 @@ class Thesaurus():
             'prefLabel': self.english_preferredLabel(subject=subject)[0][1].toPython()
         }
 
-    def get_children_of(self, subject: URIRef) -> list[URIRef]:
-        children = []
-        children.extend(self.g.objects(
-            subject=subject, predicate=SKOS.hasTopConcept))
-        children.extend(self.g.objects(
-            subject=subject, predicate=SKOS.narrower))
-        return children
-
-    def get_subject_by_notation(self, notation: int) -> URIRef:
-        subjects = self.g.subjects(
-            predicate=SKOS.notation, object=Literal(notation))
-        for subject in subjects:
-            return subject
-
     def subject_has_children(self, subject: str) -> bool:
         return self.has_hasTopConcept(URIRef(subject)) or self.has_narrower(URIRef(subject))
 

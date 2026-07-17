@@ -177,3 +177,6 @@
     skos:prefLabel "knapping skill"@en,
         "compétence de taille"@fr,
         "habilidad de talla"@es .
+
+:200 a skos:Concept ;
+    skos:notation 200 .
