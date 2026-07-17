@@ -87,19 +87,6 @@ class Thesaurus():
         else:
             return [(SKOS.prefLabel, l_) for l_ in labels]
 
-    def get_top_concepts(self, scheme_uri: URIRef, limit: int = 5) -> list:
-        top_concept_uris = list(self.g.objects(subject=scheme_uri, predicate=SKOS.hasTopConcept))
-        top_concepts = []
-        for uri in top_concept_uris[:limit]:
-            try:
-                top_concepts.append(self.get_landing_info(uri))
-            except Exception:
-                continue
-        # Split URIs for templates
-        for concept in top_concepts:
-            concept['uri'] = concept['uri'].split('#')[1]
-        return top_concepts
-
     def get_all_keyword_ids(self) -> list[str]:
         ids = []
         for concept_type in [SKOS.Concept, SKOS.ConceptScheme]:

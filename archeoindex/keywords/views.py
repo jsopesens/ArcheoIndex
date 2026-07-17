@@ -6,41 +6,62 @@ from .concept import Concept
 
 thesaurus = Thesaurus()
 
+# TODO clarify meaning of therm_desc
+# TODO decople responsabilities (schemes, term_of_the_day, desc)
+
+
 def home(request):
-    ConceptScheme_subjects = thesaurus.get_ConceptSchemes()
-    schemes = []
-    for subject in ConceptScheme_subjects:
-        try:
-            info = thesaurus.get_landing_info(subject)
-            info['uri_id'] = info['uri'].split('#')[1]
-            info['top_concepts'] = thesaurus.get_top_concepts(subject, limit=4)
-            schemes.append(info)
-        except Exception:
-            continue
-            
-    schemes = sorted(schemes, key=lambda x: x['prefLabel'])
+    schemes = get_scheme_card_data()
+
     term_of_the_day = thesaurus.get_term_of_the_day()
-    
     term_desc = ""
     if term_of_the_day and 'definition' in term_of_the_day:
         for defn in term_of_the_day['definition']:
             if defn.get('lang') == 'en':
                 term_desc = defn['value']
                 break
-        else:
-            term_desc = term_of_the_day['definition'][0]['value']
-            
+            else:
+                term_desc = term_of_the_day['definition'][0]['value']
+
     return render(request, "keywords/home.html", {
         "schemes": schemes,
         "term_of_the_day": term_of_the_day,
         "term_desc": term_desc
     })
 
+
+def get_scheme_card_data() -> list[dict]:
+    '''
+    get and prepare data for every card in the home page. 
+    It gets the ConceptSchemes and gets its uri, prefLabel and topConcepts(uri and prefLabel)
+    '''
+    schemes = []
+    # every element will be a card in home
+    for conceptSchema in thesaurus.get_ConceptSchemes():
+        concept = Concept(thesaurus.g, conceptSchema)
+
+        top_concepts = []
+        for top_subject in concept.get_hasTopConcept():
+            subject = Concept(thesaurus.g, top_subject)
+            top_concepts.append({
+                "uri": subject.identifier,
+                "prefLabel": subject.get_title()
+            })
+
+        schemes.append({
+            "uri": concept.identifier,
+            "prefLabel": concept.get_title(),
+            "top_concepts": top_concepts
+        })
+    return sorted(schemes, key=lambda x: x['prefLabel'])
+
+
 def browse(request):
     ConceptScheme_subjects = thesaurus.get_ConceptSchemes()
-    
-    keywords = [thesaurus.get_landing_info(subject) for subject in ConceptScheme_subjects]
-    
+
+    keywords = [thesaurus.get_landing_info(
+        subject) for subject in ConceptScheme_subjects]
+
     for keyword in keywords:
         keyword['uri'] = keyword['uri'].split('#')[1]
 
@@ -48,17 +69,19 @@ def browse(request):
         "keywords": keywords
     })
 
+
 def single_keyword(request, keyword: str):
     concept = Concept(thesaurus.g, keyword)
-    
+
     # check keyword exists
     if not concept.exists():
         raise Http404("Keyword does not exist")
-    
+
     # return every piece of information associated
     keyword_data = thesaurus.get_keyword_data(keyword)
 
-    relational_predicates = ['broader', 'narrower', 'hasTopConcept', 'inScheme', 'related']
+    relational_predicates = ['broader', 'narrower',
+                             'hasTopConcept', 'inScheme', 'related']
 
     for element_key in relational_predicates:
         if element_key in keyword_data:
@@ -81,11 +104,13 @@ def single_keyword(request, keyword: str):
         "keyword": keyword,
     })
 
+
 def get_children_of(request, subject_notation: int):
     # get the children of the current element
-    subject = thesaurus.get_subject_by_notation(notation=subject_notation)
-    children_subjects = thesaurus.get_children_of(subject=subject)
-    children = [thesaurus.get_landing_info(child) for child in children_subjects]
+    concept = Concept(thesaurus.g, subject_notation)
+    children_URIs = concept.get_children()
+
+    children = [thesaurus.get_landing_info(child) for child in children_URIs]
 
     # store if these elements have child to visualize it in frontend
     for child in children:
