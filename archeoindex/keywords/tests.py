@@ -134,7 +134,7 @@ class getAllDataTests(ThesaurusTestCase):
 
     def test_concept_has_three_top_concepts(self):
         concept = self.concept(1)
-        triples = list(concept.get_all_data())
+        triples = concept.get_all_data()
         expected_results = {
             "top_concepts": {
                 "http://test_thesaurus.org#11",
@@ -197,6 +197,7 @@ class getTitleTests(ThesaurusTestCase):
         concept = self.concept(1)
         self.assertEquals(concept.get_title('fr'), 'lithique')
 
+
 class hasDefinitionTests(ThesaurusTestCase):
     def test_raises_exception_wrong_object(self):
         concept = self.concept(0)
@@ -210,6 +211,7 @@ class hasDefinitionTests(ThesaurusTestCase):
     def raise_true_object_have_definition(self):
         concept = self.concept(201)
         self.assertTrue(concept.has_definition)
+
 
 class getDefinitionsTests(ThesaurusTestCase):
     def test_raises_exception_object_does_not_exists(self):
@@ -232,7 +234,8 @@ class getDefinitionsTests(ThesaurusTestCase):
 
         self.assertEquals(concept.get_definitions(), expected_definitions)
 
-class getDefinitionsInTests(ThesaurusTestCase):
+
+class getDefinitionInTests(ThesaurusTestCase):
     def test_raises_exception_object_does_not_exists(self):
         concept = self.concept(0)
         with self.assertRaises(ConceptNotFound):

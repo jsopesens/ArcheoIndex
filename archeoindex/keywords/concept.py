@@ -12,6 +12,21 @@ class ConceptDoesNotHaveDefinitions(LookupError):
 class ConceptDoesNotHaveDefinitionInThatLanguage(LookupError):
     pass
 
+RELATIONAL_PREDICATES = {
+    SKOS.broader,
+    SKOS.narrower,
+    SKOS.related,
+    SKOS.hasTopConcept,
+    SKOS.inScheme,
+}
+
+DESCRIPTIVE_PREDICATES = {
+    SKOS.prefLabel,
+    SKOS.altLabel,
+    SKOS.hiddenLabel,
+    SKOS.definition,
+}
+
 class Concept:
     def __init__(self, graph: Graph, subject:URIRef):
         self.graph = graph
@@ -79,7 +94,7 @@ class Concept:
 
     def get_all_data(self):
         self.require_exists()
-        return self.graph.triples(triple=(self.subject, None, None))
+        return list(self.graph.triples(triple=(self.subject, None, None)))
     
     def get_definitions(self) -> list[Literal]:
         self.require_exists()
@@ -102,3 +117,46 @@ class Concept:
         raise ConceptDoesNotHaveDefinitionInThatLanguage(
             f"Concept Does Not Have Definition in {language}"
         )
+    
+    def serialize(self) -> dict:
+        """
+        Serialize the concept into a dictionary ready to be consumed by the frontend.
+        """
+        self.require_exists()
+
+        # get all in data object
+        data = {}
+        for _, predicate, obj in self.get_all_data():
+            predicate_name = predicate.split("#")[-1]
+            data.setdefault(predicate_name, []).append(obj)
+
+        for predicate_name, values in data.items():
+            predicate_uri = getattr(SKOS, predicate_name, None)
+            
+            # prepare relational predicates (broader, narrower, related, hasTopConcept, inScheme)
+            if predicate_uri in RELATIONAL_PREDICATES:
+                data[predicate_name] = [
+                    {
+                        "uri": value.split("#")[-1],
+                        "prefLabel": Concept(self.graph, value).get_title()
+                    }
+                    for value in values
+                ]
+
+            # prepare descriptive predicates (prefLabel, altLabel, hiddenLabel, definition)
+            if predicate_uri in DESCRIPTIVE_PREDICATES:
+                data[predicate_name] = [
+                    {
+                        "lang": value.language,
+                        "value": str(value)
+                    }
+                    for value in values
+                ]
+
+            # prepare notation
+            if predicate_name == "notation":
+                data[predicate_name] = str(values[0])
+
+        data["title"] = self.get_title().title()
+
+        return data

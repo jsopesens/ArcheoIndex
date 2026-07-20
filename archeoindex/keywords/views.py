@@ -3,7 +3,7 @@ from django.http import Http404, HttpResponse, JsonResponse
 from rdflib import URIRef
 from .thesaurus import Thesaurus
 from .concept import Concept
-
+from django.conf import settings
 thesaurus = Thesaurus()
 
 
@@ -69,13 +69,14 @@ def get_term_of_the_day() -> dict:
 
 
 def browse(request):
-    ConceptScheme_subjects = thesaurus.get_ConceptSchemes()
+    keywords = []
 
-    keywords = [thesaurus.get_landing_info(
-        subject) for subject in ConceptScheme_subjects]
-
-    for keyword in keywords:
-        keyword['uri'] = keyword['uri'].split('#')[1]
+    for subject in thesaurus.get_ConceptSchemes():
+        concept = Concept(thesaurus.g, subject)
+        keywords.append({
+            "uri": concept.identifier,
+            "prefLabel":concept.get_title()
+        })
 
     return render(request, "keywords/browse.html", {
         "keywords": keywords
@@ -83,24 +84,18 @@ def browse(request):
 
 
 def single_keyword(request, keyword: str):
-    concept = Concept(thesaurus.g, keyword)
+    subject = URIRef(f"{settings.THESAURUS_URI}{keyword}")
+    concept = Concept(thesaurus.g, subject)
 
     # check keyword exists
     if not concept.exists():
         raise Http404("Keyword does not exist")
 
     # return every piece of information associated
-    keyword_data = thesaurus.get_keyword_data(keyword)
-
-    relational_predicates = ['broader', 'narrower',
-                             'hasTopConcept', 'inScheme', 'related']
-
-    for element_key in relational_predicates:
-        if element_key in keyword_data:
-            keyword_data[element_key] = split_uris(keyword_data[element_key])
+    keyword_data = concept.serialize()
 
     # Build meta description for SEO from the first available definition
-    title = keyword_data.get('title', keyword).replace('_', ' ').title()
+    title = concept.get_title()
     meta_description = f"Archaeological thesaurus entry for {title}."
     if 'definition' in keyword_data:
         for defn in keyword_data['definition']:
@@ -113,21 +108,23 @@ def single_keyword(request, keyword: str):
     return render(request, 'keywords/single_keyword.html', {
         "keyword_data": keyword_data,
         "meta_description": meta_description,
-        "keyword": keyword,
     })
 
 
 def get_children_of(request, subject_notation: int):
+    subject_URI = URIRef(f"{settings.THESAURUS_URI}{subject_notation}")
     # get the children of the current element
-    concept = Concept(thesaurus.g, subject_notation)
-    children_URIs = concept.get_children()
-
-    children = [thesaurus.get_landing_info(child) for child in children_URIs]
+    concept = Concept(thesaurus.g, subject_URI)
 
     # store if these elements have child to visualize it in frontend
-    for child in children:
-        child['has_children'] = thesaurus.subject_has_children(child['uri'])
-        child['uri'] = child['uri'].split('#')[1]
+    children = []
+    for child_URI in concept.get_children():
+        child = Concept(thesaurus.g, child_URI)
+        children.append({
+            "uri": child.identifier,
+            "prefLabel": child.get_title(),
+            "has_children": child.has_children()
+        })
 
     # order elements putting first the ones with children
     children = sorted(children, key=lambda x: not x['has_children'])
