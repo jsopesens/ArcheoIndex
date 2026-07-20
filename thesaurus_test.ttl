@@ -180,3 +180,9 @@
 
 :200 a skos:Concept ;
     skos:notation 200 .
+
+:201 a skos:Concept ;
+    skos:notation 201;
+    skos:definition "definition"@en,
+    "definición"@esp,
+    "definició"@cat.

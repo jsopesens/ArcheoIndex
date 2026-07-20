@@ -1,59 +1,71 @@
 from django.shortcuts import render
 from django.http import Http404, HttpResponse, JsonResponse
-
+from rdflib import URIRef
 from .thesaurus import Thesaurus
 from .concept import Concept
 
 thesaurus = Thesaurus()
 
-# TODO clarify meaning of therm_desc
-# TODO decople responsabilities (schemes, term_of_the_day, desc)
-
 
 def home(request):
-    schemes = get_scheme_card_data()
-
-    term_of_the_day = thesaurus.get_term_of_the_day()
-    term_desc = ""
-    if term_of_the_day and 'definition' in term_of_the_day:
-        for defn in term_of_the_day['definition']:
-            if defn.get('lang') == 'en':
-                term_desc = defn['value']
-                break
-            else:
-                term_desc = term_of_the_day['definition'][0]['value']
-
-    return render(request, "keywords/home.html", {
-        "schemes": schemes,
-        "term_of_the_day": term_of_the_day,
-        "term_desc": term_desc
-    })
-
-
-def get_scheme_card_data() -> list[dict]:
-    '''
-    get and prepare data for every card in the home page. 
-    It gets the ConceptSchemes and gets its uri, prefLabel and topConcepts(uri and prefLabel)
-    '''
+    # TODO decople responsabilities (schemes, term_of_the_day, desc)
     schemes = []
     # every element will be a card in home
     for conceptSchema in thesaurus.get_ConceptSchemes():
-        concept = Concept(thesaurus.g, conceptSchema)
+        result = get_scheme_card_data(conceptSchema)
+        schemes.append(result)
+    schemes.sort(key=lambda scheme: scheme["prefLabel"])
 
-        top_concepts = []
-        for top_subject in concept.get_hasTopConcept():
-            subject = Concept(thesaurus.g, top_subject)
-            top_concepts.append({
-                "uri": subject.identifier,
-                "prefLabel": subject.get_title()
-            })
+    return render(request, "keywords/home.html", {
+        "schemes": schemes,
+        "term_of_the_day": get_term_of_the_day()
+    })
 
-        schemes.append({
-            "uri": concept.identifier,
-            "prefLabel": concept.get_title(),
-            "top_concepts": top_concepts
+
+def get_scheme_card_data(conceptSchema: URIRef) -> dict:
+    '''
+    get and prepare data for a card in the home page. 
+    It gets the ConceptSchema and gets its uri, prefLabel and topConcepts(uri and prefLabel)
+    '''
+    concept = Concept(thesaurus.g, conceptSchema)
+    top_concepts = []
+    for top_subject in concept.get_hasTopConcept():
+        subject = Concept(thesaurus.g, top_subject)
+        top_concepts.append({
+            "uri": subject.identifier,
+            "prefLabel": subject.get_title()
         })
-    return sorted(schemes, key=lambda x: x['prefLabel'])
+
+    return {
+        "uri": concept.identifier,
+        "prefLabel": concept.get_title(),
+        "top_concepts": top_concepts[:3],
+        "has_more_top_concepts": len(top_concepts) > 3
+    }
+
+
+def get_term_of_the_day() -> dict:
+    # get all objects with definition (in english)
+    terms = thesaurus.get_all_concepts()
+    concepts_definitions = []
+    for term in terms:
+        concept = Concept(thesaurus.g, term)
+        if concept.has_definition():
+            concepts_definitions.append(
+                {"uri": concept.identifier, "definition": concept.get_definition_in("en")}
+            )
+    
+    # randomize object in the list
+    import datetime
+    import hashlib
+
+    today_str = datetime.date.today().isoformat()
+    hash_val = int(hashlib.md5(today_str.encode('utf-8')).hexdigest(), 16)
+
+    random_index = hash_val % len(concepts_definitions)
+    selected_concept = concepts_definitions[random_index]    
+
+    return selected_concept
 
 
 def browse(request):
@@ -123,6 +135,7 @@ def get_children_of(request, subject_notation: int):
     response['X-Robots-Tag'] = 'noindex'
     return response
 
+
 def getMatchKeywords(request, search: str):
     # get search parameter and search every NamedIndividual that contains that string
     keywords = thesaurus.get_keywords_matching(search)
@@ -132,6 +145,7 @@ def getMatchKeywords(request, search: str):
     response = JsonResponse({'keywords': keywords})
     response['X-Robots-Tag'] = 'noindex'
     return response
+
 
 def robots_txt(request):
     lines = [
@@ -145,10 +159,12 @@ def robots_txt(request):
     ]
     return HttpResponse("\n".join(lines), content_type="text/plain")
 
+
 def split_uris(elements: list[dict]) -> list[dict]:
     for element in elements:
         element['uri'] = element['uri'].split('#')[1]
     return elements
+
 
 def test_404(request):
     return render(request, "404.html", status=404)

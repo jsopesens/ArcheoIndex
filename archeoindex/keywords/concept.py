@@ -1,9 +1,15 @@
-from rdflib import Graph, URIRef, SKOS
+from rdflib import Graph, URIRef, SKOS, Literal
 
 class ConceptNotFound(LookupError):
     pass
 
 class LabelNotFound(LookupError):
+    pass
+
+class ConceptDoesNotHaveDefinitions(LookupError):
+    pass
+
+class ConceptDoesNotHaveDefinitionInThatLanguage(LookupError):
     pass
 
 class Concept:
@@ -32,6 +38,9 @@ class Concept:
     def has_children(self) -> bool:
         return self.has_narrower() or self.has_hasTopConcept()
 
+    def has_definition(self) -> bool:
+        return self.check_predicate(SKOS.definition)
+    
     def get_objects_by_predicate(self, predicate: URIRef) -> list[URIRef]:
         self.require_exists()
 
@@ -72,3 +81,24 @@ class Concept:
         self.require_exists()
         return self.graph.triples(triple=(self.subject, None, None))
     
+    def get_definitions(self) -> list[Literal]:
+        self.require_exists()
+        definitions = self.get_objects_by_predicate(SKOS.definition)
+        
+        if not definitions:
+            raise ConceptDoesNotHaveDefinitions
+        
+        return [
+            {
+                "value": str(label),
+                "lang": label.language
+            } for label in definitions]
+    
+    def get_definition_in(self, language = "en") -> str: 
+        definitions = self.get_definitions()
+        for definition in definitions:
+            if definition["lang"] == language:
+                return definition["value"]
+        raise ConceptDoesNotHaveDefinitionInThatLanguage(
+            f"Concept Does Not Have Definition in {language}"
+        )

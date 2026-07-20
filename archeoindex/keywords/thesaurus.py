@@ -1,11 +1,18 @@
 from rdflib import SKOS, RDF, Graph, URIRef, Literal
 from django.conf import settings
+from itertools import chain
 
 class Thesaurus():
     def __init__(self):
         self.g = Graph()
         self.g.parse(settings.THESAURUS_PATH)
         self.uri = URIRef(settings.THESAURUS_URI)
+
+    def get_all_concepts(self) ->list[URIRef]:
+        return list(chain(
+            self.g.subjects(RDF.type, SKOS.Concept),
+            self.g.subjects(RDF.type, SKOS.ConceptScheme)
+        ))
 
     def get_ConceptSchemes(self) -> list:
         return self.g.subjects(RDF.type, SKOS.ConceptScheme)
@@ -43,8 +50,10 @@ class Thesaurus():
             else:
                 data[predicate].append(object)
 
-        relational_predicates = ['broader', 'narrower', 'hasTopConcept', 'inScheme', 'related']
-        descriptive_predicates = ['definition', 'prefLabel', 'altLabel', 'hiddenLabel']
+        relational_predicates = ['broader', 'narrower',
+                                 'hasTopConcept', 'inScheme', 'related']
+        descriptive_predicates = ['definition',
+                                  'prefLabel', 'altLabel', 'hiddenLabel']
 
         for key, values in data.items():
             if key in relational_predicates:
@@ -71,17 +80,20 @@ class Thesaurus():
         prefLabels = self.g.subject_objects(SKOS.prefLabel)
         hiddenLabels = self.g.subject_objects(SKOS.hiddenLabel)
         literal_labels = list(prefLabels) + list(hiddenLabels)
-        matching_labels = [{'uri':str(subj),'label': str(obj)} for subj, obj in literal_labels if search.lower() in str(obj).lower()]
+        matching_labels = [{'uri': str(subj), 'label': str(
+            obj)} for subj, obj in literal_labels if search.lower() in str(obj).lower()]
 
         return matching_labels
 
     def english_preferredLabel(self, subject):
         default = []
         # setup the language filtering
+
         def langfilter(l_):
             return l_.language == 'en'
 
-        labels = list(filter(langfilter, self.g.objects(subject, SKOS.prefLabel)))
+        labels = list(
+            filter(langfilter, self.g.objects(subject, SKOS.prefLabel)))
         if len(labels) == 0:
             return default
         else:
@@ -94,29 +106,3 @@ class Thesaurus():
                 if uri.toPython().startswith(self.uri.toPython()):
                     ids.append(uri.toPython().split('#')[1])
         return ids
-
-    def get_term_of_the_day(self) -> dict:
-        concepts = list(self.g.subjects(RDF.type, SKOS.Concept))
-        if not concepts:
-            return None
-        
-        import datetime
-        import hashlib
-        
-        today_str = datetime.date.today().isoformat()
-        hash_val = int(hashlib.md5(today_str.encode('utf-8')).hexdigest(), 16)
-        
-        # Filter to concepts that have a definition to make it interesting
-        concepts_with_definition = []
-        for concept in concepts:
-            if (concept, SKOS.definition, None) in self.g:
-                concepts_with_definition.append(concept)
-                
-        choices = concepts_with_definition if concepts_with_definition else concepts
-        random_index = hash_val % len(choices)
-        selected_concept = choices[random_index]
-        
-        keyword_name = selected_concept.toPython().split('#')[1]
-        data = self.get_keyword_data(keyword_name)
-        data['keyword'] = keyword_name
-        return data

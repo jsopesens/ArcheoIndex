@@ -4,7 +4,7 @@ from django.conf import settings
 from rdflib import SKOS, Literal, URIRef
 
 from .thesaurus import Thesaurus
-from .concept import Concept, ConceptNotFound, LabelNotFound
+from .concept import Concept, ConceptNotFound, LabelNotFound, ConceptDoesNotHaveDefinitions,ConceptDoesNotHaveDefinitionInThatLanguage
 
 
 class ThesaurusTestCase(SimpleTestCase):
@@ -197,3 +197,62 @@ class getTitleTests(ThesaurusTestCase):
         concept = self.concept(1)
         self.assertEquals(concept.get_title('fr'), 'lithique')
 
+class hasDefinitionTests(ThesaurusTestCase):
+    def test_raises_exception_wrong_object(self):
+        concept = self.concept(0)
+        with self.assertRaises(ConceptNotFound):
+            concept.has_definition()    
+
+    def test_raise_false_dont_have_definition(self):
+        concept = self.concept(1)
+        self.assertFalse(concept.has_definition())
+    
+    def raise_true_object_have_definition(self):
+        concept = self.concept(201)
+        self.assertTrue(concept.has_definition)
+
+class getDefinitionsTests(ThesaurusTestCase):
+    def test_raises_exception_object_does_not_exists(self):
+        concept = self.concept(0)
+        with self.assertRaises(ConceptNotFound):
+            concept.get_definitions()      
+    
+    def test_raise_exception_object_has_not_definition(self):
+        concept = self.concept(1)
+        with self.assertRaises(ConceptDoesNotHaveDefinitions):
+            concept.get_definitions()  
+    
+    def test_return_definition_ok(self):
+        concept = self.concept(201)
+        expected_definitions = [
+            {"value": "definition", "lang":"en"},
+            {"value": "definición","lang": "esp" },
+            {"value": "definició","lang": "cat"}
+        ]
+
+        self.assertEquals(concept.get_definitions(), expected_definitions)
+
+class getDefinitionsInTests(ThesaurusTestCase):
+    def test_raises_exception_object_does_not_exists(self):
+        concept = self.concept(0)
+        with self.assertRaises(ConceptNotFound):
+            concept.get_definition_in("en")      
+    
+    def test_raise_exception_object_has_not_definition(self):
+        concept = self.concept(1)
+        with self.assertRaises(ConceptDoesNotHaveDefinitions):
+            concept.get_definition_in("en")  
+    
+    def test_raise_exception_object_does_not_have_that_language_defintion(self):
+        concept = self.concept(201)
+        with self.assertRaises(ConceptDoesNotHaveDefinitionInThatLanguage):
+            concept.get_definition_in("no")
+    
+    def test_no_lang_parameter_return_english_as_default(self):
+        concept = self.concept(201)
+        self.assertEquals(concept.get_definition_in(), 'definition')
+
+    def test_ok(self):
+        concept = self.concept(201)
+        self.assertEquals(concept.get_definition_in("en"), "definition")
+    
