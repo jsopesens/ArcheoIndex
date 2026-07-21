@@ -4,22 +4,27 @@ from rdflib import URIRef
 from .thesaurus import Thesaurus
 from .concept import Concept
 from django.conf import settings
+from concept import ConceptDoesNotHaveDefinitionInThatLanguage, ConceptDoesNotHaveDefinitions, ConceptNotFound
+import datetime
+import hashlib
 thesaurus = Thesaurus()
 
 
 def home(request):
-    # TODO decople responsabilities (schemes, term_of_the_day, desc)
+    return render(request, "keywords/home.html", {
+        "schemes": get_schemes(),
+        "term_of_the_day": get_term_of_the_day()
+    })
+
+
+def get_schemes() -> dict:
     schemes = []
     # every element will be a card in home
     for conceptSchema in thesaurus.get_ConceptSchemes():
         result = get_scheme_card_data(conceptSchema)
         schemes.append(result)
     schemes.sort(key=lambda scheme: scheme["prefLabel"])
-
-    return render(request, "keywords/home.html", {
-        "schemes": schemes,
-        "term_of_the_day": get_term_of_the_day()
-    })
+    return schemes
 
 
 def get_scheme_card_data(conceptSchema: URIRef) -> dict:
@@ -45,37 +50,40 @@ def get_scheme_card_data(conceptSchema: URIRef) -> dict:
 
 
 def get_term_of_the_day() -> dict:
+    concepts_with_definition = get_concepts_with_definition()
+    return choose_daily_concept(concepts_with_definition)
+
+
+def get_concepts_with_definition() -> list:
     # get all objects with definition (in english)
     terms = thesaurus.get_all_concepts()
     concepts_definitions = []
     for term in terms:
         concept = Concept(thesaurus.g, term)
         if concept.has_definition():
-            concepts_definitions.append(
-                {"uri": concept.identifier, "definition": concept.get_definition_in("en")}
-            )
-    
-    # randomize object in the list
-    import datetime
-    import hashlib
+            concepts_definitions.append({
+                "uri": concept.identifier,
+                "definition": concept.get_definition_in("en")
+            })
+    return concepts_definitions
 
+
+def choose_daily_concept(concepts: list) -> dict:
+    # randomize object in the list
     today_str = datetime.date.today().isoformat()
     hash_val = int(hashlib.md5(today_str.encode('utf-8')).hexdigest(), 16)
 
-    random_index = hash_val % len(concepts_definitions)
-    selected_concept = concepts_definitions[random_index]    
-
-    return selected_concept
+    random_index = hash_val % len(concepts)
+    return concepts[random_index]
 
 
 def browse(request):
     keywords = []
-
     for subject in thesaurus.get_ConceptSchemes():
         concept = Concept(thesaurus.g, subject)
         keywords.append({
             "uri": concept.identifier,
-            "prefLabel":concept.get_title()
+            "prefLabel": concept.get_title()
         })
 
     return render(request, "keywords/browse.html", {
@@ -87,23 +95,20 @@ def single_keyword(request, keyword: str):
     subject = URIRef(f"{settings.THESAURUS_URI}{keyword}")
     concept = Concept(thesaurus.g, subject)
 
-    # check keyword exists
-    if not concept.exists():
+    # return every piece of information associated
+    try:
+        keyword_data = concept.serialize()
+    except ConceptNotFound:
         raise Http404("Keyword does not exist")
 
-    # return every piece of information associated
-    keyword_data = concept.serialize()
-
     # Build meta description for SEO from the first available definition
-    title = concept.get_title()
-    meta_description = f"Archaeological thesaurus entry for {title}."
-    if 'definition' in keyword_data:
-        for defn in keyword_data['definition']:
-            if defn.get('lang') == 'en':
-                meta_description = defn['value']
-                break
-        else:
-            meta_description = keyword_data['definition'][0]['value']
+    try:
+        meta_description = concept.get_definition_in("en")
+    except (
+        ConceptDoesNotHaveDefinitionInThatLanguage, 
+        ConceptDoesNotHaveDefinitions
+    ):
+        meta_description = f"Archaeological thesaurus entry for {concept.get_title()}."
 
     return render(request, 'keywords/single_keyword.html', {
         "keyword_data": keyword_data,
