@@ -1,7 +1,7 @@
 const homeSearchInput = document.getElementById('homeSearchQueryInput')
 const homeDropdown    = document.getElementById('homeNavBarContainer')
 const homeSuggestions = document.getElementById('homeKeywords_list')
-const homeEndpoint    = '/getMatchKeywords/'
+const homeEndpoint    = '/get_match_keywords/'
 
 let homeDebounceTimer = null
 
@@ -37,7 +37,9 @@ homeDropdown.addEventListener('click', e => {
 })
 
 function searchHome(text) {
-    if (!text.trim()) {
+    const query = text.trim();
+
+    if (!query) {
         hideHomeDropdown()
         return
     }
@@ -63,7 +65,7 @@ function renderHomeSuggestions(keywords) {
         const li = document.createElement('li')
         const a  = document.createElement('a')
         li.classList.add('keyword_suggestion')
-        a.href      = '/' + keyword.uri + '/'
+        a.href      = '/' + keyword.identifier + '/'
         a.textContent = keyword.label
         li.appendChild(a)
         homeSuggestions.appendChild(li)

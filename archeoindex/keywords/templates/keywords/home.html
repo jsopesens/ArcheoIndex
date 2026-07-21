@@ -1,26 +1,43 @@
-{% extends "keywords/layout.html" %}
-{% load static %}
-
-{% block css_files %}
-    <link rel="stylesheet" href="{% static 'keywords/home.css' %}">
-{% endblock %}
-
-{% block page_title %}ArcheoIndex — Archaeological Thesaurus Portal{% endblock %}
-
-{% block content %}
+{% extends "keywords/layout.html" %} {% load static %} {% block css_files %}
+<link rel="stylesheet" href="{% static 'keywords/home.css' %}" />
+{% endblock %} {% block page_title %}ArcheoIndex — Archaeological Thesaurus
+Portal{% endblock %} {% block content %}
 <div class="home-hero">
     <h1><em>ArcheoIndex</em></h1>
-    <p>ArcheoIndex is a controlled vocabulary mantained by IPHES-CERCA to make it easy for archaeologists to enrich metadata records in data repositories and make digital items more interoperable.</p>
-    
+    <p>
+        ArcheoIndex is a controlled vocabulary mantained by IPHES-CERCA to make
+        it easy for archaeologists to enrich metadata records in data
+        repositories and make digital items more interoperable.
+    </p>
+
     <!-- Large Centered Search Box -->
     <div class="home-search-wrapper">
         <form class="home-search-bar" role="search" onsubmit="return false;">
-            <svg class="home-search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                <path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor"/>
+            <svg
+                class="home-search-icon"
+                viewBox="0 0 20 20"
+                fill="none"
+                aria-hidden="true"
+            >
+                <path
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    fill="currentColor"
+                />
             </svg>
-            <input id="homeSearchQueryInput" type="search" name="q" placeholder="Search archeological terms (e.g. excavation, fauna, pleistocene)..." autocomplete="off" aria-label="Search archeological terms">
+            <input
+                id="homeSearchQueryInput"
+                type="search"
+                name="q"
+                placeholder="Search archeological terms (e.g. excavation, fauna, pleistocene)..."
+                autocomplete="off"
+                aria-label="Search archeological terms"
+            />
         </form>
-        <div id="homeNavBarContainer" role="listbox" aria-label="Search suggestions">
+        <div
+            id="homeNavBarContainer"
+            role="listbox"
+            aria-label="Search suggestions"
+        >
             <ul id="homeKeywords_list"></ul>
         </div>
     </div>
@@ -30,8 +47,10 @@
     <!-- Left Column: Concept Schemes Grid -->
     <section class="schemes-section" aria-label="Concept schemes">
         <h2 class="section-heading">Concept Schemes</h2>
-        <p class="section-subtext">Select a major subdomain to start exploring its hierarchical tree.</p>
-        
+        <p class="section-subtext">
+            Select a major subdomain to start exploring its hierarchical tree.
+        </p>
+
         <div class="schemes-grid">
             {% for scheme in schemes %}
             <article class="scheme-card">
@@ -43,16 +62,38 @@
                     <p class="concepts-label">Top Concepts:</p>
                     <ul class="top-concepts-list">
                         {% for concept in scheme.top_concepts %}
-                        <li><a href="{% url 'single_keyword' concept.uri %}">{{ concept.prefLabel|title }}</a></li>
-                        {% endfor %}
+                        <li>
+                            <a href="{% url 'single_keyword' concept.uri %}"
+                                >{{ concept.prefLabel|title }}</a
+                            >
+                        </li>
+                        {% endfor %} {%if scheme.has_more_top_concepts %}
+                            <li><a href="{% url 'browse' %}#{{ scheme.uri }}"> . . . </a></li>
+                        {% endif %}
                     </ul>
                 </div>
                 {% endif %}
                 <div class="scheme-card-footer">
-                    <a href="{% url 'browse' %}#{{ scheme.uri_id }}" class="explore-btn">
+                    <a
+                        href="{% url 'browse' %}#{{ scheme.uri }}"
+                        class="explore-btn"
+                    >
                         Explore Scheme
-                        <svg class="arrow-icon" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                        <svg
+                            class="arrow-icon"
+                            width="14"
+                            height="14"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2.5"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M9 5l7 7-7 7"
+                            />
                         </svg>
                     </a>
                 </div>
@@ -67,21 +108,24 @@
         <div class="totd-card">
             <div class="totd-tag">Term of the Day</div>
             <h2 class="totd-title">{{ term_of_the_day.title }}</h2>
-            
-            <p class="totd-notation">Notation: <code>{{ term_of_the_day.notation }}</code></p>
-            
-            {% if term_desc %}
-            <p class="totd-description">
-                {{ term_desc }}
+
+            <p class="totd-notation">
+                Notation: <code>{{ term_of_the_day.uri }}</code>
             </p>
+
+            {% if term_of_the_day.definition %}
+            <p class="totd-description">{{ term_of_the_day.definition }}</p>
             {% else %}
             <p class="totd-description no-desc">
-                No description is available for this term. Explore its connections to learn more about its place in the thesaurus.
+                No description is available for this term.
             </p>
             {% endif %}
-            
+
             <div class="totd-footer">
-                <a href="{% url 'single_keyword' term_of_the_day.keyword %}" class="totd-btn">
+                <a
+                    href="{% url 'single_keyword' term_of_the_day.uri %}"
+                    class="totd-btn"
+                >
                     Read Full Definition
                 </a>
             </div>
@@ -89,8 +133,6 @@
         {% endif %}
     </aside>
 </div>
-{% endblock %}
-
-{% block js %}
-    <script src="{% static 'keywords/js/home.js' %}"></script>
+{% endblock %} {% block js %}
+<script src="{% static 'keywords/js/home.js' %}"></script>
 {% endblock %}

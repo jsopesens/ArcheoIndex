@@ -18,6 +18,12 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
+THESAURUS_PATH = BASE_DIR.parent / "ArcheoIndex_thesaurus.ttl"
+THESAURUS_URI = "http://archeoindex.org#"
+
+TEST_THESAURUS_PATH = BASE_DIR.parent / "thesaurus_test.ttl"
+TEST_THESAURUS_URI = "http://test_thesaurus.org#"
+
 SECRET_KEY = os.environ["SECRET_KEY"]
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = [
