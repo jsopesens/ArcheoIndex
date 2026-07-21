@@ -130,4 +130,4 @@ When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.
   - `index`: Renders the thesaurus hierarchy landing page.
   - `single_keyword`: Renders details for a specific keyword.
   - `get_children_of`: JSON endpoint returning narrower concepts for a parent term.
-  - `getMatchKeywords`: JSON endpoint for keyword search matching.
+  - `get_match_keywords`: JSON endpoint for keyword search matching.

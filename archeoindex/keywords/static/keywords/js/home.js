@@ -1,7 +1,7 @@
 const homeSearchInput = document.getElementById('homeSearchQueryInput')
 const homeDropdown    = document.getElementById('homeNavBarContainer')
 const homeSuggestions = document.getElementById('homeKeywords_list')
-const homeEndpoint    = '/getMatchKeywords/'
+const homeEndpoint    = '/get_match_keywords/'
 
 let homeDebounceTimer = null
 

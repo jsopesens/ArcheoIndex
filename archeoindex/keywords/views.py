@@ -138,7 +138,7 @@ def get_children_of(request, subject_notation: int):
     return response
 
 
-def getMatchKeywords(request, search: str):
+def get_match_keywords(request, search: str):
     # get search parameter and search every NamedIndividual that contains that string
     keywords = thesaurus.get_keywords_matching(search)
 
@@ -153,7 +153,7 @@ def robots_txt(request):
     lines = [
         "User-agent: *",
         "Disallow: /admin/",
-        "Disallow: /getMatchKeywords/",
+        "Disallow: /get_match_keywords/",
         "Disallow: /get_children_of/",
         "Disallow: /page-404/",
         "",
