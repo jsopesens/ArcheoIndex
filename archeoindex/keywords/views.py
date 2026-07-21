@@ -2,9 +2,8 @@ from django.shortcuts import render
 from django.http import Http404, HttpResponse, JsonResponse
 from rdflib import URIRef
 from .thesaurus import Thesaurus
-from .concept import Concept
+from .concept import Concept, ConceptDoesNotHaveDefinitionInThatLanguage, ConceptDoesNotHaveDefinitions, ConceptNotFound
 from django.conf import settings
-from concept import ConceptDoesNotHaveDefinitionInThatLanguage, ConceptDoesNotHaveDefinitions, ConceptNotFound
 import datetime
 import hashlib
 thesaurus = Thesaurus()
@@ -139,12 +138,17 @@ def get_children_of(request, subject_notation: int):
 
 
 def get_match_keywords(request, search: str):
+    matches = []
     # get search parameter and search every NamedIndividual that contains that string
-    keywords = thesaurus.get_keywords_matching(search)
+    for subject, label in thesaurus.get_keywords_matching(search):
+        concept = Concept(thesaurus.g, subject)
 
-    keywords = split_uris(keywords)
+        matches.append({
+            "identifier": concept.identifier,
+            "label": str(label),
+        })
 
-    response = JsonResponse({'keywords': keywords})
+    response = JsonResponse({'keywords': matches})
     response['X-Robots-Tag'] = 'noindex'
     return response
 
@@ -160,12 +164,6 @@ def robots_txt(request):
         f"Sitemap: {request.scheme}://{request.get_host()}/sitemap.xml",
     ]
     return HttpResponse("\n".join(lines), content_type="text/plain")
-
-
-def split_uris(elements: list[dict]) -> list[dict]:
-    for element in elements:
-        element['uri'] = element['uri'].split('#')[1]
-    return elements
 
 
 def test_404(request):
