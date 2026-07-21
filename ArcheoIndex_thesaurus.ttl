@@ -8809,6 +8809,6 @@
         :253,
         :87 ;
     skos:notation 1 ;
-    skos:prefLabel "Place"@en,
-        "Lieu"@fr,
-        "Lugar"@es .
+    skos:prefLabel "place"@en,
+        "lieu"@fr,
+        "lugar"@es .
