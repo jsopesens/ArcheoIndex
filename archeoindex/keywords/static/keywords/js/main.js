@@ -1,7 +1,7 @@
 const searchInput = document.getElementById('searchQueryInput')
 const dropdown    = document.getElementById('navBarContainer')
 const suggestions = document.getElementById('keywords_list')
-const endpoint    = '/getMatchKeywords/'
+const endpoint    = '/get_match_keywords/'
 
 let debounceTimer = null
 
@@ -60,7 +60,7 @@ function renderSuggestions(keywords) {
         const li = document.createElement('li')
         const a  = document.createElement('a')
         li.classList.add('keyword_suggestion')
-        a.href      = '/' + keyword.uri + '/'
+        a.href      = '/' + keyword.identifier
         a.textContent = keyword.label
         li.appendChild(a)
         suggestions.appendChild(li)

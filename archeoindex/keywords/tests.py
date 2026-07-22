@@ -191,11 +191,11 @@ class getTitleTests(ThesaurusTestCase):
     
     def test_default_language_english(self):
         concept = self.concept(1)
-        self.assertEquals(concept.get_title(), 'lithic')
+        self.assertEqual(concept.get_title(), 'lithic')
     
     def test_return_diferent_language(self):
         concept = self.concept(1)
-        self.assertEquals(concept.get_title('fr'), 'lithique')
+        self.assertEqual(concept.get_title('fr'), 'lithique')
 
 
 class hasDefinitionTests(ThesaurusTestCase):
@@ -208,7 +208,7 @@ class hasDefinitionTests(ThesaurusTestCase):
         concept = self.concept(1)
         self.assertFalse(concept.has_definition())
     
-    def raise_true_object_have_definition(self):
+    def test_raise_true_object_have_definition(self):
         concept = self.concept(201)
         self.assertTrue(concept.has_definition)
 
@@ -232,7 +232,7 @@ class getDefinitionsTests(ThesaurusTestCase):
             {"value": "definició","lang": "cat"}
         ]
 
-        self.assertEquals(concept.get_definitions(), expected_definitions)
+        self.assertEqual(concept.get_definitions(), expected_definitions)
 
 
 class getDefinitionInTests(ThesaurusTestCase):
@@ -253,9 +253,9 @@ class getDefinitionInTests(ThesaurusTestCase):
     
     def test_no_lang_parameter_return_english_as_default(self):
         concept = self.concept(201)
-        self.assertEquals(concept.get_definition_in(), 'definition')
+        self.assertEqual(concept.get_definition_in(), 'definition')
 
     def test_ok(self):
         concept = self.concept(201)
-        self.assertEquals(concept.get_definition_in("en"), "definition")
+        self.assertEqual(concept.get_definition_in("en"), "definition")
     
