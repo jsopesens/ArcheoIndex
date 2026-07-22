@@ -50,10 +50,13 @@ def get_scheme_card_data(conceptSchema: URIRef) -> dict:
 
 def get_term_of_the_day() -> dict:
     concepts_with_definition = get_concepts_with_definition()
-    return choose_daily_concept(concepts_with_definition)
+    term = []
+    if concepts_with_definition:
+        term = choose_daily_concept(concepts_with_definition)
+    return term
 
 
-def get_concepts_with_definition() -> list:
+def get_concepts_with_definition() -> list["uri":int, "title":str, "definition":str]:
     # get all objects with definition (in english)
     terms = thesaurus.get_all_concepts()
     concepts_definitions = []
@@ -62,6 +65,7 @@ def get_concepts_with_definition() -> list:
         if concept.has_definition():
             concepts_definitions.append({
                 "uri": concept.identifier,
+                "title": concept.get_title(),
                 "definition": concept.get_definition_in("en")
             })
     return concepts_definitions

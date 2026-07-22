@@ -107,7 +107,7 @@ Portal{% endblock %} {% block content %}
         {% if term_of_the_day %}
         <div class="totd-card">
             <div class="totd-tag">Term of the Day</div>
-            <h2 class="totd-title">{{ term_of_the_day.title }}</h2>
+            <h2 class="totd-title">{{ term_of_the_day.title|title }}</h2>
 
             <p class="totd-notation">
                 Notation: <code>{{ term_of_the_day.uri }}</code>
