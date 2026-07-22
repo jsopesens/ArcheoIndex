@@ -1,7 +1,7 @@
 const searchInput = document.getElementById('searchQueryInput')
 const dropdown    = document.getElementById('navBarContainer')
 const suggestions = document.getElementById('keywords_list')
-const endpoint    = '/getMatchKeywords/'
+const endpoint    = '/get_match_keywords/'
 
 let debounceTimer = null
 
