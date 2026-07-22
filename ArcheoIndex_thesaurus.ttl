@@ -7420,7 +7420,6 @@
         "pastoreo y agricultura"@es .
 
 :1024 a skos:Concept ;
-    skos:broader :1024 ;
     skos:inScheme :836 ;
     skos:notation 1024 ;
     skos:prefLabel "hunter-gatherers"@en,
@@ -7487,7 +7486,6 @@
         "diagénesis"@es .
 
 :1001 a skos:Concept ;
-    skos:broader :1001 ;
     skos:inScheme :836 ;
     skos:notation 1001 ;
     skos:prefLabel "cattle"@en,
