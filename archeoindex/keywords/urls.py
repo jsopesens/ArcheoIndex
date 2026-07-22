@@ -8,5 +8,5 @@ urlpatterns = [
     path("page-404/", views.test_404, name="test_404"),
     path("<str:keyword>/", views.single_keyword, name="single_keyword"),
     path("get_children_of/<int:subject_notation>", views.get_children_of, name="getSonsOf"),
-    path("get_match_keywords/<str:search>", views.get_match_keywords, name="getMatchKeywords"),
+    path("get_match_keywords/<str:search>", views.get_match_keywords, name="get_match_keywords"),
 ]
