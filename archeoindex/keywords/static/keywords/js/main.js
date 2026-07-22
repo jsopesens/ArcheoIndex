@@ -60,7 +60,7 @@ function renderSuggestions(keywords) {
         const li = document.createElement('li')
         const a  = document.createElement('a')
         li.classList.add('keyword_suggestion')
-        a.href      = '/' + keyword.uri + '/'
+        a.href      = '/' + keyword.identifier
         a.textContent = keyword.label
         li.appendChild(a)
         suggestions.appendChild(li)
