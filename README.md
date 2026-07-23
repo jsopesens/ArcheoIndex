@@ -27,7 +27,9 @@ ArcheoIndex is a Django-based web application designed to browse, search, and vi
 ```text
 ArcheoIndex/
 ├── ArcheoIndex_thesaurus.ttl   # SKOS thesaurus definition in Turtle format
+├── thesaurusus_test.ttl        # SKOS thesaurus with predictible content to unit testing
 ├── README.md                   # Project documentation
+├── requirements.txt            # libraries required to execute the software
 └── archeoindex/                # Django project root
     ├── db.sqlite3              # Local SQLite database
     ├── manage.py               # Django management script
@@ -86,7 +88,7 @@ source venv/bin/activate
 ### 4. Install Dependencies
 Install Django and RDFLib using `pip`:
 ```bash
-pip install django rdflib
+pip install -r requirements.txt
 ```
 
 ---
@@ -96,7 +98,8 @@ pip install django rdflib
 The default configuration loads `ArcheoIndex_thesaurus.ttl` through `THESAURUS_PATH` in `archeoindex/settings.py`:
 
 ```bash
-python archeoindex/manage.py runserver
+cd archeoindex
+py manage.py runserver
 ```
 
 Once the server is running, access the web interface in your browser at:
@@ -114,9 +117,9 @@ The test suite uses a small, self-contained SKOS fixture instead of the producti
 
 Run the suite from the Django project directory:
 
-```powershell
+```bash
 cd archeoindex
-python manage.py test --settings=archeoindex.settings_test
+py manage.py test --settings=archeoindex.settings_test
 ```
 
 When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.

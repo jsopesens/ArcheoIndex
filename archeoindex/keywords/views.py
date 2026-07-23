@@ -1,11 +1,14 @@
 from django.shortcuts import render
 from django.http import Http404, HttpResponse, JsonResponse
 from rdflib import URIRef
-from .thesaurus import Thesaurus
-from .concept import Concept, ConceptDoesNotHaveDefinitionInThatLanguage, ConceptDoesNotHaveDefinitions, ConceptNotFound
 from django.conf import settings
+
 import datetime
 import hashlib
+
+from .thesaurus import Thesaurus
+from .concept import Concept, ConceptDoesNotHaveDefinitionInThatLanguage, ConceptDoesNotHaveDefinitions, ConceptNotFound
+
 thesaurus = Thesaurus()
 
 
