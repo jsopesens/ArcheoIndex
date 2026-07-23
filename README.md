@@ -163,7 +163,8 @@ The ttl file (or any other format for the controlled vocabulary) have to include
  - skos:inScheme
  - skos:broader
  - skos:narrower
-Even the software is prepared to interact with this syntaxis, it is possible to adapt **`Concept.py`** to interact with other syntax presented in [text](https://www.w3.org/2009/08/skos-reference/skos.html).
+
+Even the software is prepared to interact with this syntaxis, it is possible to adapt **`Concept.py`** to interact with other syntax presented in [skos documentation](https://www.w3.org/2009/08/skos-reference/skos.html).
 
 ## Automated Contributions Policy (No Bots Allowed)
 
