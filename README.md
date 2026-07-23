@@ -27,9 +27,10 @@ ArcheoIndex is a Django-based web application designed to browse, search, and vi
 ```text
 ArcheoIndex/
 ├── ArcheoIndex_thesaurus.ttl   # SKOS thesaurus definition in Turtle format
-├── thesaurusus_test.ttl        # SKOS thesaurus with predictible content to unit testing
+├── thesaurus_test.ttl          # SKOS thesaurus with predictible content to unit testing
 ├── README.md                   # Project documentation
-├── requirements.txt            # libraries required to execute the software
+├── requirements.txt            # Libraries required to execute the software
+├── .env.example                # Example of enviromental configuration
 └── archeoindex/                # Django project root
     ├── db.sqlite3              # Local SQLite database
     ├── manage.py               # Django management script
@@ -89,6 +90,21 @@ source venv/bin/activate
 Install Django and RDFLib using `pip`:
 ```bash
 pip install -r requirements.txt
+```
+
+### 5. Configure Environment Variables
+
+Copy the example configuration file and adjust the values if necessary:
+
+```bash
+cp .env.example .env
+```
+
+### 6. Deploy on production
+Collect static files (production):
+
+```bash
+py manage.py collectstatic
 ```
 
 ---
