@@ -739,8 +739,8 @@
         "Prealpes Julianos"@es .
 
 :1030 a skos:Concept ;
-    skos:broader :1024 ;
     skos:inScheme :836 ;
+    skos:broader :874 ;
     skos:notation 1030 ;
     skos:prefLabel "large game"@en,
         "grand gibier"@fr,
@@ -779,16 +779,16 @@
         "macromamíferos"@es .
 
 :1035 a skos:Concept ;
-    skos:broader :1024 ;
     skos:inScheme :836 ;
+    skos:broader :874 ;
     skos:notation 1035 ;
     skos:prefLabel "mass kill"@en,
         "abattage de masse"@fr,
         "matanza masiva"@es .
 
 :1036 a skos:Concept ;
-    skos:broader :847 ;
     skos:inScheme :836 ;
+    skos:broader :847 ;
     skos:notation 1036 ;
     skos:prefLabel "megafauna"@en,
         "mégafaune"@fr,
@@ -7421,6 +7421,7 @@
 
 :1024 a skos:Concept ;
     skos:inScheme :836 ;
+    skos:broader :874;
     skos:notation 1024 ;
     skos:prefLabel "hunter-gatherers"@en,
         "chasseurs-cueilleurs"@fr,
@@ -7487,6 +7488,13 @@
 
 :1001 a skos:Concept ;
     skos:inScheme :836 ;
+    skos:narrower :1014,
+        :1025,
+        :1026,
+        :1027,
+        :1046,
+        :989,
+        :998;
     skos:notation 1001 ;
     skos:prefLabel "cattle"@en,
         "bovin"@fr,
@@ -7942,7 +7950,6 @@
 
 :836 a skos:ConceptScheme ;
     skos:hasTopConcept :1001,
-        :1024,
         :735,
         :754,
         :837,
@@ -7955,6 +7962,8 @@
         :844,
         :847,
         :861,
+        :865,
+        :874,
         :878 ;
     skos:notation 836 ;
     skos:prefLabel "zooarchaeology"@en,
