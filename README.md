@@ -1,6 +1,6 @@
 # ArcheoIndex
 
-ArcheoIndex is a Django-based web application designed to browse, search, and visualize an archaeological keyword thesaurus. The application parses and queries hierarchical thesaurus data represented in SKOS (Simple Knowledge Organization System) format.
+This software is a Django-based web application designed to browse, search, and visualize an archaeological keyword thesaurus: **ArcheoIndex**. The application parses and queries hierarchical thesaurus data represented in SKOS (Simple Knowledge Organization System) format.
 
 ---
 
@@ -16,9 +16,8 @@ ArcheoIndex is a Django-based web application designed to browse, search, and vi
 ## Technology Stack
 
 - **Backend**: Python 3, [Django](https://www.djangoproject.com/) 4.2+
-- **RDF/SKOS Parsing**: [RDFLib](https://github.com/RDFLib/rdflib) (for loading and querying SKOS Turtle `.ttl` files)
+- **RDF/SKOS SSoT**: [RDFLib](https://github.com/RDFLib/rdflib) (for loading and querying SKOS Turtle `.ttl` files)
 - **Frontend**: Vanilla HTML5, CSS3, and JavaScript (AJAX/Fetch API)
-- **Database**: SQLite (built-in Django settings, though primary metadata queries run against the RDF graph)
 
 ---
 
@@ -81,10 +80,13 @@ It is highly recommended to isolate project dependencies using a virtual environ
 # Create a virtual environment named 'venv'
 python3 -m venv venv
 
-# Activate the virtual environment
+# Activate the virtual environment:
+#   on Linux
 source venv/bin/activate
+#   on Windows
+source venv\Scripts\Activate.ps1
+
 ```
-*(On Windows PowerShell, use: `venv\Scripts\Activate.ps1`)*
 
 ### 4. Install Dependencies
 Install Django and RDFLib using `pip`:
@@ -150,3 +152,15 @@ When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.
   - `single_keyword`: Renders details for a specific keyword.
   - `get_children_of`: JSON endpoint returning narrower concepts for a parent term.
   - `get_match_keywords`: JSON endpoint for keyword search matching.
+
+
+## Expected Naming Conventions in thesaurus file
+The ttl file (or any other format for the controlled vocabulary) have to include some controlled vocabulary as:
+ - skos:Concept
+ - skos:notation
+ - skos:definition
+ - skos:prefLabel
+ - skos:inScheme
+ - skos:broader
+ - skos:narrower
+Even the software is prepared to interact with this syntaxis, it is possible to adapt **`Concept.py`** to interact with other syntax presented in [text](https://www.w3.org/2009/08/skos-reference/skos.html).
