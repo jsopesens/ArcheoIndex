@@ -1,6 +1,6 @@
 # ArcheoIndex
 
-ArcheoIndex is a Django-based web application designed to browse, search, and visualize an archaeological keyword thesaurus. The application parses and queries hierarchical thesaurus data represented in SKOS (Simple Knowledge Organization System) format.
+This software is a Django-based web application designed to browse, search, and visualize an archaeological keyword thesaurus: **ArcheoIndex**. The application parses and queries hierarchical thesaurus data represented in SKOS (Simple Knowledge Organization System) format.
 
 ---
 
@@ -16,9 +16,8 @@ ArcheoIndex is a Django-based web application designed to browse, search, and vi
 ## Technology Stack
 
 - **Backend**: Python 3, [Django](https://www.djangoproject.com/) 4.2+
-- **RDF/SKOS Parsing**: [RDFLib](https://github.com/RDFLib/rdflib) (for loading and querying SKOS Turtle `.ttl` files)
+- **RDF/SKOS SSoT**: [RDFLib](https://github.com/RDFLib/rdflib) (for loading and querying SKOS Turtle `.ttl` files)
 - **Frontend**: Vanilla HTML5, CSS3, and JavaScript (AJAX/Fetch API)
-- **Database**: SQLite (built-in Django settings, though primary metadata queries run against the RDF graph)
 
 ---
 
@@ -27,7 +26,10 @@ ArcheoIndex is a Django-based web application designed to browse, search, and vi
 ```text
 ArcheoIndex/
 ├── ArcheoIndex_thesaurus.ttl   # SKOS thesaurus definition in Turtle format
+├── thesaurus_test.ttl          # SKOS thesaurus with predictible content to unit testing
 ├── README.md                   # Project documentation
+├── requirements.txt            # Libraries required to execute the software
+├── .env.example                # Example of enviromental configuration
 └── archeoindex/                # Django project root
     ├── db.sqlite3              # Local SQLite database
     ├── manage.py               # Django management script
@@ -78,15 +80,33 @@ It is highly recommended to isolate project dependencies using a virtual environ
 # Create a virtual environment named 'venv'
 python3 -m venv venv
 
-# Activate the virtual environment
+# Activate the virtual environment:
+#   on Linux
 source venv/bin/activate
+#   on Windows
+source venv\Scripts\Activate.ps1
+
 ```
-*(On Windows PowerShell, use: `venv\Scripts\Activate.ps1`)*
 
 ### 4. Install Dependencies
 Install Django and RDFLib using `pip`:
 ```bash
-pip install django rdflib
+pip install -r requirements.txt
+```
+
+### 5. Configure Environment Variables
+
+Copy the example configuration file and adjust the values if necessary:
+
+```bash
+cp .env.example .env
+```
+
+### 6. Deploy on production
+Collect static files (production):
+
+```bash
+py manage.py collectstatic
 ```
 
 ---
@@ -96,7 +116,8 @@ pip install django rdflib
 The default configuration loads `ArcheoIndex_thesaurus.ttl` through `THESAURUS_PATH` in `archeoindex/settings.py`:
 
 ```bash
-python archeoindex/manage.py runserver
+cd archeoindex
+py manage.py runserver
 ```
 
 Once the server is running, access the web interface in your browser at:
@@ -114,9 +135,9 @@ The test suite uses a small, self-contained SKOS fixture instead of the producti
 
 Run the suite from the Django project directory:
 
-```powershell
+```bash
 cd archeoindex
-python manage.py test --settings=archeoindex.settings_test
+py manage.py test --settings=archeoindex.settings_test
 ```
 
 When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.
@@ -131,3 +152,24 @@ When adding tests, use concept identifiers that exist in `thesaurus_test.ttl`.
   - `single_keyword`: Renders details for a specific keyword.
   - `get_children_of`: JSON endpoint returning narrower concepts for a parent term.
   - `get_match_keywords`: JSON endpoint for keyword search matching.
+
+
+## Expected Naming Conventions in thesaurus file
+The ttl file (or any other format for the controlled vocabulary) have to include some controlled vocabulary as:
+ - skos:Concept
+ - skos:notation
+ - skos:definition
+ - skos:prefLabel
+ - skos:inScheme
+ - skos:broader
+ - skos:narrower
+
+Even the software is prepared to interact with this syntaxis, it is possible to adapt **`Concept.py`** to interact with other syntax presented in [skos documentation](https://www.w3.org/2009/08/skos-reference/skos.html).
+
+## Automated Contributions Policy (No Bots Allowed)
+
+To maintain project quality and prevent automated noise, **this repository strictly prohibits any issues, discussions, or pull requests generated or submitted automatically by bots, AI agents, or automated scripts**.
+
+* **No Automated PRs:** Do not use automated tools to mass-submit dependency updates, typo fixes, or code formatting without prior human review and manual submission.
+* **No AI-Generated Issues:** Issues must be written and thoroughly verified by a human. Purely automated or AI-scraped bug reports will be closed immediately.
+* **Consequences:** Any automated interaction that violates these rules will be closed, flagged as spam, and the executing account/IP may be blocked from this organization.

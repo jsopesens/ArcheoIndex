@@ -4,6 +4,8 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
+.pyc
+__pycache__
 
 # Virtual environment
 venv/
@@ -14,7 +16,7 @@ env/
 *.sqlite3
 *.log
 local_settings.py
-/staticfiles/
+staticfiles/
 /mediafiles/
 
 # Distribution / packaging
@@ -34,3 +36,6 @@ build/
 *.swo
 .DS_Store
 !.env.example
+
+# MAC
+.DS_Store
