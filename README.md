@@ -164,3 +164,11 @@ The ttl file (or any other format for the controlled vocabulary) have to include
  - skos:broader
  - skos:narrower
 Even the software is prepared to interact with this syntaxis, it is possible to adapt **`Concept.py`** to interact with other syntax presented in [text](https://www.w3.org/2009/08/skos-reference/skos.html).
+
+## Automated Contributions Policy (No Bots Allowed)
+
+To maintain project quality and prevent automated noise, **this repository strictly prohibits any issues, discussions, or pull requests generated or submitted automatically by bots, AI agents, or automated scripts**.
+
+* **No Automated PRs:** Do not use automated tools to mass-submit dependency updates, typo fixes, or code formatting without prior human review and manual submission.
+* **No AI-Generated Issues:** Issues must be written and thoroughly verified by a human. Purely automated or AI-scraped bug reports will be closed immediately.
+* **Consequences:** Any automated interaction that violates these rules will be closed, flagged as spam, and the executing account/IP may be blocked from this organization.
